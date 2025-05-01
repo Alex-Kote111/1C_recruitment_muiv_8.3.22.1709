@@ -41,6 +41,7 @@
   </languages>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
 </mdclass:Configuration>
