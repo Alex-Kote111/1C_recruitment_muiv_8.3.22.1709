@@ -138,6 +138,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Подразделения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Подразделения.Form.ФормаСписка</defaultListForm>
   <attributes uuid="97967532-ef33-44cd-ad06-d99427b928f9">
     <name>РуководительПодразделения</name>
     <synonym>
@@ -153,4 +155,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="61585ebe-229e-4fda-8955-0b7a77b5470d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5fd66c4c-d32e-4de1-a712-257ae295b996">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
