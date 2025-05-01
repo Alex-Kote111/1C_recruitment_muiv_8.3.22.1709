@@ -39,6 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
