@@ -90,6 +90,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Должность</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ДолжностьПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ДолжностьРасширеннаяПодсказка</name>
       <id>12</id>
