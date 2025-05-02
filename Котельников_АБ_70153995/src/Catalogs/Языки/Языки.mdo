@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5731f26f-d0b2-47eb-b137-cf7fab1abe1c">
+  <producedTypes>
+    <objectType typeId="786c1f9c-0ac9-4fcf-bdfa-5b010cd83a37" valueTypeId="8a782bd1-46b0-41cb-8e50-e4413d0cd0c4"/>
+    <refType typeId="bd38fdeb-a7da-46ba-88a2-75c8941f35eb" valueTypeId="3d2ff31d-e047-43ae-898b-b6643b72ecb3"/>
+    <selectionType typeId="2369f26d-f8f3-4c01-94ae-aa86c6be5010" valueTypeId="af9ccb7d-9f6b-4789-93d5-9c28ce3453ae"/>
+    <listType typeId="f271b9a8-cea0-4b8f-8621-8c6cd69b1222" valueTypeId="579ac145-0963-4f14-b9eb-db946f2866c4"/>
+    <managerType typeId="cabb6cc6-0093-4202-8f17-57f612b46259" valueTypeId="32c9b455-9348-4b35-97e6-5082349f10f4"/>
+  </producedTypes>
+  <name>Языки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Языки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Языки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Языки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Язык</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Язык</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Языки</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Языки</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="caa77440-da19-4228-9127-e027a11357fe">
+      <name>РусскийЯзык</name>
+      <description>Русский язык</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

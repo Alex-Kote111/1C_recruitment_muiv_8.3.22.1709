@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f45fcc0-b2a4-4756-933d-d59a30a319a9">
+  <producedTypes>
+    <objectType typeId="3d3cd019-0feb-4767-80c3-628ba1c3cc1f" valueTypeId="87b5039a-a644-4928-93b0-eb7db2881ad4"/>
+    <refType typeId="931022b2-2d2b-4e62-9b52-e38c1b661950" valueTypeId="1486126f-6c5e-421f-9c4f-9df75fdd8769"/>
+    <selectionType typeId="66ec5d09-4002-4bf1-95cd-e349436e419a" valueTypeId="f412fba7-5006-46ab-aad4-0d09c7e96f24"/>
+    <listType typeId="60b07af6-0521-405f-afe2-8b8834e17757" valueTypeId="daf8d7ab-fe05-46d8-ac04-7de46cb7f993"/>
+    <managerType typeId="b4690c30-16dd-420a-90bf-356eab3b3e43" valueTypeId="08929bf2-d7ec-45e2-9352-9c962cbdb764"/>
+  </producedTypes>
+  <name>ПрофессиональныеНавыки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профессиональные навыки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрофессиональныеНавыки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПрофессиональныеНавыки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Навык</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Навык</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Профессиональные навыки</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Профессиональные навыки</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fbcb1a05-a631-473d-a2d8-7152ae2b0a72">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2867e58e-7df9-4259-899b-dc688d0ef3a9">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

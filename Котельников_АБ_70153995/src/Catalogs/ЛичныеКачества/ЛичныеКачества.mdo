@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b9be6e2-31d7-4e83-a777-5c1483fea316">
+  <producedTypes>
+    <objectType typeId="6f88531c-6077-4e76-8ea8-4840a4e24d3f" valueTypeId="082beb29-29d3-4bbf-a38b-d0494096505e"/>
+    <refType typeId="58d94d37-5e8e-46a8-b1c9-20e77a9d5a3d" valueTypeId="bc5502b1-dcdd-4ae3-8d03-16e1dcbf3c9d"/>
+    <selectionType typeId="637d3ad4-13e6-430e-9197-7af29061b09a" valueTypeId="4d0027ab-9603-4330-ad48-2e7bda02a978"/>
+    <listType typeId="d2b0b39c-9605-41a5-8b20-e31999398a09" valueTypeId="411f5434-90ae-4dc5-a88c-5963973113d7"/>
+    <managerType typeId="7fcf32c5-2db0-4f2e-a189-8452cdba531e" valueTypeId="467e1e79-c056-407d-8684-fc6c6eac20a9"/>
+  </producedTypes>
+  <name>ЛичныеКачества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личные качества</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛичныеКачества.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛичныеКачества.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Качество</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Качество</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Личные качества</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Личные качества</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

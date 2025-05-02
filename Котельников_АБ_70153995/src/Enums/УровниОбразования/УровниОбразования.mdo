@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b22792dd-a608-4e54-a0c2-0683fe1e6003">
+  <producedTypes>
+    <refType typeId="3c62504a-6faa-4573-b2f2-bb9b418cc9d9" valueTypeId="8837fb2f-04ad-48df-900b-6841edb0e76e"/>
+    <listType typeId="d9b7d4ab-e83e-4c19-a9f5-2f5df3665a50" valueTypeId="f46105d3-153a-48d0-bc37-152e3f4128fb"/>
+    <managerType typeId="f92e4c56-38f8-4c8a-ab73-6075e1c61b5c" valueTypeId="dda8443f-083e-4015-9c55-6392f0299585"/>
+  </producedTypes>
+  <name>УровниОбразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни образования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f9b5c85b-43ab-4b68-a2a5-3cdf69b5a02e">
+    <name>Среднее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd9d873a-c982-4e2c-b29e-beaf2de612d4">
+    <name>СреднееСпециальное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее специальное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e095b8c-1784-4d79-8925-30c0caba70c7">
+    <name>НеоконченноеВысшее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неоконченное высшее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a8a45c6-9433-491b-982e-ca34b173eb53">
+    <name>Высшее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высшее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94f67cc6-fb15-4a34-bece-d203ff858cca">
+    <name>Бакалавр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бакалавр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84d46b08-a9c9-4865-854b-1784b97c3120">
+    <name>Магистр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магистр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf34268d-98a7-4daa-8792-493c599ebc49">
+    <name>КандидатНаук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат наук</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac090600-387d-40d8-b102-187b1a6745cc">
+    <name>ДокторНаук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доктор наук</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -42,15 +42,19 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ЛичныеКачества</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПрофессиональныеНавыки</catalogs>
   <catalogs>Catalog.ПрофилиДолжностей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Языки</catalogs>
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.ОпытРаботы</enums>
   <enums>Enum.ТипыЗанятости</enums>
   <enums>Enum.УровниЗнанийЯзыков</enums>
+  <enums>Enum.УровниОбразования</enums>
   <enums>Enum.УровниПрофессиональныхНавыков</enums>
   <enums>Enum.ФорматыРаботы</enums>
 </mdclass:Configuration>
