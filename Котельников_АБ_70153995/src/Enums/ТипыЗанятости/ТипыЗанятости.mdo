@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3837ce3e-bac0-496d-8c93-92534befc12f">
+  <producedTypes>
+    <refType typeId="a71fd5e1-a7d9-4b9e-a767-f34a1333408a" valueTypeId="370b21f6-dc49-471f-8f54-754695495ced"/>
+    <listType typeId="314ef3f3-09cc-4b37-a24c-9cf3f7bf6313" valueTypeId="65a978fb-4109-4d40-907e-5f957ee9aeea"/>
+    <managerType typeId="9f3cb02c-7910-4676-b704-cb2c6e39e827" valueTypeId="c3f5674b-03d9-4aef-a34e-96aaa5651123"/>
+  </producedTypes>
+  <name>ТипыЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы занятости</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="68c304c9-60a1-4b84-931f-ca619b6284b9">
+    <name>ПолнаяЗанятость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная занятость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a595a111-c2dc-46a5-bdc6-25def847e0f6">
+    <name>ЧастичнаяЗанятость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичная занятость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf5a66da-1528-42fa-b865-8328dd1c60f1">
+    <name>ПроектнаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проектная работа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76acb35d-f527-483a-bb84-28bc671d18e7">
+    <name>Волонтерство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Волонтерство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a272346b-d1a4-4a94-88b9-0582c0f71863">
+    <name>Стажировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стажировка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

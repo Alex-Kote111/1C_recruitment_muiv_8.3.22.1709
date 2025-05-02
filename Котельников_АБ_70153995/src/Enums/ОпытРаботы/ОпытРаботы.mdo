@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32d465a8-f72f-46c1-a202-4a86cc064578">
+  <producedTypes>
+    <refType typeId="abbfd5cb-3b7c-478c-831f-4b406e3d97fd" valueTypeId="b3c5b239-4e9c-42f4-ae4f-06722e89276a"/>
+    <listType typeId="0f16ef4c-da28-4726-b05b-8f8fb61a3464" valueTypeId="3a1d17f3-d702-441b-824a-8a151b0adc2a"/>
+    <managerType typeId="a8c365c2-3819-453f-9c7d-22bf9f92819a" valueTypeId="ccd636ca-723e-4c43-9a72-885a9154f96f"/>
+  </producedTypes>
+  <name>ОпытРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опыт работы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1314e8a0-390a-4ac4-ae21-9a1d04d716f5">
+    <name>НетОпыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет опыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efe74f5d-d109-4c86-8632-d52a04a542d0">
+    <name>ОтОдногоГодаДоТрехЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>От 1 года до 3 лет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5f0ef3c-af97-4b5f-8ad4-756a47943c72">
+    <name>ОтТрехДоШестиЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>От 3 до 6 лет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c35f7b9-9c15-4eb2-9beb-8359e1412fac">
+    <name>БолееШестиЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Более 6 лет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

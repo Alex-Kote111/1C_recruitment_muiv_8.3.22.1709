@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86d6aec7-e9b7-4db6-921d-8f2526d969a4">
+  <producedTypes>
+    <refType typeId="e02dffe0-10ea-463b-a300-b90834cefe85" valueTypeId="f9c9fd96-edc2-4384-9a9a-c0a4e429bc22"/>
+    <listType typeId="ef0a261c-9387-4547-845d-2b6ed21a68d1" valueTypeId="9fda6f14-18cb-4761-874c-eb7bb08becf7"/>
+    <managerType typeId="1533e7ff-18f8-4ad0-a037-687cfa5b239f" valueTypeId="28b8a5be-c4c3-40c7-a5f5-6e5f9a391cde"/>
+  </producedTypes>
+  <name>ФорматыРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы работы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d66efc2-43f3-4403-8bec-e5e78f072248">
+    <name>НаМестеРаботодателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>На месте работодателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f921da81-0fbc-476d-aed3-9812ffc022fd">
+    <name>ИзДома</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из дома</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34e61f8a-224c-41fa-b1af-eaa33a4d25c3">
+    <name>Гибрид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гибрид</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87f66239-63ef-4291-8393-665d1178bc9a">
+    <name>Разъездная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разъездная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

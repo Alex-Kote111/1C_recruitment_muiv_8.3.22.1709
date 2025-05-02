@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa8f9c1f-aabd-42bc-aaa5-786d18013729">
+  <producedTypes>
+    <refType typeId="29e2917e-cd2d-494c-a33d-9216580cb76a" valueTypeId="677f5833-e768-449d-9398-b50621887d4f"/>
+    <listType typeId="83d58974-59cd-4637-af96-30dbfab54c86" valueTypeId="e91bfdda-1c5e-47ca-b333-5ac20ddfc66c"/>
+    <managerType typeId="d1163904-deda-4dce-85d0-84538550f8bc" valueTypeId="abf4dc23-a4c1-47e5-9622-ba7b5d29b756"/>
+  </producedTypes>
+  <name>КатегорииДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории должностей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4535fcf3-4ef6-4f9b-a9cc-df5b50efcc29">
+    <name>АУП</name>
+    <synonym>
+      <key>ru</key>
+      <value>АУП</value>
+    </synonym>
+    <comment>Административно-управленческий персонал</comment>
+  </enumValues>
+  <enumValues uuid="baa8c82e-a513-4b06-b1e4-db0e4056c408">
+    <name>УВП</name>
+    <synonym>
+      <key>ru</key>
+      <value>УВП</value>
+    </synonym>
+    <comment>Учебно-вспомогательный персонал</comment>
+  </enumValues>
+  <enumValues uuid="7ccedb69-c71f-47ce-86fd-bfc92e657841">
+    <name>ПОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПОП</value>
+    </synonym>
+    <comment>Прочий обслуживающий персонал</comment>
+  </enumValues>
+</mdclass:Enum>

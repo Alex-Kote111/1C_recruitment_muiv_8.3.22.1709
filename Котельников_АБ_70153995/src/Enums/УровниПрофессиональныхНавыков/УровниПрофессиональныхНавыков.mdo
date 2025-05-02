@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2144d988-c44b-4c08-bbcd-74e21af86c26">
+  <producedTypes>
+    <refType typeId="5d0307f2-e40b-45fd-b031-8df1fd6497b2" valueTypeId="72842eef-b4be-4f15-a3ae-e8e2eba58e1d"/>
+    <listType typeId="865cf6db-d0b9-4166-811a-1e2f73531024" valueTypeId="649c6272-60d9-4770-a3c2-42fd38a8fbb7"/>
+    <managerType typeId="899792b6-8b81-4c3b-9fe4-4bf83ded56fb" valueTypeId="3cddc127-e5d7-4b0d-a2b5-2ea5b2963ec6"/>
+  </producedTypes>
+  <name>УровниПрофессиональныхНавыков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни профессиональных навыков</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b66f0c14-168b-4fe2-8021-76cbae4d326e">
+    <name>Начальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3f10d6f-fa50-4fc3-9e98-bd1ea1689fdd">
+    <name>Базовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0972dce3-5d0b-48cb-9b5c-87e3e5f80fb9">
+    <name>Продвинутый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продвинутый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1a6f99e-d765-40a0-9b95-1d140f125347">
+    <name>Экспертный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспертный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1b24442-b7a2-412a-a631-f1ca1c8556d8">
+    <name>УровеньРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень руководителя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

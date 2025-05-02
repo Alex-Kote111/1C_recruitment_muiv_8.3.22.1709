@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db97e74a-4b8c-499e-9451-c44d503afa86">
+  <producedTypes>
+    <refType typeId="463341cb-5b85-4790-84f2-c9a4d5a3c28c" valueTypeId="a69cddb1-e1b7-4e57-ab6f-a37d8fdd995e"/>
+    <listType typeId="c61eecff-56f9-4c8f-9354-76045dfb938d" valueTypeId="c4a54ad7-7675-4bdf-8d0e-1ad9a8a97fa5"/>
+    <managerType typeId="78267528-3dc1-4b89-beb0-ff8aa1ee795a" valueTypeId="3ba93a8b-253e-4619-8700-718b9091eb25"/>
+  </producedTypes>
+  <name>ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9e961bf9-2c03-472e-8bbb-2990706ccca0">
+    <name>ПолныйДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3dbc9f3d-68a3-49e6-8394-3247f27c6a30">
+    <name>СменныйГрафик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сменный график</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="867d2c59-e10e-4d4f-bbfc-69acecb476fa">
+    <name>ГибкийГрафик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гибкий график</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="439e9960-481c-442c-9cf6-46c4074fedeb">
+    <name>УдаленнаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленная работа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de93c8b0-c6a5-4f72-9873-4d8a03530861">
+    <name>ВахтовыйМетод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вахтовый метод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
