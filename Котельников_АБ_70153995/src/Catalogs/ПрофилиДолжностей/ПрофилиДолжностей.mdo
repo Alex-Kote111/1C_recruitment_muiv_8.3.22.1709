@@ -126,6 +126,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрофилиДолжностей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПрофилиДолжностей.Form.ФормаСписка</defaultListForm>
   <attributes uuid="11fba6a0-35d6-4f38-a8d1-3cb93c8fe1b1">
     <name>Подразделение</name>
     <synonym>
@@ -476,4 +478,22 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="42754484-e6b8-4147-b97d-4101762e3a13">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b37177d-15c8-4eb9-af6d-cfcd8f6e1b27">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
