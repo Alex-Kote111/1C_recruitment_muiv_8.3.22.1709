@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3938ede-2aad-43d2-806a-b44eb25c16b7">
+  <producedTypes>
+    <selectionType typeId="770f3ebf-dcfa-40a6-b062-fc4ba0fc6780" valueTypeId="b70d5422-17f6-4508-a05a-2d6713cf76ee"/>
+    <listType typeId="47b4a1a6-2ca9-40bc-a1b5-f679727f75aa" valueTypeId="6f86a3a9-c75f-4459-beca-21f81eda3f49"/>
+    <managerType typeId="1a9ec70b-9cab-4ed5-8808-869113b8df29" valueTypeId="b82419be-7c95-4b0f-b46f-8de889a89f00"/>
+    <recordSetType typeId="7fd41e85-ec74-4c1f-9b7f-c8450bf833eb" valueTypeId="326ed2f0-b6fe-4f72-9124-52baa0c52175"/>
+    <recordKeyType typeId="16228545-14f0-4b77-8826-7edbb93ee940" valueTypeId="e8c91293-da88-498b-a0bf-a565be78c0f7"/>
+    <recordType typeId="f3df30f6-b2ad-4c1c-bd53-1f4366e3c98e" valueTypeId="ca67def3-1b54-4820-8ad7-fe05bf8b1a0e"/>
+    <recordManagerType typeId="4454281a-a7d5-4c9f-a5dd-2863c274827f" valueTypeId="f82d5048-e3ea-4af9-b36e-4ce998cf6383"/>
+  </producedTypes>
+  <name>ЗарплатыПоДолжностям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплаты по должностям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Зарплаты по должностям</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Зарплаты по должностям</value>
+  </extendedListPresentation>
+  <resources uuid="e281759d-fd24-4542-a8b3-10745c920e73">
+    <name>ЗарплатаОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c0d7180-6dd7-4f17-ac69-b9a114aee6d5">
+    <name>ЗарплатаДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3f6952d2-8846-4d54-8ade-d92dd6ca7dde">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4078104c-9b1a-4daa-99f9-22375b73bf06">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
