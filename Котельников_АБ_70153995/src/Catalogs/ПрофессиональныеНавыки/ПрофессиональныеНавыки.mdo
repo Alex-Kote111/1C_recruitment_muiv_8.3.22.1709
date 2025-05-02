@@ -46,6 +46,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрофессиональныеНавыки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПрофессиональныеНавыки.Form.ФормаСписка</defaultListForm>
   <attributes uuid="fbcb1a05-a631-473d-a2d8-7152ae2b0a72">
     <name>Подразделение</name>
     <synonym>
@@ -72,8 +74,30 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Подразделение</name>
+      <field>Catalog.ПрофессиональныеНавыки.Attribute.Подразделение</field>
+    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="de97e7ae-b9ac-4493-84de-3770cf1044ac">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="432a18f3-7dc9-4e8d-8fa4-3fa039015bdb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
