@@ -85,7 +85,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Владелец</name>
+      <name>Подразделение</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -93,10 +93,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Owner</segments>
+        <segments>Список.Подразделение</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВладелецРасширеннаяПодсказка</name>
+        <name>ПодразделениеРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -106,7 +106,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВладелецКонтекстноеМеню</name>
+        <name>ПодразделениеКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -121,7 +121,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Подразделение</name>
+      <name>Должность</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -129,10 +129,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Подразделение</segments>
+        <segments>Список.Должность</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПодразделениеРасширеннаяПодсказка</name>
+        <name>ДолжностьРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -142,7 +142,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПодразделениеКонтекстноеМеню</name>
+        <name>ДолжностьКонтекстноеМеню</name>
         <id>26</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -348,7 +348,7 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>Catalog.Должности</mainTable>
+      <mainTable>Catalog.Сотрудники</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>

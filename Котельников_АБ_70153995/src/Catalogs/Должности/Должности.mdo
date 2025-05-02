@@ -119,7 +119,6 @@
   </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.Подразделения</owners>
   <codeLength>9</codeLength>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
@@ -127,10 +126,41 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="072339c1-c4b2-44f7-8adf-022f1ed89f6e">
+      <name>МенеджерПоПодбору</name>
+      <description>Менеджер по подбору</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="9061d8ca-bf11-4594-b953-023ec5396470">
+      <name>РуководительСлужбыПерсонала</name>
+      <description>Руководитель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Должности.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Должности.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="76b3d8d6-92ac-4ebb-8579-8f844e4fbc24">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="232db9aa-7139-4882-9f8b-93e8ecf245f8">
     <name>ФормаЭлемента</name>
     <synonym>
