@@ -13,4 +13,5 @@
   <content>Catalog.ПрофилиДолжностей</content>
   <content>Catalog.ПрофессиональныеНавыки</content>
   <content>Catalog.ЛичныеКачества</content>
+  <content>Document.ЗаявкаНаПодбор</content>
 </mdclass:Subsystem>
