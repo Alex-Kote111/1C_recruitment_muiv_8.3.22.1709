@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0b77c93-c1ab-4939-bb38-bcc550b26f72">
+  <producedTypes>
+    <refType typeId="75e9d9f4-d646-49ef-875a-458cd8487bf4" valueTypeId="32bf7a83-321f-476c-9006-fbc509d0077d"/>
+    <listType typeId="0452ee88-6272-4496-8541-0b06b1c0fd9d" valueTypeId="70e33fa0-6e51-46ef-bb48-7d7b13a75dd8"/>
+    <managerType typeId="2457e9e0-06ea-44bb-bf94-bdc519513558" valueTypeId="add67423-a190-4d36-a765-01f500114a41"/>
+  </producedTypes>
+  <name>ПричиныОткрытияВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины открытия вакансий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="13f1d234-e809-4902-8e4f-9925e87a5d6f">
+    <name>УвольнениеСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение сотрудника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2124d5f1-24ae-4596-85f1-12bc9804fbe8">
+    <name>УходВОтпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уход в отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84d07af4-0fcb-433e-ace8-2b8a42e8c64e">
+    <name>ВнутреннийПеревод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний перевод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78640006-eb20-4f65-b8e0-852ea88b4b66">
+    <name>РасширениеШтата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение штата</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

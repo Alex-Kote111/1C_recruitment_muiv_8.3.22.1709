@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.ЗаявкаНаПодбор.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ЗаявкаНаПодбор.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ЗаявкаНаПодбор.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
   <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ЗаявкаНаПодбор.StandardCommand.OpenList</commands>
+    </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.ПрофилиДолжностей.StandardCommand.OpenList</commands>
@@ -9,6 +33,7 @@
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelCreate</group>
+      <commands>Document.ЗаявкаНаПодбор.StandardCommand.Create</commands>
       <commands>Catalog.ПрофилиДолжностей.StandardCommand.Create</commands>
       <commands>Catalog.ПрофессиональныеНавыки.StandardCommand.Create</commands>
       <commands>Catalog.ЛичныеКачества.StandardCommand.Create</commands>

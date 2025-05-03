@@ -57,6 +57,8 @@
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.ОпытРаботы</enums>
+  <enums>Enum.ПричиныОткрытияВакансий</enums>
+  <enums>Enum.СтатусыЗаявокНаПодбор</enums>
   <enums>Enum.ТипыЗанятости</enums>
   <enums>Enum.УровниЗнанийЯзыков</enums>
   <enums>Enum.УровниОбразования</enums>
