@@ -304,14 +304,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа подразделение и должность</value>
-            </title>
-            <toolTip>
-              <key>ru</key>
-              <value>Группа подразделение и должность</value>
-            </toolTip>
             <extendedTooltip>
               <name>ГруппаПодразделениеИДолжностьРасширеннаяПодсказка</name>
               <id>165</id>
@@ -421,14 +413,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа категория и количество позиций</value>
-            </title>
-            <toolTip>
-              <key>ru</key>
-              <value>Группа категория и количество позиций</value>
-            </toolTip>
             <extendedTooltip>
               <name>ГруппаКатегорияИКоличествоПозицийРасширеннаяПодсказка</name>
               <id>167</id>
@@ -454,14 +438,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Группа сведения о позиции</value>
-          </title>
-          <toolTip>
-            <key>ru</key>
-            <value>Группа сведения о позиции</value>
-          </toolTip>
           <extendedTooltip>
             <name>ГруппаСведенияОПозицииРасширеннаяПодсказка</name>
             <id>163</id>
@@ -596,14 +572,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Группа профиль должности</value>
-          </title>
-          <toolTip>
-            <key>ru</key>
-            <value>Группа профиль должности</value>
-          </toolTip>
           <extendedTooltip>
             <name>ГруппаПрофильДолжностиРасширеннаяПодсказка</name>
             <id>225</id>
@@ -673,14 +641,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Группа главная</value>
-        </title>
-        <toolTip>
-          <key>ru</key>
-          <value>Группа главная</value>
-        </toolTip>
         <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаГлавнаяРасширеннаяПодсказка</name>
@@ -812,6 +772,10 @@
             <height>11.0</height>
             <scale>100</scale>
           </titleFont>
+          <toolTip>
+            <key>ru</key>
+            <value>Изменить описание обязанностей</value>
+          </toolTip>
           <groupHorizontalAlign>Right</groupHorizontalAlign>
           <extendedTooltip>
             <name>ГруппаОбязанностиИзменениеРасширеннаяПодсказка</name>
@@ -866,11 +830,15 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаОбязанностиПоле</name>
+        <name>ГруппаОбязанностиТекст</name>
         <id>172</id>
         <items xsi:type="form:Decoration">
           <name>ДекорацияТекстОбязанности</name>
           <id>215</id>
+          <title>
+            <key>ru</key>
+            <value>Обязанности не указаны</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -904,17 +872,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Группа обязанности поле</value>
-        </title>
-        <toolTip>
-          <key>ru</key>
-          <value>Группа обязанности поле</value>
-        </toolTip>
         <groupHorizontalAlign>Left</groupHorizontalAlign>
         <extendedTooltip>
-          <name>ГруппаОбязанностиПолеРасширеннаяПодсказка</name>
+          <name>ГруппаОбязанностиТекстРасширеннаяПодсказка</name>
           <id>173</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -989,6 +949,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.Образование</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ОбразованиеПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ОбразованиеРасширеннаяПодсказка</name>
               <id>36</id>
@@ -1030,6 +994,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ОпытРаботы</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ОпытРаботыПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ОпытРаботыРасширеннаяПодсказка</name>
               <id>39</id>
@@ -1122,6 +1090,10 @@
             <height>11.0</height>
             <scale>100</scale>
           </titleFont>
+          <toolTip>
+            <key>ru</key>
+            <value>Изменить описание требований</value>
+          </toolTip>
           <groupHorizontalAlign>Right</groupHorizontalAlign>
           <extendedTooltip>
             <name>ГруппаТребованияИзменениеРасширеннаяПодсказка</name>
@@ -1150,14 +1122,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Группа требования заголовок</value>
-        </title>
-        <toolTip>
-          <key>ru</key>
-          <value>Группа требования заголовок</value>
-        </toolTip>
         <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаТребованияЗаголовокРасширеннаяПодсказка</name>
@@ -1185,11 +1149,15 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаПолеТребования</name>
+        <name>ГруппаТребованияТекст</name>
         <id>196</id>
         <items xsi:type="form:Decoration">
           <name>ДекорацияТекстТребования</name>
           <id>218</id>
+          <title>
+            <key>ru</key>
+            <value>Требования не указаны</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1225,7 +1193,7 @@
         </userVisible>
         <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаПолеТребованияРасширеннаяПодсказка</name>
+          <name>ГруппаТребованияТекстРасширеннаяПодсказка</name>
           <id>197</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1236,7 +1204,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
+          <group>Vertical</group>
           <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -1301,6 +1269,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ТипЗанятости</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ТипЗанятостиПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ТипЗанятостиРасширеннаяПодсказка</name>
               <id>51</id>
@@ -1332,19 +1304,23 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>ФорматРаботы</name>
-            <id>55</id>
+            <name>ГрафикРаботы</name>
+            <id>52</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ФорматРаботы</segments>
+              <segments>Объект.ГрафикРаботы</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ГрафикРаботыПриИзменении</name>
+            </handlers>
             <extendedTooltip>
-              <name>ФорматРаботыРасширеннаяПодсказка</name>
-              <id>57</id>
+              <name>ГрафикРаботыРасширеннаяПодсказка</name>
+              <id>54</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1353,8 +1329,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ФорматРаботыКонтекстноеМеню</name>
-              <id>56</id>
+              <name>ГрафикРаботыКонтекстноеМеню</name>
+              <id>53</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
@@ -1373,19 +1349,23 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>ГрафикРаботы</name>
-            <id>52</id>
+            <name>ФорматРаботы</name>
+            <id>55</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ГрафикРаботы</segments>
+              <segments>Объект.ФорматРаботы</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ФорматРаботыПриИзменении</name>
+            </handlers>
             <extendedTooltip>
-              <name>ГрафикРаботыРасширеннаяПодсказка</name>
-              <id>54</id>
+              <name>ФорматРаботыРасширеннаяПодсказка</name>
+              <id>57</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1394,8 +1374,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ГрафикРаботыКонтекстноеМеню</name>
-              <id>53</id>
+              <name>ФорматРаботыКонтекстноеМеню</name>
+              <id>56</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
@@ -1427,6 +1407,10 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Объект.ОплатаТрудаОт</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ОплатаТрудаОтПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>ОплатаТрудаОтРасширеннаяПодсказка</name>
                 <id>60</id>
@@ -1471,6 +1455,10 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Объект.ОплатаТрудаДо</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ОплатаТрудаДоПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>ОплатаТрудаДоРасширеннаяПодсказка</name>
                 <id>63</id>
@@ -1505,14 +1493,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа оплата труда</value>
-            </title>
-            <toolTip>
-              <key>ru</key>
-              <value>Группа оплата труда</value>
-            </toolTip>
             <extendedTooltip>
               <name>ГруппаОплатаТрудаРасширеннаяПодсказка</name>
               <id>209</id>
@@ -1598,7 +1578,7 @@
           </titleFont>
           <toolTip>
             <key>ru</key>
-            <value>Изменить</value>
+            <value>Изменить описание условий</value>
           </toolTip>
           <groupHorizontalAlign>Right</groupHorizontalAlign>
           <extendedTooltip>
@@ -1628,14 +1608,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Группа условия заголовок</value>
-        </title>
-        <toolTip>
-          <key>ru</key>
-          <value>Группа условия заголовок</value>
-        </toolTip>
         <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаУсловияЗаголовокРасширеннаяПодсказка</name>
@@ -1668,6 +1640,10 @@
         <items xsi:type="form:Decoration">
           <name>ДекорацияТекстУсловия</name>
           <id>221</id>
+          <title>
+            <key>ru</key>
+            <value>Условия не указаны</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
