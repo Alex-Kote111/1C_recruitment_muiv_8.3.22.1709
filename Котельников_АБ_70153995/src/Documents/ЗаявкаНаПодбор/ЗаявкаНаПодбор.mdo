@@ -39,6 +39,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаявкаНаПодбор.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c21f4b38-c1b5-4db6-8eab-cfe5c71f8b09">
@@ -214,6 +215,63 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7d3b2b4e-b855-49d2-a23e-975c8f6ccf84">
+    <name>ДолжностныеОбязанности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должностные обязанности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="167824f4-aacb-442f-877d-bb56473bab50">
+    <name>Требования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa7e9e6f-023d-418e-9b53-ed83b56c5da9">
+    <name>Условия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="3dfbcca5-0f52-4c15-8752-c31031b243d6">
     <name>ТипЗанятости</name>
     <synonym>
@@ -299,6 +357,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a8652404-9fb7-4840-90b6-769e3552b5db">
+    <name>КомментарийКЗаявке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий к заявке</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="0bdb6eb3-0420-4efc-bc97-68b9d6767e9f">
     <name>Комментарий</name>
     <synonym>
@@ -332,6 +409,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="a6f71c92-e57a-45c8-92d3-0e53e8f13c44">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="44937ae1-be50-4e4c-8dc3-a67a894c1a86">
     <producedTypes>
       <objectType typeId="09868da7-3d75-4652-b67b-1e5292fbca2f" valueTypeId="623b9dec-a6de-4470-b260-e0b968ab1cfa"/>
