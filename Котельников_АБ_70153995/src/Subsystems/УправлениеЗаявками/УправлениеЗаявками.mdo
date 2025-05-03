@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e7e8023-ca7f-4b15-bfc5-6038cb9363c8">
+  <name>УправлениеЗаявками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление заявками</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УправлениеЗаявками</picture>
+  </picture>
+  <content>Catalog.ПрофилиДолжностей</content>
+  <content>Catalog.ПрофессиональныеНавыки</content>
+  <content>Catalog.ЛичныеКачества</content>
+</mdclass:Subsystem>

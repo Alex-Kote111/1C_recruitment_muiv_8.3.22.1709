@@ -39,6 +39,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.НСИИАдминистрирование</subsystems>
+  <subsystems>Subsystem.УправлениеЗаявками</subsystems>
+  <commonPictures>CommonPicture.НСИИАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.УправлениеЗаявками</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.Должности</catalogs>
