@@ -1488,6 +1488,47 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
+            <items xsi:type="form:FormField">
+              <name>ДоВычетаНалога</name>
+              <id>228</id>
+              <title>
+                <key>ru</key>
+                <value>До вычета</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.ДоВычетаНалога</segments>
+              </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ДоВычетаНалогаПриИзменении</name>
+              </handlers>
+              <extendedTooltip>
+                <name>ДоВычетаНалогаРасширеннаяПодсказка</name>
+                <id>230</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ДоВычетаНалогаКонтекстноеМеню</name>
+                <id>229</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>CheckBoxField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>

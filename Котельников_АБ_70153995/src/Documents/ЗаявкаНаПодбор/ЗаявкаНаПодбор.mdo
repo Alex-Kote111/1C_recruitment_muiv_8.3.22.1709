@@ -357,6 +357,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="02b50c89-7be4-47ae-9bd9-95301bce72df">
+    <name>ДоВычетаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>До вычета налога</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="a8652404-9fb7-4840-90b6-769e3552b5db">
     <name>КомментарийКЗаявке</name>
     <synonym>
