@@ -174,10 +174,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="67d3fab5-5b98-4bc9-8ea5-3024ef4afdd3">
-    <name>КоличествоПозиций</name>
+    <name>КоличествоЧеловек</name>
     <synonym>
       <key>ru</key>
-      <value>Количество позиций</value>
+      <value>Количество человек</value>
     </synonym>
     <type>
       <types>Number</types>

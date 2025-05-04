@@ -218,7 +218,7 @@
           <name>ГруппаСведенияОПозиции</name>
           <id>162</id>
           <items xsi:type="form:FormGroup">
-            <name>ГруппаПодразделениеИПричинаОткрытия</name>
+            <name>ГруппаПодразделениеИДолжность</name>
             <id>234</id>
             <items xsi:type="form:FormField">
               <name>Подразделение</name>
@@ -261,82 +261,6 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>ПричинаОткрытияВакансии</name>
-              <id>16</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Объект.ПричинаОткрытияВакансии</segments>
-              </dataPath>
-              <extendedTooltip>
-                <name>ПричинаОткрытияВакансииРасширеннаяПодсказка</name>
-                <id>18</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ПричинаОткрытияВакансииКонтекстноеМеню</name>
-                <id>17</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <editMode>EnterOnInput</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
-              </extInfo>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа подразделение и причина открытия</value>
-            </title>
-            <toolTip>
-              <key>ru</key>
-              <value>Группа подразделение и причина открытия</value>
-            </toolTip>
-            <extendedTooltip>
-              <name>ГруппаПодразделениеИПричинаОткрытияРасширеннаяПодсказка</name>
-              <id>235</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>UsualGroup</type>
-            <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>Vertical</group>
-              <behavior>Auto</behavior>
-              <showLeftMargin>true</showLeftMargin>
-              <united>true</united>
-              <throughAlign>Auto</throughAlign>
-              <currentRowUse>Auto</currentRowUse>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormGroup">
-            <name>ГруппаДолжностьИКоличествоПозиций</name>
-            <id>236</id>
-            <items xsi:type="form:FormField">
               <name>ВакантнаяДолжность</name>
               <id>22</id>
               <visible>true</visible>
@@ -376,8 +300,76 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ГруппаПодразделениеИДолжностьРасширеннаяПодсказка</name>
+              <id>235</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>Vertical</group>
+              <behavior>Auto</behavior>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <throughAlign>Auto</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаПричинаОткрытияИКоличествоЧеловек</name>
+            <id>236</id>
             <items xsi:type="form:FormField">
-              <name>КоличествоПозиций</name>
+              <name>ПричинаОткрытияВакансии</name>
+              <id>16</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.ПричинаОткрытияВакансии</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>ПричинаОткрытияВакансииРасширеннаяПодсказка</name>
+                <id>18</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ПричинаОткрытияВакансииКонтекстноеМеню</name>
+                <id>17</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <editMode>EnterOnInput</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>КоличествоЧеловек</name>
               <id>28</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -385,10 +377,10 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>Объект.КоличествоПозиций</segments>
+                <segments>Объект.КоличествоЧеловек</segments>
               </dataPath>
               <extendedTooltip>
-                <name>КоличествоПозицийРасширеннаяПодсказка</name>
+                <name>КоличествоЧеловекРасширеннаяПодсказка</name>
                 <id>30</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -398,7 +390,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>КоличествоПозицийКонтекстноеМеню</name>
+                <name>КоличествоЧеловекКонтекстноеМеню</name>
                 <id>29</id>
                 <autoFill>true</autoFill>
               </contextMenu>
@@ -422,16 +414,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа должность и количество позиций</value>
-            </title>
-            <toolTip>
-              <key>ru</key>
-              <value>Группа должность и количество позиций</value>
-            </toolTip>
             <extendedTooltip>
-              <name>ГруппаДолжностьИКоличествоПозицийРасширеннаяПодсказка</name>
+              <name>ГруппаПричинаОткрытияИКоличествоЧеловекРасширеннаяПодсказка</name>
               <id>237</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
