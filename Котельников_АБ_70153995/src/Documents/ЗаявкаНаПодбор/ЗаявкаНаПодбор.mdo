@@ -60,6 +60,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e338f92f-c211-4fb7-b8b0-98684fc6934b">
+    <name>ОтветственныйЗаЗаявку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за заявку</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="14344430-c206-4313-81bb-d7e6cc967a7b">
     <name>СтатусЗаявки</name>
     <synonym>
@@ -409,14 +424,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e338f92f-c211-4fb7-b8b0-98684fc6934b">
-    <name>Ответственный</name>
+  <attributes uuid="2af1e6e3-d703-4485-9ef2-733ca8de6331">
+    <name>АвторДокумента</name>
     <synonym>
       <key>ru</key>
-      <value>Ответственный</value>
+      <value>Автор документа</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

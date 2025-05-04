@@ -594,7 +594,47 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>Ответственный</name>
+          <name>ИнициаторЗаявки</name>
+          <id>13</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИнициаторЗаявки</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ИнициаторЗаявкиРасширеннаяПодсказка</name>
+            <id>15</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИнициаторЗаявкиКонтекстноеМеню</name>
+            <id>14</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ОтветственныйЗаЗаявку</name>
           <id>67</id>
           <title>
             <key>ru</key>
@@ -606,10 +646,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Ответственный</segments>
+            <segments>Объект.ОтветственныйЗаЗаявку</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОтветственныйРасширеннаяПодсказка</name>
+            <name>ОтветственныйЗаЗаявкуРасширеннаяПодсказка</name>
             <id>69</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -619,7 +659,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ОтветственныйКонтекстноеМеню</name>
+            <name>ОтветственныйЗаЗаявкуКонтекстноеМеню</name>
             <id>68</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -2655,19 +2695,23 @@
     <name>ГруппаПодвал</name>
     <id>160</id>
     <items xsi:type="form:FormField">
-      <name>ИнициаторЗаявки</name>
-      <id>13</id>
+      <name>АвторДокумента</name>
+      <id>231</id>
+      <title>
+        <key>ru</key>
+        <value>Автор</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ИнициаторЗаявки</segments>
+        <segments>Объект.АвторДокумента</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ИнициаторЗаявкиРасширеннаяПодсказка</name>
-        <id>15</id>
+        <name>АвторДокументаРасширеннаяПодсказка</name>
+        <id>233</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2676,12 +2720,12 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ИнициаторЗаявкиКонтекстноеМеню</name>
-        <id>14</id>
+        <name>АвторДокументаКонтекстноеМеню</name>
+        <id>232</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -2767,6 +2811,10 @@
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
