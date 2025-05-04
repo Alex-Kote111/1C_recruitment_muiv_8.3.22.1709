@@ -298,6 +298,10 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <inputHint>
+              <key>ru</key>
+              <value>Что кандидаты должны будут делать?</value>
+            </inputHint>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -423,12 +427,15 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <inputHint>
+                <key>ru</key>
+                <value>Что кандидаты должны знать и уметь?</value>
+              </inputHint>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -436,10 +443,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Группа требования</value>
-          </title>
           <extendedTooltip>
             <name>ГруппаТребованияРасширеннаяПодсказка</name>
             <id>130</id>
@@ -719,10 +722,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <title>
-                <key>ru</key>
-                <value>Группа условия оплаты труда</value>
-              </title>
               <extendedTooltip>
                 <name>ГруппаУсловияОплатыТрудаРасширеннаяПодсказка</name>
                 <id>136</id>
@@ -748,10 +747,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа условия работы</value>
-            </title>
             <extendedTooltip>
               <name>ГруппаУсловияРаботыРасширеннаяПодсказка</name>
               <id>134</id>
@@ -817,6 +812,10 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <inputHint>
+                <key>ru</key>
+                <value>Какие особенности условий работы, преимущества?</value>
+              </inputHint>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -824,10 +823,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Группа условия</value>
-          </title>
           <extendedTooltip>
             <name>ГруппаУсловияРасширеннаяПодсказка</name>
             <id>132</id>
@@ -853,10 +848,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Группа обязанности требования условия</value>
-        </title>
         <extendedTooltip>
           <name>ГруппаОбязанностиТребованияУсловияРасширеннаяПодсказка</name>
           <id>128</id>
@@ -1683,10 +1674,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Группа страницы</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаСтраницыРасширеннаяПодсказка</name>
       <id>124</id>

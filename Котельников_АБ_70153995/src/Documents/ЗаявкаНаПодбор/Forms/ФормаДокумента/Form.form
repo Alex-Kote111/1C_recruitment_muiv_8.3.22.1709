@@ -30,6 +30,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -753,6 +754,10 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <inputHint>
+                <key>ru</key>
+                <value>Что кандидаты должны будут делать?</value>
+              </inputHint>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1071,6 +1076,10 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <inputHint>
+                <key>ru</key>
+                <value>Что кандидаты должны знать и уметь?</value>
+              </inputHint>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1598,6 +1607,10 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <inputHint>
+                <key>ru</key>
+                <value>Какие особенности условий работы, преимущества?</value>
+              </inputHint>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1676,7 +1689,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаПолеУсловия</name>
+        <name>ГруппаУсловияТекст</name>
         <id>210</id>
         <items xsi:type="form:Decoration">
           <name>ДекорацияТекстУсловия</name>
@@ -1718,8 +1731,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа условия текст</value>
+        </title>
         <extendedTooltip>
-          <name>ГруппаПолеУсловияРасширеннаяПодсказка</name>
+          <name>ГруппаУсловияТекстРасширеннаяПодсказка</name>
           <id>211</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2721,10 +2738,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Группа подвал</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаПодвалРасширеннаяПодсказка</name>
       <id>161</id>
