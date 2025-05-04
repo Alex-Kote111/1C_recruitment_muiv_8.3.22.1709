@@ -72,10 +72,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="270ef4ef-99bd-4376-b1c6-f55dbffa4488">
-    <name>Отказана</name>
+    <name>Отклонена</name>
     <synonym>
       <key>ru</key>
-      <value>Отказана</value>
+      <value>Отклонена</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -87,21 +87,37 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="9868c229-9af9-492c-b07c-a78d821c0c35">
-    <name>ПричинаОтказа</name>
+    <name>ПричинаОтклонения</name>
     <synonym>
       <key>ru</key>
-      <value>Причина отказа</value>
+      <value>Причина отклонения</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.ПричиныОтклоненияЗаявок</types>
     </type>
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5d2c61b-9982-4e1c-945c-461f49aec849">
+    <name>ПодробноеОписаниеПричины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробное описание причины</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

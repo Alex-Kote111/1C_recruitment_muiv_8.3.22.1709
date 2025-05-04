@@ -9,6 +9,7 @@
       <commands>Catalog.Должности.StandardCommand.OpenList</commands>
       <commands>Catalog.Языки.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЗарплатыПоДолжностям.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПричиныОтклоненияЗаявок.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelCreate</group>
@@ -19,6 +20,7 @@
       <commands>Catalog.Должности.StandardCommand.Create</commands>
       <commands>Catalog.Языки.StandardCommand.Create</commands>
       <commands>InformationRegister.ЗарплатыПоДолжностям.StandardCommand.Create</commands>
+      <commands>Catalog.ПричиныОтклоненияЗаявок.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

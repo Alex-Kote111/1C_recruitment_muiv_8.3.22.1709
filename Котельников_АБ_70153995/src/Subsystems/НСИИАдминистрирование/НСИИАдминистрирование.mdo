@@ -16,4 +16,5 @@
   <content>Catalog.Языки</content>
   <content>Catalog.Пользователи</content>
   <content>Catalog.Сотрудники</content>
+  <content>Catalog.ПричиныОтклоненияЗаявок</content>
 </mdclass:Subsystem>

@@ -49,6 +49,7 @@
   <catalogs>Catalog.ЛичныеКачества</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПричиныОтклоненияЗаявок</catalogs>
   <catalogs>Catalog.ПрофессиональныеНавыки</catalogs>
   <catalogs>Catalog.ПрофилиДолжностей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="494060b9-d46b-4b3d-8f35-8c9db19f8374">
+  <producedTypes>
+    <objectType typeId="b59c9a89-5b23-43c8-87aa-1a628a60c4e8" valueTypeId="db7de753-0417-4136-8dfc-b3ff7ba102ae"/>
+    <refType typeId="f14e5dab-2498-4052-9682-2fa592fd8ea4" valueTypeId="63d9d32e-23a4-4902-8eef-a8a32065ce66"/>
+    <selectionType typeId="83016c75-81cb-4228-a781-b28a369377bd" valueTypeId="db3f923b-6da4-42e7-93b3-0ae2443e3510"/>
+    <listType typeId="29101d2e-fbcc-40ba-b1e5-e328eeaf7e96" valueTypeId="cb2855e8-f27f-4544-8d84-a5014981548b"/>
+    <managerType typeId="6ea89f8a-1578-4139-bfb2-82012e282397" valueTypeId="a6c4e197-599e-4142-98e1-4e4841244cf2"/>
+  </producedTypes>
+  <name>ПричиныОтклоненияЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отклонения заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныОтклоненияЗаявок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныОтклоненияЗаявок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Причина отклонения заявки</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Причина отклонения заявки</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Причины отклонения заявок</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Причины отклонения заявок</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПричиныОтклоненияЗаявок.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="576430cb-0526-4805-8048-68f22ad0cd58">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
