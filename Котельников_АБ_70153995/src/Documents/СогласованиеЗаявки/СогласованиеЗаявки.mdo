@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4e212ad-ef6d-4c0c-b954-c2eafcddc33d">
+  <producedTypes>
+    <objectType typeId="7b201bf9-461d-4f1a-9a4e-c92936d67be5" valueTypeId="e086804a-7760-41b2-aee3-6a09ab1daa53"/>
+    <refType typeId="c59cde26-94a8-4d75-b74a-de404f95a2d6" valueTypeId="75f7cda4-bf06-496e-a392-fb0ba24e7e7c"/>
+    <selectionType typeId="8545eaef-d788-41df-929d-afe5141bfa5f" valueTypeId="9b58a4f8-a6aa-4498-b911-69c428f20064"/>
+    <listType typeId="bed82c74-9edc-4a74-a320-8746dea78276" valueTypeId="91206391-2358-4fa1-8881-a9fcca2881c3"/>
+    <managerType typeId="f7ab6e70-745b-485c-b46e-c3fc018a3bab" valueTypeId="3d914ffd-ec31-4e93-9450-e655509fe298"/>
+  </producedTypes>
+  <name>СогласованиеЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование заявки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СогласованиеЗаявки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Согласование заявки</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Согласование заявки</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Согласования заявок</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Согласования заявок</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="78a0e50a-4ab0-4a92-9019-783d2ec2d07a">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкаНаПодбор</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d816fa92-6407-4ebf-a724-36acf5cb53bd">
+    <name>Согласована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласована</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="270ef4ef-99bd-4376-b1c6-f55dbffa4488">
+    <name>Отказана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказана</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9868c229-9af9-492c-b07c-a78d821c0c35">
+    <name>ПричинаОтказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36b2bcec-1a48-45c3-924d-3082ec73c192">
+    <name>ИнициаторЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор заявки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93c25e07-8a5a-49d0-a761-a52425d21ee6">
+    <name>ОтветственныйЗаЗаявку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за заявку</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8a92c03-4d98-4af1-8a81-14dd5bfb539d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c75ff27-63a8-4e2a-9841-ab5fbbc76323">
+    <name>АвторДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

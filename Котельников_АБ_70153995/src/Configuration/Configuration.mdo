@@ -54,6 +54,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Языки</catalogs>
   <documents>Document.ЗаявкаНаПодбор</documents>
+  <documents>Document.СогласованиеЗаявки</documents>
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.ОпытРаботы</enums>

@@ -8,6 +8,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Document.СогласованиеЗаявки.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.ЗаявкаНаПодбор.StandardCommand.Create</command>
       <visible>
         <common>true</common>
@@ -18,12 +24,14 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ЗаявкаНаПодбор.StandardCommand.OpenList</commands>
+      <commands>Document.СогласованиеЗаявки.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ЗаявкаНаПодбор.StandardCommand.OpenList</commands>
+      <commands>Document.СогласованиеЗаявки.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
@@ -34,6 +42,7 @@
     <orderFragments>
       <group>ActionsPanelCreate</group>
       <commands>Document.ЗаявкаНаПодбор.StandardCommand.Create</commands>
+      <commands>Document.СогласованиеЗаявки.StandardCommand.Create</commands>
       <commands>Catalog.ПрофилиДолжностей.StandardCommand.Create</commands>
       <commands>Catalog.ПрофессиональныеНавыки.StandardCommand.Create</commands>
       <commands>Catalog.ЛичныеКачества.StandardCommand.Create</commands>

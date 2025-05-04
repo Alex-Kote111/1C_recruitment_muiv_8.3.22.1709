@@ -14,4 +14,5 @@
   <content>Catalog.ПрофессиональныеНавыки</content>
   <content>Catalog.ЛичныеКачества</content>
   <content>Document.ЗаявкаНаПодбор</content>
+  <content>Document.СогласованиеЗаявки</content>
 </mdclass:Subsystem>
