@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="560a1426-002d-4095-80d5-b66a0b18e335">
+  <producedTypes>
+    <refType typeId="68413b15-b0db-4d98-8329-c8ce718c17e6" valueTypeId="72f9f90a-e70a-42d5-9253-537deb8e71a2"/>
+    <listType typeId="1936b7f2-d693-4a7d-9a38-a7d30f365dc8" valueTypeId="49ef0b6c-b3dc-4528-97a9-af1cc6388356"/>
+    <managerType typeId="8eb21648-337f-4c34-8822-5e3057f2eb90" valueTypeId="49958823-de80-4655-b8b5-0f05aed421d6"/>
+  </producedTypes>
+  <name>ПричиныЗакрытияВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины закрытия вакансий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8743dd27-9571-4952-b8ec-dc58540b5dc8">
+    <name>НайденКандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найден(ы) кандидат(ы)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5837e3e1-56c5-4316-a262-0048d61a0a79">
+    <name>ОтсутствиеПодходящихКандидатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие подходящих кандидатов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9f830df-30c9-4de5-a447-63acf5124932">
+    <name>ОтсутствиеОткликовНаВакансию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие откликов на вакансию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3db235b1-9587-4ba8-90d6-55f2eaf5dd66">
+    <name>ПересмотрУсловийВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересмотр условий вакансии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6536b4cf-1ff2-4fd7-8dc4-e462c5eff3e1">
+    <name>ДругаяПричина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другая причина</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

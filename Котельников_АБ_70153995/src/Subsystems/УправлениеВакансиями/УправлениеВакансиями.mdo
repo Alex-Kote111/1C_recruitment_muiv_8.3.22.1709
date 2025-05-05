@@ -11,4 +11,5 @@
     <picture>CommonPicture.УправлениеВакансиями</picture>
   </picture>
   <content>Document.Вакансия</content>
+  <content>Document.ЗакрытиеВакансии</content>
 </mdclass:Subsystem>

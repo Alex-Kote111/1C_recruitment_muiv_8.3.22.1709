@@ -57,11 +57,13 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Языки</catalogs>
   <documents>Document.Вакансия</documents>
+  <documents>Document.ЗакрытиеВакансии</documents>
   <documents>Document.ЗаявкаНаПодбор</documents>
   <documents>Document.СогласованиеЗаявки</documents>
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.ОпытРаботы</enums>
+  <enums>Enum.ПричиныЗакрытияВакансий</enums>
   <enums>Enum.ПричиныОткрытияВакансий</enums>
   <enums>Enum.СтатусыВакансий</enums>
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
