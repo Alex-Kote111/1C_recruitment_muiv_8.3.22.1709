@@ -40,8 +40,10 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.НСИИАдминистрирование</subsystems>
+  <subsystems>Subsystem.УправлениеВакансиями</subsystems>
   <subsystems>Subsystem.УправлениеЗаявками</subsystems>
   <commonPictures>CommonPicture.НСИИАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.УправлениеВакансиями</commonPictures>
   <commonPictures>CommonPicture.УправлениеЗаявками</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
@@ -54,12 +56,14 @@
   <catalogs>Catalog.ПрофилиДолжностей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Языки</catalogs>
+  <documents>Document.Вакансия</documents>
   <documents>Document.ЗаявкаНаПодбор</documents>
   <documents>Document.СогласованиеЗаявки</documents>
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.ОпытРаботы</enums>
   <enums>Enum.ПричиныОткрытияВакансий</enums>
+  <enums>Enum.СтатусыВакансий</enums>
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
   <enums>Enum.ТипыЗанятости</enums>
   <enums>Enum.УровниЗнанийЯзыков</enums>

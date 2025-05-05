@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc8fda3a-f8af-4289-88b8-cd1b021fda58">
+  <name>УправлениеВакансиями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление вакансиями</value>
+  </synonym>
+</mdclass:CommonPicture>
