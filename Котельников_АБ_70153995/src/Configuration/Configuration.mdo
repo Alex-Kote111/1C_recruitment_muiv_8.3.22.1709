@@ -47,6 +47,7 @@
   <commonPictures>CommonPicture.УправлениеЗаявками</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.ЛичныеКачества</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
