@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc41bcd0-2f2a-4901-ac01-0e2e066f2dce">
+  <producedTypes>
+    <selectionType typeId="1c420d8b-1ab6-425f-86d3-f4452c28a164" valueTypeId="ae415df1-424d-4eb6-ad7c-a94cc1560e5b"/>
+    <listType typeId="f9f17f4b-e08e-406b-be0d-2fec2b9351cd" valueTypeId="06e38d8e-0cad-46e3-9592-dd6847947f7a"/>
+    <managerType typeId="bbfd3853-8a2f-4e30-9def-db78d56c8447" valueTypeId="0d988010-4006-4aa1-b554-b493f1928b62"/>
+    <recordSetType typeId="926956c1-acf9-4fd8-8f65-2edf86434766" valueTypeId="07285ed9-19e6-4fd3-ac1f-276583b9119a"/>
+    <recordKeyType typeId="268f09b7-eedd-427a-95a3-14272d47ada3" valueTypeId="a011aa15-0df2-4107-9250-f9e1805385b4"/>
+    <recordType typeId="d6f2f117-2a02-4379-aba2-55652cd777e1" valueTypeId="7ebceaaf-642c-4a58-b92c-1b3095851905"/>
+    <recordManagerType typeId="0d048c77-e901-4f99-ac51-e1b7dbab3a9a" valueTypeId="6e66c3cf-66b2-4e22-8a5e-79c5ccf786b2"/>
+  </producedTypes>
+  <name>ФотографииКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фотографии кандидатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0ea3ed69-0513-424f-afb1-f2c30c32e79b">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="014915bc-0262-47cc-9d3f-0e74220e6596">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
