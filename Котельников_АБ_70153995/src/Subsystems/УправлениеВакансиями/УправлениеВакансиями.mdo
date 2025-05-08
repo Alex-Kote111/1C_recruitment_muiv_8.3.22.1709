@@ -3,7 +3,7 @@
   <name>УправлениеВакансиями</name>
   <synonym>
     <key>ru</key>
-    <value>Управление вакансиями</value>
+    <value>Управление вакансиями и поиском</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -12,4 +12,5 @@
   </picture>
   <content>Document.Вакансия</content>
   <content>Document.ЗакрытиеВакансии</content>
+  <content>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</content>
 </mdclass:Subsystem>

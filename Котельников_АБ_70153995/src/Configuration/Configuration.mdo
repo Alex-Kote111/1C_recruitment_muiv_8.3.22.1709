@@ -73,5 +73,6 @@
   <enums>Enum.УровниОбразования</enums>
   <enums>Enum.УровниПрофессиональныхНавыков</enums>
   <enums>Enum.ФорматыРаботы</enums>
+  <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
 </mdclass:Configuration>

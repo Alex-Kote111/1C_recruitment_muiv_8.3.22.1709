@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86dcd996-603e-4c4b-af65-c132f25c8e1f">
+  <producedTypes>
+    <objectType typeId="14b10edc-f403-47ca-9436-9d5d0392c92f" valueTypeId="d47bf493-39b7-4ccd-b530-146111cefc25"/>
+    <managerType typeId="4e52b9ac-5b07-4965-8ae5-ae7bcd187f39" valueTypeId="f22a42d4-fed7-434a-b752-f190abd7aeab"/>
+  </producedTypes>
+  <name>ЗагрузкаОткликовССайтаУниверситета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка откликов с сайта университета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаОткликовССайтаУниверситета.Form.Форма</defaultForm>
+  <forms uuid="ade0cebd-23af-4fdb-856f-92d8e10aa205">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
