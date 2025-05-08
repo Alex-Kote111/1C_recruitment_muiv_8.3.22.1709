@@ -48,6 +48,7 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonCommands>CommonCommand.ЛичныеНастройки</commonCommands>
   <catalogs>Catalog.Города</catalogs>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.ИсточникиПривлечения</catalogs>
@@ -83,6 +84,7 @@
   <enums>Enum.ЭтапыПодбора</enums>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
+  <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ФотографииКандидатов</informationRegisters>
 </mdclass:Configuration>

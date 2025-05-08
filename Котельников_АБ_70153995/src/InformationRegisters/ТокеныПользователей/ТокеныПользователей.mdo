@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cb33f9b-36b5-43e1-8bcf-d0122b2d2427">
+  <producedTypes>
+    <selectionType typeId="2b3418ba-8fd7-4cb5-9d88-4a42dd228fc1" valueTypeId="95f7cbd1-0dc6-45fa-8416-b6e3223ab846"/>
+    <listType typeId="49aa36ca-a9c5-4dd3-9dbb-743573c2bb46" valueTypeId="0aa1673a-c3dd-4199-acf2-f8fc5b78cd7d"/>
+    <managerType typeId="a93b08db-99f4-4238-ad67-31d134565338" valueTypeId="5a9e0fac-63c2-48a3-a4c6-21d24c586188"/>
+    <recordSetType typeId="e45fb594-9d46-49ea-8ea4-89899668fab2" valueTypeId="79b3a0a1-6575-4aa0-894c-660890685e74"/>
+    <recordKeyType typeId="600849a0-b772-492c-b566-d68b806644d6" valueTypeId="6a85d362-5afc-4ab9-89d1-7318939789eb"/>
+    <recordType typeId="6193507f-023d-43a5-a716-073dd248b104" valueTypeId="3cac74e3-1410-45e1-8e6b-1d07172ceabb"/>
+    <recordManagerType typeId="d5a43fbb-1d9d-4fcc-b4e0-1a5843855504" valueTypeId="1f8deaf9-e24c-4e81-94bc-958c01567db3"/>
+  </producedTypes>
+  <name>ТокеныПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токены пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ТокеныПользователей.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Токен пользователя</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Токен пользователя</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Токены пользователей</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Токены пользователей</value>
+  </extendedListPresentation>
+  <resources uuid="9fadce4b-0aa7-4190-9fe1-ecb04915577f">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b91ed542-a629-4f76-891e-ba6065d8a392">
+    <name>ВремяЖизниТокена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время жизни токена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="65d3b56e-6bd8-4678-aa60-f154f5efc9c2">
+    <name>ТокенДляПродления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен для продления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="2c656e9b-20e0-451f-9d41-0f5c67c049e9">
+    <name>ДатаИВремяОкончанияТокена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время окончания токена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="cff0fb77-0e6f-4823-8424-7794094a9773">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3ffbdd05-e0ad-499c-bd65-a11e823f79c7">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

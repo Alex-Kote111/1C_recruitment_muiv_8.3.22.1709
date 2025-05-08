@@ -23,4 +23,6 @@
   <content>Catalog.СтанцииМетро</content>
   <content>InformationRegister.ФотографииКандидатов</content>
   <content>InformationRegister.ФайлыКандидатов</content>
+  <content>CommonCommand.ЛичныеНастройки</content>
+  <content>InformationRegister.ТокеныПользователей</content>
 </mdclass:Subsystem>
