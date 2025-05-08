@@ -13,4 +13,5 @@
   <content>Document.Вакансия</content>
   <content>Document.ЗакрытиеВакансии</content>
   <content>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</content>
+  <content>Catalog.Кандидаты</content>
 </mdclass:Subsystem>

@@ -48,22 +48,29 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <catalogs>Catalog.Города</catalogs>
   <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ИсточникиПривлечения</catalogs>
+  <catalogs>Catalog.Кандидаты</catalogs>
   <catalogs>Catalog.ЛичныеКачества</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПричиныОтказа</catalogs>
   <catalogs>Catalog.ПричиныОтклоненияЗаявок</catalogs>
   <catalogs>Catalog.ПрофессиональныеНавыки</catalogs>
   <catalogs>Catalog.ПрофилиДолжностей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтанцииМетро</catalogs>
   <catalogs>Catalog.Языки</catalogs>
   <documents>Document.Вакансия</documents>
   <documents>Document.ЗакрытиеВакансии</documents>
   <documents>Document.ЗаявкаНаПодбор</documents>
   <documents>Document.СогласованиеЗаявки</documents>
+  <enums>Enum.ВариантыДоступностиМестаРаботы</enums>
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.ОпытРаботы</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ПричиныЗакрытияВакансий</enums>
   <enums>Enum.ПричиныОткрытияВакансий</enums>
   <enums>Enum.СтатусыВакансий</enums>
@@ -73,6 +80,7 @@
   <enums>Enum.УровниОбразования</enums>
   <enums>Enum.УровниПрофессиональныхНавыков</enums>
   <enums>Enum.ФорматыРаботы</enums>
+  <enums>Enum.ЭтапыПодбора</enums>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
 </mdclass:Configuration>

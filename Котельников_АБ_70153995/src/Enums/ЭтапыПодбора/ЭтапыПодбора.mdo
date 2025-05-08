@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0f19e59-8d09-4af2-83c6-7f7b6cac86d1">
+  <producedTypes>
+    <refType typeId="f18ea155-43f1-462c-b8cf-c6a1bd7c6ca8" valueTypeId="dd128587-9d56-429e-9fab-4e4c8e449296"/>
+    <listType typeId="1386aa34-b8cc-4c96-9882-ed40e75d6b06" valueTypeId="b0def367-d7da-4942-b3a5-380c5e70fb3e"/>
+    <managerType typeId="5b6a96fd-0e18-49f7-ae9f-d2f9cad62dd5" valueTypeId="d0594df4-7580-49cd-bef0-5f1aa54acd25"/>
+  </producedTypes>
+  <name>ЭтапыПодбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы подбора</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7134b1b9-574f-4d7c-88d5-99816945398d">
+    <name>Неразобранные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неразобранные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84ae6ca3-4623-4903-85de-7c22aad7d81a">
+    <name>ПросмотрРезюме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр резюме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a833dc74-608f-4b57-8fa2-74b88149e436">
+    <name>ТелефонноеИнтервью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефонное интервью</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c09717d-74ec-4d15-8299-ab3af8860ba1">
+    <name>ПервичноеСобеседование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичное собеседование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85e57414-99d5-4a2b-8840-4a7e80bd0fb0">
+    <name>СобеседованиеСИнициатором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собеседование с инициатором</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="744b16bb-000f-4b48-beaa-18d741fd5ab8">
+    <name>Тестирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f639201a-87aa-4d37-887e-b16c393b6500">
+    <name>ПредложениеОРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предложение о работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3b29a85-8d77-4e21-803e-51810da753eb">
+    <name>ОтказКандидату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ кандидату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="554005d4-9797-4ad8-9b6d-09642bfe0f06">
+    <name>КандидатОтказалсяОтПредложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат отказался от предложения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

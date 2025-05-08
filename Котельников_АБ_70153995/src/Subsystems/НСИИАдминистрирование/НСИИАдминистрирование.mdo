@@ -17,4 +17,8 @@
   <content>Catalog.Пользователи</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.ПричиныОтклоненияЗаявок</content>
+  <content>Catalog.ПричиныОтказа</content>
+  <content>Catalog.ИсточникиПривлечения</content>
+  <content>Catalog.Города</content>
+  <content>Catalog.СтанцииМетро</content>
 </mdclass:Subsystem>
