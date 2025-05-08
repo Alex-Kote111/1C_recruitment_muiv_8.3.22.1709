@@ -827,6 +827,38 @@
           <contextMenu>
             <name>ФотоКандидатаКонтекстноеМеню</name>
             <id>65</id>
+            <items xsi:type="form:Button">
+              <name>ФотоКандидатаКонтекстноеМенюУдалитьФотографию</name>
+              <id>244</id>
+              <title>
+                <key>ru</key>
+                <value>Удалить фотографию</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ФотоКандидатаКонтекстноеМенюУдалитьФотографиюРасширеннаяПодсказка</name>
+                <id>245</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.УдалитьФотографию</commandName>
+              <representation>PictureAndText</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <picture xsi:type="core:PictureRef">
+                <picture>StdPicture.Delete</picture>
+              </picture>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>PictureField</type>
@@ -3007,8 +3039,34 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>УдалитьФотографию</name>
+    <title>
+      <key>ru</key>
+      <value>Удалить фотографию</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Удалить фотографию</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалитьФотографию</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>InformationRegister.ФотографииКандидатов.StandardCommand.OpenByValue.Кандидат</command>
+        <userVisible/>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">

@@ -22,4 +22,5 @@
   <content>Catalog.Города</content>
   <content>Catalog.СтанцииМетро</content>
   <content>InformationRegister.ФотографииКандидатов</content>
+  <content>InformationRegister.ФайлыКандидатов</content>
 </mdclass:Subsystem>

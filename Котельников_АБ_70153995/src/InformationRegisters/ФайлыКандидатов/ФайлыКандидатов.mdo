@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="776808ce-1ffa-45c2-9682-dbb26c829c35">
+  <producedTypes>
+    <selectionType typeId="6eaa2c7a-33c1-47a9-ae99-1f002bd9c6ce" valueTypeId="6352c81f-2888-413e-8226-e382150b1b54"/>
+    <listType typeId="2dceb6d0-b8c0-4ec1-90b8-c136ba0fcafc" valueTypeId="f6e9152f-1f14-4afe-aefc-78e36116a560"/>
+    <managerType typeId="d88225d8-d1d9-40db-831d-3140f160cdbb" valueTypeId="31df655d-65b0-4608-9f78-1d1cd15855b4"/>
+    <recordSetType typeId="3cdcaae4-d0f0-4723-bb7d-2f6843d320bd" valueTypeId="84143999-24bd-4b8b-a726-e1fbaafff3d1"/>
+    <recordKeyType typeId="21575ca9-0b7c-4aee-b54b-3a9b0c58d27d" valueTypeId="f6cacb2a-725e-4864-9e98-fe0e57481979"/>
+    <recordType typeId="c732af77-a58d-443b-ae49-ad3e7f591f4e" valueTypeId="05a7dd0d-7c3e-4304-a252-970d0754ded6"/>
+    <recordManagerType typeId="ec70d95e-97ae-4768-a405-a598cbc89b58" valueTypeId="9e06d2e4-ac1a-46a5-bc67-26f91795b524"/>
+  </producedTypes>
+  <name>ФайлыКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы кандидатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ФайлыКандидатов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ФайлыКандидатов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Файл кандидата</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Файл кандидата</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Файлы кандидата</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Файлы кандидата</value>
+  </extendedListPresentation>
+  <resources uuid="68dca193-a57c-4005-9d25-7943d3d3b9ae">
+    <name>ФайлКандидата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл кандидата</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="02652a61-f839-471b-a573-87ff0d742d7f">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="85a5d012-0b81-4b0b-8f8e-afd6f7489a36">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a434c91e-23d2-4ae7-9690-7454e356babf">
+    <name>ИмяФайлаБезРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла без расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b7b1137c-b623-4a6d-8df9-e0322f2f19c9">
+    <name>РасширениеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e1927c0-4d8e-46da-96ee-df0533ae26dc">
+    <name>РазмерФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер файла (кб)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d534a69c-db0a-4534-8965-f0c9170a9243">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a6f62f9-8838-47db-8a52-684d0646e29a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
