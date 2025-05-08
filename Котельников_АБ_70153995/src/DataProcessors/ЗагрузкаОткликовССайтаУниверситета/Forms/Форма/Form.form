@@ -306,13 +306,6 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>ShowRowRearrangement</excludedCommands>
     <items xsi:type="form:FormField">
       <name>СписокКандидатовНомерСтроки</name>
       <id>60</id>
@@ -360,6 +353,10 @@
       <items xsi:type="form:FormField">
         <name>СписокКандидатовФИО</name>
         <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>Ф.И.О.</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
