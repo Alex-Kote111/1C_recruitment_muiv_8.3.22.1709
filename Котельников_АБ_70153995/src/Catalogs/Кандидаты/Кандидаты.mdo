@@ -209,6 +209,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -227,6 +228,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -333,6 +335,7 @@
     <mask>+9 (999) 999-99-99</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -353,6 +356,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -370,6 +374,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -406,6 +411,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -442,6 +448,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -496,6 +503,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -541,7 +549,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d756c0bc-517c-45d4-932d-86335e57f983">
-    <name>СсылкаНаСкачиваниеРезюмеHH</name>
+    <name>СсылкаНаСкачиваниеРезюмеХХ</name>
     <synonym>
       <key>ru</key>
       <value>Ссылка на скачивание резюме HH</value>
@@ -786,10 +794,10 @@
       <objectType typeId="d736adf6-e29f-4ab1-a53d-3ba00211d9dd" valueTypeId="1100d4d1-d0a1-4bea-b035-efed332f249f"/>
       <rowType typeId="c12eacb1-32fa-4456-8f5f-403d63c7cdde" valueTypeId="5096cdc5-cafb-460c-90b1-d52d0f6a195b"/>
     </producedTypes>
-    <name>ИностранныеЯзыки</name>
+    <name>ЗнанияЯзыков</name>
     <synonym>
       <key>ru</key>
-      <value>Иностранные языки</value>
+      <value>Знания языков</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -854,6 +862,31 @@
       </synonym>
       <type>
         <types>EnumRef.ГрафикиРаботы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="05417c71-4b05-4dd3-ae34-cf3590b6d828">
+    <producedTypes>
+      <objectType typeId="1a92507a-1f99-4eda-911b-b7355c457ee3" valueTypeId="b3c6be42-0ea1-4876-84a4-ff6e83e75a85"/>
+      <rowType typeId="cfc084bc-c0f6-4286-b2a7-73169a8807f7" valueTypeId="e76719ea-6fd8-4d51-8225-b1cf82aca78e"/>
+    </producedTypes>
+    <name>ПодходящиеТипыЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подходящие типы занятости</value>
+    </synonym>
+    <attributes uuid="5e15bf1c-9a6c-4b32-baf2-183bfebe0703">
+      <name>ТипЗанятости</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип занятости</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыЗанятости</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

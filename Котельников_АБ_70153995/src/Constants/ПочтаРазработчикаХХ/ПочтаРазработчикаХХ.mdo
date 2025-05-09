@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f9ffa80-17f8-41e4-b871-b2b8a7a04c43">
+  <producedTypes>
+    <managerType typeId="6e038a8b-beaa-4081-83c0-899877a7171d" valueTypeId="439b157f-5660-494f-bd2a-0babd47380d9"/>
+    <valueManagerType typeId="d65a5200-c2bc-49b7-93dd-ab48fe68c5c5" valueTypeId="ce2dff72-afcc-45f4-b6cd-6e309ac46706"/>
+    <valueKeyType typeId="39176202-bf24-48ef-a3c8-cef914ac9476" valueTypeId="ae6bd1ae-9834-4e5c-a9e5-bd3c71580ef1"/>
+  </producedTypes>
+  <name>ПочтаРазработчикаХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Почта разработчика HeadHunter</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

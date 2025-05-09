@@ -25,4 +25,5 @@
   <content>InformationRegister.ФайлыКандидатов</content>
   <content>CommonCommand.ЛичныеНастройки</content>
   <content>InformationRegister.ТокеныПользователей</content>
+  <content>CommonForm.ДанныеОбщегоПриложенияХХ</content>
 </mdclass:Subsystem>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd6d3d08-a597-4cd2-a804-f78cea5c0b69">
+  <producedTypes>
+    <refType typeId="59275a75-05bf-4bcc-a6da-221f31f645e9" valueTypeId="b33825c5-b735-45b9-9924-2f9543697575"/>
+    <listType typeId="f8996368-26e3-496c-94e8-87bb8507f545" valueTypeId="6663fbfb-34c0-4419-a922-dba2f945ab2f"/>
+    <managerType typeId="13b5f8a8-0620-4e57-a939-478a44d1ec58" valueTypeId="6f088ba2-9dfb-43e8-909c-4390c90cf4e9"/>
+  </producedTypes>
+  <name>МестаВстречиСлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места встречи слов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a4633046-5fab-444c-a9bb-b0adb9256471">
+    <name>Везде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Везде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2d8c757-bb2e-479d-a267-f78223705327">
+    <name>ВНазванииРезюме</name>
+    <synonym>
+      <key>ru</key>
+      <value>В названии резюме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a082c83b-1401-4d8b-a63d-1237426be3db">
+    <name>ВОбразовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В образовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25883a7a-ef1b-469b-b2fa-f1cff48240c3">
+    <name>ВКлючевыхНавыках</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ключевых навыках</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb3ff76d-0559-4ff4-8fe2-9ab5a1a9acdd">
+    <name>ВОпытеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>В опыте работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d4cd2a5-70e0-48af-91a9-66989c1942ac">
+    <name>ВКомпанияхИОтраслях</name>
+    <synonym>
+      <key>ru</key>
+      <value>В компаниях и отраслях</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d860791-f1a1-45db-bc19-3a5d14642468">
+    <name>ВДолжностях</name>
+    <synonym>
+      <key>ru</key>
+      <value>В должностях</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b8c0c99-e8be-4a8f-9671-fad9d53bc6de">
+    <name>ВОбязанностях</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обязанностях</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

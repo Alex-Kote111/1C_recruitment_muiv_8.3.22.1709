@@ -49,6 +49,12 @@
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonCommands>CommonCommand.ЛичныеНастройки</commonCommands>
+  <constants>Constant.АдресРедиректа</constants>
+  <constants>Constant.ИдентификаторПриложенияХХ</constants>
+  <constants>Constant.НазваниеПриложенияХХ</constants>
+  <constants>Constant.ПочтаРазработчикаХХ</constants>
+  <constants>Constant.СекретПриложенияХХ</constants>
+  <commonForms>CommonForm.ДанныеОбщегоПриложенияХХ</commonForms>
   <catalogs>Catalog.Города</catalogs>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.ИсточникиПривлечения</catalogs>
@@ -68,9 +74,12 @@
   <documents>Document.ЗаявкаНаПодбор</documents>
   <documents>Document.СогласованиеЗаявки</documents>
   <enums>Enum.ВариантыДоступностиМестаРаботы</enums>
+  <enums>Enum.ВариантыПоискаКлючевыхСлов</enums>
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
+  <enums>Enum.МестаВстречиСлов</enums>
   <enums>Enum.ОпытРаботы</enums>
+  <enums>Enum.ПериодыОпытаРаботы</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ПричиныЗакрытияВакансий</enums>
   <enums>Enum.ПричиныОткрытияВакансий</enums>
@@ -83,6 +92,7 @@
   <enums>Enum.ФорматыРаботы</enums>
   <enums>Enum.ЭтапыПодбора</enums>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
+  <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
   <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыКандидатов</informationRegisters>

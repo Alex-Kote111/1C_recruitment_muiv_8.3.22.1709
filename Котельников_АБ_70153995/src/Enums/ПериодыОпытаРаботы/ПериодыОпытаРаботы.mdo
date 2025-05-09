@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="722b1226-7afe-4ebc-ba91-5a3719053620">
+  <producedTypes>
+    <refType typeId="ac55d18b-67cf-49ef-a69b-ae26b8bececa" valueTypeId="496a3960-1e6d-4a5f-9356-6ea3a1526f32"/>
+    <listType typeId="5b57e865-e70c-4d5e-9327-b1dfbe0dd1f9" valueTypeId="3a67acee-13e2-41f0-9a5e-b09a76d71d25"/>
+    <managerType typeId="4efc14c2-bf62-4d5a-b0e8-f75dca0beb38" valueTypeId="5114a41f-f665-4c3c-a35e-03475b82a8c2"/>
+  </producedTypes>
+  <name>ПериодыОпытаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды опыта работы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3f399793-c1fa-40e9-b377-d92e227c579d">
+    <name>ЗаВсеВремяОпыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>За все время опыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dd5d346-2056-4d19-9578-25cc36bfed1e">
+    <name>ЗаПоследнийГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последний год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c709868-86bb-4e02-a34b-8744af3d4705">
+    <name>ЗаПоследниеТриГода</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последние 3 года</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90359086-d379-4a08-9ef6-09a1f1cca467">
+    <name>ЗаПоследниеШестьЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последние 6 лет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

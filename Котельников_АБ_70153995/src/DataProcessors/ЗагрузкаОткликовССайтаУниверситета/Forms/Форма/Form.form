@@ -1319,8 +1319,11 @@
       </title>
       <id>12</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </valueType>
       <view>
         <common>true</common>

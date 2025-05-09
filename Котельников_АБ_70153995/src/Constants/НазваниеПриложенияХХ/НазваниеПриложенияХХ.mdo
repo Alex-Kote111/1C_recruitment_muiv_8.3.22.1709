@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6383ad4d-aa23-4575-bf63-5a63b06596d0">
+  <producedTypes>
+    <managerType typeId="6d4ef43f-7fe0-4ab9-a6fc-ebb1dbdb771e" valueTypeId="5653d061-16d9-4cde-adee-1131151c2251"/>
+    <valueManagerType typeId="7b9b1d87-b151-47bf-a9a7-7e864fb72d0d" valueTypeId="aaf2f1a5-1ca8-4cea-a679-b93a256eb96f"/>
+    <valueKeyType typeId="2f0227fc-c20a-460e-80c9-432cf86ebef3" valueTypeId="70b57a43-0886-4fdf-939f-5f4407c3ecdc"/>
+  </producedTypes>
+  <name>НазваниеПриложенияХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Название приложения HeadHunter</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

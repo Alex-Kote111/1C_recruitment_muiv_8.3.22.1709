@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9380f287-f3cb-4c68-8f75-e3505f189f9a">
+  <producedTypes>
+    <refType typeId="c2c9f89d-1cf3-4e72-a6db-81b36ce6a773" valueTypeId="cf63017f-3f68-4967-96f7-46ec94e5673b"/>
+    <listType typeId="cc4d450e-6956-43fc-b23b-29651f0e6fe4" valueTypeId="8e42cad7-c77d-4e19-bb82-c5cdef48b8ec"/>
+    <managerType typeId="f3f82d5f-e871-47b6-96f8-326d2cfd20d5" valueTypeId="bf118612-3c19-4371-9118-891cd632cadf"/>
+  </producedTypes>
+  <name>ВариантыПоискаКлючевыхСлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты поиска ключевых слов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82cdbcef-6cef-4df9-bf9c-fb31b0b10d8d">
+    <name>ВсеСловаВстречаются</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все слова встречаются</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f13c21b-7ec9-4a2c-b601-ceb2f3aeffba">
+    <name>ЛюбоеИзСловВстречается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любое из слов встречается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbb0a58d-6ab6-4010-abab-7ffa402fc763">
+    <name>ТочнаяФразаВстречается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точная фраза встречается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65885805-5dba-4941-9463-ad3c5cea9994">
+    <name>НеВстречаются</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не встречаются</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

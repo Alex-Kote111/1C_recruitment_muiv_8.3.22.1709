@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e5d8db9-8ff5-4813-8adc-61fa38db02ac">
+  <producedTypes>
+    <managerType typeId="5482286c-af6a-4a8d-81a5-c2c93aa9271f" valueTypeId="ed55d9d1-5e26-471c-b567-b91f88d10e39"/>
+    <valueManagerType typeId="0234b612-02eb-487a-8224-5c7625932c8b" valueTypeId="baa9020a-c8b2-4a5c-b725-76615e23e365"/>
+    <valueKeyType typeId="3fe4e38d-d265-4f73-bd25-b2402b7c6451" valueTypeId="61f02c3a-b2b7-4b8f-966e-4945b95a3e06"/>
+  </producedTypes>
+  <name>СекретПриложенияХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Client_Secret</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>64</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

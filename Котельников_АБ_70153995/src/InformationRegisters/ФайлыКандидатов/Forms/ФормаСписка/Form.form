@@ -47,7 +47,6 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Create</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Кандидат</name>
@@ -468,7 +467,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

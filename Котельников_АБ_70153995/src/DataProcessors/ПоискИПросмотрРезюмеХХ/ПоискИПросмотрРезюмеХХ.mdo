@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb7f5e3b-bbe3-4f06-bf97-fcab5a420e31">
+  <producedTypes>
+    <objectType typeId="9f3bd2aa-85e9-488c-9f11-44eaecfb0273" valueTypeId="3ab3254d-1c4d-452b-88f5-de7af65ecfea"/>
+    <managerType typeId="c9d72336-056f-4530-a0b9-6981d37eddba" valueTypeId="bd98cff0-a53e-4656-8419-fac4f0aa23a5"/>
+  </producedTypes>
+  <name>ПоискИПросмотрРезюмеХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск и просмотр резюме HeadHunter</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискИПросмотрРезюмеХХ.Form.Форма</defaultForm>
+  <forms uuid="b951e74f-c827-461b-9325-d2d7e3a8da73">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
