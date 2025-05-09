@@ -27,4 +27,5 @@
   <content>InformationRegister.ТокеныПользователей</content>
   <content>CommonForm.ДанныеОбщегоПриложенияХХ</content>
   <content>DataProcessor.ПолучитьСписокГородовИзХХ</content>
+  <content>Catalog.ТарифныеПланы</content>
 </mdclass:Subsystem>

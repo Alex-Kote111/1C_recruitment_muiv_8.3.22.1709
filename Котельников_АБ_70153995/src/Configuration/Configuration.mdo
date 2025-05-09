@@ -68,6 +68,7 @@
   <catalogs>Catalog.ПрофилиДолжностей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СтанцииМетро</catalogs>
+  <catalogs>Catalog.ТарифныеПланы</catalogs>
   <catalogs>Catalog.Языки</catalogs>
   <documents>Document.Вакансия</documents>
   <documents>Document.ЗакрытиеВакансии</documents>

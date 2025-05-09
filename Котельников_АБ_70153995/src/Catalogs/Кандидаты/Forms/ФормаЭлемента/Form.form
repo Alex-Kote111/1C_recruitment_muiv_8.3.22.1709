@@ -134,6 +134,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.СсылкаНаВакансию</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СсылкаНаВакансиюПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СсылкаНаВакансиюРасширеннаяПодсказка</name>
         <id>15</id>
@@ -379,6 +383,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Город</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ГородПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ГородРасширеннаяПодсказка</name>
             <id>27</id>

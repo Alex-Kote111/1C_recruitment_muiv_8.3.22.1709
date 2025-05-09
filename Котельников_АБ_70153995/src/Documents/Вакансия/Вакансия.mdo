@@ -42,6 +42,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Вакансия.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.Вакансия.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.Вакансия.Form.ФормаВыбора</defaultChoiceForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d3866514-3817-4eaf-a4b5-c5f72ac12bfb">
@@ -401,6 +402,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f984763c-aa8a-44cb-977f-4f03440cbc2a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
