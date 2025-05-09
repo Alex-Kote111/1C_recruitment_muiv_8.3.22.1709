@@ -145,6 +145,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Города.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Города.Form.ФормаСписка</defaultListForm>
   <attributes uuid="ab477d4f-0e69-47bd-9d31-bd005cb2f047">
     <name>ИдентификаторГородаХХ</name>
     <synonym>
@@ -165,4 +167,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="3c70b182-37ba-4053-a090-33f79c8fbdc9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3eb3d3e-9adf-4dd6-8223-4c1b88b5b885">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

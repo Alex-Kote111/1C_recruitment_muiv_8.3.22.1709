@@ -51,6 +51,24 @@
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <attributes uuid="27c7fc66-6328-4687-8d85-a836c8cda559">
+    <name>ПолныйПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
   <dimensions uuid="02652a61-f839-471b-a573-87ff0d742d7f">
     <name>Кандидат</name>
     <synonym>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f2a32ab-d7bf-49a5-b1f6-11db3ef5a85b">
+  <producedTypes>
+    <refType typeId="ae6fa5b0-fd40-4915-98ce-f4deeee9bb6b" valueTypeId="393e6688-ca41-4281-819c-2b054fcb6ba9"/>
+    <listType typeId="abfb1371-f6f1-47f1-807a-81ae373d633e" valueTypeId="49e8874d-1b78-47a6-8f88-a100baafe962"/>
+    <managerType typeId="c27b9f99-fb03-4d7a-a8d1-d3c1763df027" valueTypeId="03fdd960-2a69-4c9c-b219-c86924ff63e1"/>
+  </producedTypes>
+  <name>ТипыПриложенияХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы приложения ХХ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2da79576-bc1c-4bc5-b522-b6cc432d4796">
+    <name>Общее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60181246-5f11-40cd-88e9-f33d18fd8b16">
+    <name>Личное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

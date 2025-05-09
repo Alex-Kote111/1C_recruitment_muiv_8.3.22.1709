@@ -160,6 +160,23 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="f33fe765-ef79-4075-8ad9-082ba9c2b598">
+    <name>ТипПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип приложения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПриложенияХХ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <forms uuid="3ffbdd05-e0ad-499c-bd65-a11e823f79c7">
     <name>ФормаЗаписи</name>
     <synonym>

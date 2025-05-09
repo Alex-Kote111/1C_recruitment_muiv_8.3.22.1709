@@ -26,4 +26,5 @@
   <content>CommonCommand.ЛичныеНастройки</content>
   <content>InformationRegister.ТокеныПользователей</content>
   <content>CommonForm.ДанныеОбщегоПриложенияХХ</content>
+  <content>DataProcessor.ПолучитьСписокГородовИзХХ</content>
 </mdclass:Subsystem>

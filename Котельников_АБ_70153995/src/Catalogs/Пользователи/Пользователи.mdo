@@ -182,10 +182,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ccd3146e-6bba-4b49-bced-98ceb12a6556">
-    <name>НазваниеПриложения</name>
+    <name>НазваниеПриложенияХХ</name>
     <synonym>
       <key>ru</key>
-      <value>Название приложения</value>
+      <value>Название приложения ХХ</value>
     </synonym>
     <type>
       <types>String</types>
@@ -202,10 +202,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="853c4c60-c396-48ba-8557-548bbcf3a8ec">
-    <name>ПочтаРазработчика</name>
+    <name>ПочтаРазработчикаХХ</name>
     <synonym>
       <key>ru</key>
-      <value>Почта разработчика</value>
+      <value>Почта разработчика ХХ</value>
     </synonym>
     <type>
       <types>String</types>

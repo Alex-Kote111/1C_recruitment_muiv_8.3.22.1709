@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0ed7df3-6856-4f38-b848-2f58a557380b">
+  <producedTypes>
+    <objectType typeId="62170f34-5c7f-400e-a533-37de94bd4b04" valueTypeId="1e5466f1-9a00-45b1-9db8-555406137961"/>
+    <managerType typeId="58d08e15-2148-400e-acdd-f8a6fe13927a" valueTypeId="fe7fb10b-a805-47b2-b1e3-5a7a8298edca"/>
+  </producedTypes>
+  <name>ПолучитьСписокГородовИзХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить список городов из HH</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучитьСписокГородовИзХХ.Form.Форма</defaultForm>
+  <forms uuid="164acdc7-bd7c-4162-befe-33edd6a20f8d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

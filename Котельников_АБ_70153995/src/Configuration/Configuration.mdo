@@ -86,6 +86,7 @@
   <enums>Enum.СтатусыВакансий</enums>
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
   <enums>Enum.ТипыЗанятости</enums>
+  <enums>Enum.ТипыПриложенияХХ</enums>
   <enums>Enum.УровниЗнанийЯзыков</enums>
   <enums>Enum.УровниОбразования</enums>
   <enums>Enum.УровниПрофессиональныхНавыков</enums>
@@ -93,6 +94,7 @@
   <enums>Enum.ЭтапыПодбора</enums>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьСписокГородовИзХХ</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
   <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыКандидатов</informationRegisters>
