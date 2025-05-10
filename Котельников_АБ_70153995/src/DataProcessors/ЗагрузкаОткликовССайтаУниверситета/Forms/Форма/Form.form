@@ -145,6 +145,51 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ОжидаемаяЗарплатаДо</name>
+      <id>93</id>
+      <title>
+        <key>ru</key>
+        <value>Ожидаемая зарплата до</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОжидаемаяЗарплатаДо</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОжидаемаяЗарплатаДоРасширеннаяПодсказка</name>
+        <id>95</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОжидаемаяЗарплатаДоКонтекстноеМеню</name>
+        <id>94</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <spinButton>true</spinButton>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаФотоИРезюме</name>
       <id>78</id>
@@ -348,7 +393,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаКолонокФИОИОбразование</name>
+      <name>ГруппаКолонокФИОИВозраст</name>
       <id>54</id>
       <items xsi:type="form:FormField">
         <name>СписокКандидатовФИО</name>
@@ -395,6 +440,78 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
+        <name>СписокКандидатовВозраст</name>
+        <id>80</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокКандидатов.Возраст</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СписокКандидатовВозрастРасширеннаяПодсказка</name>
+          <id>82</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокКандидатовВозрастКонтекстноеМеню</name>
+          <id>81</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>EnterOnInput</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа колонок ФИОИВозраст</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа колонок ФИОИВозраст</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаКолонокФИОИВозрастРасширеннаяПодсказка</name>
+        <id>55</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>ColumnGroup</type>
+      <extInfo xsi:type="form:ColumnGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаКолонокОбразованиеИЗарплата</name>
+      <id>83</id>
+      <items xsi:type="form:FormField">
         <name>СписокКандидатовОбразование</name>
         <id>28</id>
         <visible>true</visible>
@@ -434,6 +551,46 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>СписокКандидатовОжидаемаяЗарплата</name>
+        <id>85</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокКандидатов.ОжидаемаяЗарплата</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СписокКандидатовОжидаемаяЗарплатаРасширеннаяПодсказка</name>
+          <id>87</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокКандидатовОжидаемаяЗарплатаКонтекстноеМеню</name>
+          <id>86</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>EnterOnInput</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -441,15 +598,15 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Группа колонок ФИОИОбразование</value>
+        <value>Группа колонок образование и зарплата</value>
       </title>
       <toolTip>
         <key>ru</key>
-        <value>Группа колонок ФИОИОбразование</value>
+        <value>Группа колонок образование и зарплата</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаКолонокФИОИОбразованиеРасширеннаяПодсказка</name>
-        <id>55</id>
+        <name>ГруппаКолонокОбразованиеИЗарплатаРасширеннаяПодсказка</name>
+        <id>84</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -461,46 +618,6 @@
       <extInfo xsi:type="form:ColumnGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>СписокКандидатовВозраст</name>
-      <id>80</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокКандидатов.Возраст</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>СписокКандидатовВозрастРасширеннаяПодсказка</name>
-        <id>82</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СписокКандидатовВозрастКонтекстноеМеню</name>
-        <id>81</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -940,6 +1057,81 @@
     <autoCommandBar>
       <name>СписокКандидатовКоманднаяПанель</name>
       <id>8</id>
+      <items xsi:type="form:Button">
+        <name>СписокКандидатовСкачатьРезюме</name>
+        <id>96</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокКандидатовСкачатьРезюмеРасширеннаяПодсказка</name>
+          <id>97</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.СкачатьРезюме</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СписокКандидатовПосмотретьФото</name>
+        <id>98</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокКандидатовПосмотретьФотоРасширеннаяПодсказка</name>
+          <id>99</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ПосмотретьФото</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СписокКандидатовДобавитьКандидата</name>
+        <id>100</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокКандидатовДобавитьКандидатаРасширеннаяПодсказка</name>
+          <id>101</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ДобавитьКандидата</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
@@ -1027,6 +1219,81 @@
     <contextMenu>
       <name>СписокКандидатовКонтекстноеМеню</name>
       <id>7</id>
+      <items xsi:type="form:Button">
+        <name>СписокКандидатовКонтекстноеМенюСкачатьРезюме</name>
+        <id>102</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокКандидатовКонтекстноеМенюСкачатьРезюмеРасширеннаяПодсказка</name>
+          <id>103</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.СкачатьРезюме</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СписокКандидатовКонтекстноеМенюПосмотретьФото</name>
+        <id>104</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокКандидатовКонтекстноеМенюПосмотретьФотоРасширеннаяПодсказка</name>
+          <id>105</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ПосмотретьФото</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СписокКандидатовКонтекстноеМенюДобавитьКандидата</name>
+        <id>106</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокКандидатовКонтекстноеМенюДобавитьКандидатаРасширеннаяПодсказка</name>
+          <id>107</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ДобавитьКандидата</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <autoFill>true</autoFill>
     </contextMenu>
     <readOnly>true</readOnly>
@@ -1059,6 +1326,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1353,6 +1624,26 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ОжидаемаяЗарплата</name>
+      <title>
+        <key>ru</key>
+        <value>Ожидаемая зарплата</value>
+      </title>
+      <id>14</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>Вакансия</name>
@@ -1422,6 +1713,27 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ОжидаемаяЗарплатаДо</name>
+    <title>
+      <key>ru</key>
+      <value>Ожидаемая зарплата до</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>НайтиКандидатов</name>
     <title>
@@ -1442,6 +1754,81 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>НайтиКандидатов</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СкачатьРезюме</name>
+    <title>
+      <key>ru</key>
+      <value>Скачать резюме</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Скачать резюме</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.LevelDown</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СкачатьРезюме</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПосмотретьФото</name>
+    <title>
+      <key>ru</key>
+      <value>Посмотреть фото</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Посмотреть фото</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Picture</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПосмотретьФото</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ДобавитьКандидата</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить кандидата</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавить кандидата</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CreateListItem</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьКандидата</name>
       </handler>
     </action>
     <representation>TextPicture</representation>

@@ -2214,6 +2214,90 @@
         <representation>Auto</representation>
       </extInfo>
     </items>
+    <items xsi:type="form:FormGroup">
+      <name>ПодменюНайтиКандидатов</name>
+      <id>185</id>
+      <items xsi:type="form:Button">
+        <name>ФормаПоискКандидатовНаСайтеУниверситета</name>
+        <id>187</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФормаПоискКандидатовНаСайтеУниверситетаРасширеннаяПодсказка</name>
+          <id>188</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ПоискКандидатовНаСайтеУниверситета</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ФормаПоискКандидатовНаСайтеХХ</name>
+        <id>189</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФормаПоискКандидатовНаСайтеХХРасширеннаяПодсказка</name>
+          <id>190</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ПоискКандидатовНаСайтеХХ</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Найти кандидатов</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Подменю найти кандидатов</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ПодменюНайтиКандидатовРасширеннаяПодсказка</name>
+        <id>186</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Popup</type>
+      <extInfo xsi:type="form:PopupGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.DataSearch</picture>
+        </picture>
+        <representation>Auto</representation>
+      </extInfo>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -2345,6 +2429,48 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОбновитьВакансиюНаСайтеУниверситета</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоискКандидатовНаСайтеХХ</name>
+    <title>
+      <key>ru</key>
+      <value>На сайте HeadHunter</value>
+    </title>
+    <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Поиск кандидатов на сайте ХХ</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоискКандидатовНаСайтеХХ</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоискКандидатовНаСайтеУниверситета</name>
+    <title>
+      <key>ru</key>
+      <value>На сайте университета</value>
+    </title>
+    <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Поиск кандидатов на сайте университета</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоискКандидатовНаСайтеУниверситета</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
