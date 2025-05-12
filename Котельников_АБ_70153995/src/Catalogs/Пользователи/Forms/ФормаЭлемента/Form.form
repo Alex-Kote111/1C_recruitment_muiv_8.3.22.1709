@@ -416,6 +416,9 @@ URL редиректа используется всегда общий.</value>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
       </userVisible>
       <title>
         <key>ru</key>

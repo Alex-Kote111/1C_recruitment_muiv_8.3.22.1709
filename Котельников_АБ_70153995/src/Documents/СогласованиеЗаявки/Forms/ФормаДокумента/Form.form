@@ -650,6 +650,9 @@
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
       </userVisible>
       <extendedTooltip>
         <name>ФормаОдобритьЗаявкуРасширеннаяПодсказка</name>
@@ -675,6 +678,9 @@
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
       </userVisible>
       <extendedTooltip>
         <name>ФормаОтклонитьЗаявкуРасширеннаяПодсказка</name>
@@ -700,6 +706,9 @@
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
       </userVisible>
       <extendedTooltip>
         <name>ФормаОтменитьРешениеРасширеннаяПодсказка</name>
