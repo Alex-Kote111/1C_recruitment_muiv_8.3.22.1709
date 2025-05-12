@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f498850b-5944-415b-8a1c-31a50a7d15a9">
+  <producedTypes>
+    <objectType typeId="598e0ea3-1b42-4e64-aa6b-7d2ee1651c4a" valueTypeId="9d4aa90e-69d0-46dd-b8c2-c5e1f40275a4"/>
+    <managerType typeId="e1bb1924-4cd2-4b27-87cd-8fcca1eec1bd" valueTypeId="781e3d92-9b79-4ff3-a9db-c046a0bbdfe4"/>
+  </producedTypes>
+  <name>КоличествоОткрытыхВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество открытых вакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КоличествоОткрытыхВакансий.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КоличествоОткрытыхВакансий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="d6d0ae9a-b65a-4da8-8769-e7a6bc981d12">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="21189118-2824-4d44-beb6-4349185ee00d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

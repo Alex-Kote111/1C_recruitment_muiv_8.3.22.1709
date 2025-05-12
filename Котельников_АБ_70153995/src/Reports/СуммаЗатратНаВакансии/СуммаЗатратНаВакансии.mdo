@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70db0255-4d31-44ec-8fdd-0798f57e2546">
+  <producedTypes>
+    <objectType typeId="963ce440-5fbb-4d45-9d8f-0314eceaa090" valueTypeId="f02ee66e-c993-462b-bfc3-666693c1a928"/>
+    <managerType typeId="860093e8-d79f-4db6-86f2-37a79967416d" valueTypeId="5c6ee552-b617-40b3-b704-a750c9b6ea85"/>
+  </producedTypes>
+  <name>СуммаЗатратНаВакансии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма затрат на вакансии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СуммаЗатратНаВакансии.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="15895378-ada6-4c6e-837a-b8a4627230f5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1021c8df-2d9b-4a1f-9678-902c9c109ea6">
+  <producedTypes>
+    <selectionType typeId="c5b3a569-590f-453f-91a5-2f2987725aab" valueTypeId="0c3c3cdf-0f27-45ed-ba07-0d6d7b7a6ae9"/>
+    <listType typeId="3a31b83f-870d-47cd-b2a7-f18eb62de9cc" valueTypeId="84ca78be-b51a-4a01-ba21-33a6f5e55f06"/>
+    <managerType typeId="0051fa04-77c8-4107-9e32-241d1a8acde5" valueTypeId="a04a5a0a-2b5b-4daf-8f9b-202d0f8979c1"/>
+    <recordSetType typeId="69ba39fa-5563-44f2-b058-503590fa9122" valueTypeId="9f65f9c8-3582-48da-a8b0-5bf559e5537e"/>
+    <recordKeyType typeId="be6bb719-c160-4486-8cb6-e8ff85cc32a9" valueTypeId="8509cc69-af2f-4a85-a978-f8dea161b742"/>
+    <recordType typeId="8133344e-513d-48a5-b2f0-6c5edfa8745a" valueTypeId="49d434e4-37d1-47cd-a509-1d45cff87ec8"/>
+  </producedTypes>
+  <name>ДвиженияВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения вакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="33fb12f9-0441-425a-8d09-1956eb991a77">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="13a8074c-8e8d-4fc9-95dc-801ce3b23003">
+    <name>СтатусВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус вакансии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыВакансий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c3d89bf5-8fdc-4321-8f6f-cde8a9351b84">
+    <name>ПланируемаяДатаЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемая дата закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b55175ad-ea9b-418d-8812-380c7778416b">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b9a74c89-56bc-406d-8f2a-c55cab8d6f4d">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="59bf23a5-e8d0-453f-9b36-544256fd9dde">
+    <name>РазмещениеВакансииНаСайте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение вакансии на сайте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="dc2c5191-0f98-4e55-8e35-b41edff61173">
+    <name>ЗаработнаяПлатаОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заработная плата от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c65b1655-cb3b-4bb7-bcc0-933bac9aed34">
+    <name>ЗаработнаяПлатаДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заработная плата до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

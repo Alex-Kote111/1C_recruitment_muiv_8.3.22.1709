@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27aa79b-78c8-4a69-b060-b156537b2119">
+  <producedTypes>
+    <selectionType typeId="3b7c4560-3df7-46cb-aec6-468b760615ec" valueTypeId="0ec32fbb-cd67-4147-8c42-b37eee0ddced"/>
+    <listType typeId="f4b0862f-2bcf-4b00-bdd5-85658f88290f" valueTypeId="688f22c2-ccec-4407-b927-d8499917f12b"/>
+    <managerType typeId="4ac8e161-ea9a-4c3e-8a3d-f1132796fd17" valueTypeId="7a3bb6e1-0d62-4c52-87c5-aba8c39c3d59"/>
+    <recordSetType typeId="1b4b3c93-67ef-4921-82d3-b87be176b0db" valueTypeId="12b1f46d-7695-47f8-bf1d-9932cce77951"/>
+    <recordKeyType typeId="786a6b3f-e253-44c6-abef-cc942d32cf7f" valueTypeId="93670062-c71c-4d95-ad4a-714daf569899"/>
+    <recordType typeId="9b12377d-28c3-4e3d-b5f0-9db206c905da" valueTypeId="2bcc93e3-f964-4d3a-bb7c-f461d1f2e73c"/>
+  </producedTypes>
+  <name>ДвиженияЗаявокНаПодбор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения заявок на подбор</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e303d60b-55ed-40ee-b0bd-2fb838385fd8">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ba7f6ee9-3ff6-40b7-ba2c-38d016a4a236">
+    <name>СтатусЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заявки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаявокНаПодбор</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="466dc0ff-d405-454d-aefb-76bfd327c42d">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="52756f10-80c0-46e2-8bf2-43b22043ef21">
+    <name>ВакантнаяДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакантная должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c4f91d99-032e-4bec-af21-c6aa86f3eae7">
+    <name>ИнициаторЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор заявки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4f89e1ea-e7d7-4e65-b4ca-660162b0bfa6">
+    <name>ПричинаОткрытияВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина открытия вакансии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПричиныОткрытияВакансий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5b4e919b-2474-4a58-99d4-7c7fd372b44b">
+    <name>ПланируемыйСрокЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый срок закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

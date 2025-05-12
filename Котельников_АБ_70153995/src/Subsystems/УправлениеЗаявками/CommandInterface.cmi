@@ -47,5 +47,10 @@
       <commands>Catalog.ПрофессиональныеНавыки.StandardCommand.Create</commands>
       <commands>Catalog.ЛичныеКачества.StandardCommand.Create</commands>
     </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.КоличествоЗаявокНаСогласовании.StandardCommand.Open</commands>
+      <commands>Report.ЗарплатаПоДолжностям.StandardCommand.Open</commands>
+    </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

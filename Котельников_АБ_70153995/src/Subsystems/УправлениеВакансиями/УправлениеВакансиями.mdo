@@ -16,4 +16,7 @@
   <content>Catalog.Кандидаты</content>
   <content>DataProcessor.ПоискИПросмотрРезюмеХХ</content>
   <content>Document.ЗатратыНаВакансию</content>
+  <content>Report.КоличествоОткрытыхВакансий</content>
+  <content>Report.СтоимостьРазмещенияВакансийНаСайтах</content>
+  <content>Report.СуммаЗатратНаВакансии</content>
 </mdclass:Subsystem>

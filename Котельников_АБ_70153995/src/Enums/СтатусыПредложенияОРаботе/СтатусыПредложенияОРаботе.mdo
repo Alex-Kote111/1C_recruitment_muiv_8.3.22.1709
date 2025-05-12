@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b9ce205-b065-4f42-8ea9-7976fe56b49d">
+  <producedTypes>
+    <refType typeId="e8f25b67-68fb-4c06-857d-8e16ef5b27bc" valueTypeId="1b5dd149-5626-4711-a727-4985667cd9c8"/>
+    <listType typeId="6d9eb8e9-f199-4c0a-b03e-b69f0f340939" valueTypeId="b38386e0-0534-4837-8423-d1772680672e"/>
+    <managerType typeId="5534a90f-535d-4843-855f-4c04003d1ab8" valueTypeId="5eb2cdfe-2c83-4a26-b42a-09b6ffd63571"/>
+  </producedTypes>
+  <name>СтатусыПредложенияОРаботе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы предложения о работе</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9805f5a3-8e0a-4558-a33f-b665c67165c7">
+    <name>КандидатПринялПредложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат принял предложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f562f872-64c1-4a56-a162-48a48ee9f001">
+    <name>КандидатОтказался</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат отказался</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

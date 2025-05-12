@@ -42,6 +42,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗаявкаНаПодбор.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ЗаявкаНаПодбор.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ДвиженияЗаявокНаПодбор</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c21f4b38-c1b5-4db6-8eab-cfe5c71f8b09">
@@ -592,4 +593,19 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="94af1d33-6221-4925-90bc-b0692fa66a6b">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="74081860-3ed7-48fb-b296-fdb27334629e">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаявкаНаПодбор</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
 </mdclass:Document>

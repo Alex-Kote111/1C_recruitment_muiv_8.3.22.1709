@@ -15,4 +15,6 @@
   <content>Catalog.ЛичныеКачества</content>
   <content>Document.ЗаявкаНаПодбор</content>
   <content>Document.СогласованиеЗаявки</content>
+  <content>Report.КоличествоЗаявокНаСогласовании</content>
+  <content>Report.ЗарплатаПоДолжностям</content>
 </mdclass:Subsystem>

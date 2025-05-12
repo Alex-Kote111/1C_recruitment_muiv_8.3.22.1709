@@ -43,6 +43,7 @@
   <defaultObjectForm>Document.Вакансия.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.Вакансия.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Document.Вакансия.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>AccumulationRegister.ДвиженияВакансий</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d3866514-3817-4eaf-a4b5-c5f72ac12bfb">

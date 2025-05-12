@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03b08c81-13f1-4d23-b140-546c328c65c2">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15b461c5-51f6-4bdd-8c69-ad4c22f5d448">
   <producedTypes>
-    <objectType typeId="21f890ba-3ddb-4609-9654-403c0c3b0c68" valueTypeId="0b353769-c1a9-4f87-aec4-b33e268ae4b6"/>
-    <refType typeId="4aa4606a-b2a5-47d9-897e-731332f439a3" valueTypeId="01c911e2-8d1b-4e7c-993e-25e5b3a9f46e"/>
-    <selectionType typeId="625059c8-839b-461a-9df5-e5fe861e7600" valueTypeId="e2fb857d-9340-43fe-a075-b179ae577e68"/>
-    <listType typeId="c4ecc9e0-88a1-4c41-b257-457f588fd999" valueTypeId="8dad432c-8149-41a6-8696-720429550604"/>
-    <managerType typeId="bac16636-6baa-494d-95cd-e4a0af06ea03" valueTypeId="4196ffb3-b887-4c32-be80-c9c76a9bceb8"/>
+    <objectType typeId="984acdca-7d64-4efd-be80-729275685a5c" valueTypeId="1cad03d5-2655-4cb2-81e4-befefc3c8d42"/>
+    <refType typeId="7a44b5ae-729d-41f8-84f8-788635022a15" valueTypeId="22d9d0a0-6221-4d9a-b317-dc2d9ef060c5"/>
+    <selectionType typeId="85e091da-6b51-4dce-8ff9-13c9cc6e8ca4" valueTypeId="fd921822-50fd-49bf-9f9b-92a99ce47769"/>
+    <listType typeId="0bbec70c-8860-4005-ad9f-c18941add670" valueTypeId="62fbe30e-f631-4353-bf3d-46832ac8a31d"/>
+    <managerType typeId="98bfdd77-7b40-46d7-851d-e6386e8bfaec" valueTypeId="6ca7747b-872d-4249-b971-7fc234a3fcaf"/>
   </producedTypes>
-  <name>ПроведениеСобеседования</name>
+  <name>ПредложениеОРаботе</name>
   <synonym>
     <key>ru</key>
-    <value>Проведение собеседования</value>
+    <value>Предложение о работе</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПроведениеСобеседования.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ПредложениеОРаботе.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -61,46 +61,45 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Проведение собеседования</value>
+    <value>Предложение о работе</value>
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Проведение собеседования</value>
+    <value>Предложение о работе</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Проведение собеседований</value>
+    <value>Предложения о работе</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Проведение собеседований</value>
+    <value>Предложения о работе</value>
   </extendedListPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПроведениеСобеседования.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.ПроведениеСобеседования.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Document.ПредложениеОРаботе.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПредложениеОРаботе.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="f0089802-28a2-4231-b880-cf6ed707b417">
-    <name>ТипСобеседования</name>
+  <attributes uuid="bd7a61ac-464a-4fb8-b5ba-b6801e06e269">
+    <name>Статус</name>
     <synonym>
       <key>ru</key>
-      <value>Тип собеседования</value>
+      <value>Статус</value>
     </synonym>
     <type>
-      <types>EnumRef.ТипыСобеседований</types>
+      <types>EnumRef.СтатусыПредложенияОРаботе</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f689b2a4-35c6-4475-9e45-ab050704cde8">
+  <attributes uuid="79adc882-b83a-4efc-b7af-375d4e8e6987">
     <name>Вакансия</name>
     <synonym>
       <key>ru</key>
@@ -111,50 +110,106 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="34df550f-1bb2-4c24-8499-af6f9e365cf7">
-    <name>ВремяНачала</name>
+  <attributes uuid="6bddfc7a-2cdc-442b-860d-43c22a537be6">
+    <name>Подразделение</name>
     <synonym>
       <key>ru</key>
-      <value>Время начала</value>
+      <value>Подразделение</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Time</dateFractions>
-      </dateQualifiers>
+      <types>CatalogRef.Подразделения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="23bf6667-b4b2-4abd-b2c8-f66613adc2b1">
-    <name>ВремяОкончания</name>
+  <attributes uuid="4ba301ad-a4e8-49c3-8884-b631f76cc5dd">
+    <name>Должность</name>
     <synonym>
       <key>ru</key>
-      <value>Время окончания</value>
+      <value>Должность</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Time</dateFractions>
-      </dateQualifiers>
+      <types>CatalogRef.Должности</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a2bd7878-ab49-4bf3-a0c8-f3299dd76ec0">
+  <attributes uuid="91e3f2cd-2479-4e76-8eb5-fc4e78d190c9">
+    <name>ТипЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип занятости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЗанятости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cbcaf82f-b4a9-4532-91b9-2e90d9f01eca">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f42b7fbf-a8f2-4591-b99c-c0f0aeb446b3">
+    <name>ФорматРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат работы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФорматыРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e3e5253-a539-4763-9032-8ad5a3f5d86a">
+    <name>Зарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db20b01a-a4cd-48c9-817f-a2792b677e1a">
     <name>Кандидат</name>
     <synonym>
       <key>ru</key>
@@ -165,33 +220,41 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <choiceParameterLinks>
-      <name>Отбор.СсылкаНаВакансию</name>
-      <field>Document.ПроведениеСобеседования.Attribute.Вакансия</field>
-    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ce53278b-594e-4d58-96af-c3d8391c205f">
-    <name>РезультатСобеседования</name>
+  <attributes uuid="380705d2-7cfa-4254-a764-00c92a146b2f">
+    <name>ПричинаОтказа</name>
     <synonym>
       <key>ru</key>
-      <value>Результат собеседования</value>
+      <value>Причина отказа</value>
     </synonym>
     <type>
-      <types>EnumRef.РезультатыСобеседования</types>
+      <types>CatalogRef.ПричиныОтказа</types>
     </type>
-    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c24a9561-d77e-4dca-9581-6ad4a5fa0c36">
+  <attributes uuid="452219d7-a02b-4a1a-9d3a-05a839a0db95">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f791e7e-bbd2-47c5-966b-db0506505fe2">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -209,7 +272,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0fcaaaec-5c3a-4082-bd10-24e411a4b981">
+  <attributes uuid="36380fa6-60ea-4b26-98aa-8b4f97884364">
     <name>АвторДокумента</name>
     <synonym>
       <key>ru</key>
@@ -224,7 +287,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="08ffb622-e395-45b4-8437-374ef6d53270">
+  <forms uuid="2305b45f-16db-463b-a1cb-70e52e069623">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -233,7 +296,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="df9a87e4-9612-4937-a980-4f1f9c46e6a3">
+  <forms uuid="b1399c49-819a-4d7a-b1a2-d4dda10c04a5">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -242,43 +305,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="d28512f3-6431-4e9c-b93d-a3d39df32e44">
-    <producedTypes>
-      <objectType typeId="a37ad77b-da44-42fb-bad7-9d02e4dd1085" valueTypeId="5c45ce72-66a1-4677-9617-7913134d7392"/>
-      <rowType typeId="86708a1a-d5a5-44a0-b4fb-598c292232c5" valueTypeId="54acb562-c0cb-42a9-b948-4bf025202577"/>
-    </producedTypes>
-    <name>ОтветственныеЛицаЗаСобеседование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ответственные лица за собеседование</value>
-    </synonym>
-    <attributes uuid="f1248ffd-82fc-4693-9031-3fba501bb009">
-      <name>Ответственный</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ответственный</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Сотрудники</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="863acf8f-a848-4fe9-8e84-0c23c0274a8c">
-      <name>Должность</name>
-      <synonym>
-        <key>ru</key>
-        <value>Должность</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Должности</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
 </mdclass:Document>

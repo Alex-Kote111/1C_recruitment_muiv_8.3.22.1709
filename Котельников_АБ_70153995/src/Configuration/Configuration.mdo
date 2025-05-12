@@ -79,6 +79,7 @@
   <documents>Document.ЗакрытиеВакансии</documents>
   <documents>Document.ЗатратыНаВакансию</documents>
   <documents>Document.ЗаявкаНаПодбор</documents>
+  <documents>Document.ПредложениеОРаботе</documents>
   <documents>Document.ПроведениеСобеседования</documents>
   <documents>Document.ПроведениеТелефонногоИнтервью</documents>
   <documents>Document.ПроведениеТестирования</documents>
@@ -97,6 +98,7 @@
   <enums>Enum.РезультатыСобеседования</enums>
   <enums>Enum.СтатусыВакансий</enums>
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
+  <enums>Enum.СтатусыПредложенияОРаботе</enums>
   <enums>Enum.СтатусыТелефонногоИнтервью</enums>
   <enums>Enum.СтатусыТестирования</enums>
   <enums>Enum.ТипыЗанятости</enums>
@@ -108,6 +110,11 @@
   <enums>Enum.УровниПрофессиональныхНавыков</enums>
   <enums>Enum.ФорматыРаботы</enums>
   <enums>Enum.ЭтапыПодбора</enums>
+  <reports>Report.ЗарплатаПоДолжностям</reports>
+  <reports>Report.КоличествоЗаявокНаСогласовании</reports>
+  <reports>Report.КоличествоОткрытыхВакансий</reports>
+  <reports>Report.СтоимостьРазмещенияВакансийНаСайтах</reports>
+  <reports>Report.СуммаЗатратНаВакансии</reports>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПолучитьСписокГородовИзХХ</dataProcessors>
@@ -116,5 +123,7 @@
   <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ФотографииКандидатов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвиженияВакансий</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвиженияЗаявокНаПодбор</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗатратыНаВакансии</accumulationRegisters>
 </mdclass:Configuration>
