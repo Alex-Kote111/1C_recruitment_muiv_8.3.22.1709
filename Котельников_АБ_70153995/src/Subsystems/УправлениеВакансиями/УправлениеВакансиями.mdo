@@ -15,4 +15,5 @@
   <content>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</content>
   <content>Catalog.Кандидаты</content>
   <content>DataProcessor.ПоискИПросмотрРезюмеХХ</content>
+  <content>Document.ЗатратыНаВакансию</content>
 </mdclass:Subsystem>

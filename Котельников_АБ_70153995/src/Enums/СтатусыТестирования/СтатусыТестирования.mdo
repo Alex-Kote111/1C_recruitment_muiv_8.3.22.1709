@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ffc4597-eb38-46d7-b4f9-bd983623e676">
+  <producedTypes>
+    <refType typeId="7f046a2b-89a4-4c00-a40f-00f9142edcec" valueTypeId="3a9c34e5-ae17-4b75-869d-c83d04bd09cf"/>
+    <listType typeId="9bb1dce4-1d03-4b70-98f1-783fe07021c3" valueTypeId="b28d5b2d-8da7-46cf-9537-20ead2aa3681"/>
+    <managerType typeId="3893fc26-b2f3-40a8-96b7-e6202b2ae745" valueTypeId="db95bd4b-edfe-4f62-8531-4a7b5904c540"/>
+  </producedTypes>
+  <name>СтатусыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы тестирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="13bbc88b-92c3-4219-b143-7852dc1921ce">
+    <name>ВПроцессе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b941a6fc-9a4f-4b7c-a2bc-9c82d49c161d">
+    <name>Завершилось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершилось</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

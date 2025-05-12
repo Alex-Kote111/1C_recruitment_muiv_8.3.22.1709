@@ -141,6 +141,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -185,7 +186,7 @@
     <name>НазваниеПриложенияХХ</name>
     <synonym>
       <key>ru</key>
-      <value>Название приложения ХХ</value>
+      <value>Название приложения HH</value>
     </synonym>
     <type>
       <types>String</types>
@@ -205,7 +206,7 @@
     <name>ПочтаРазработчикаХХ</name>
     <synonym>
       <key>ru</key>
-      <value>Почта разработчика ХХ</value>
+      <value>Почта разработчика HH</value>
     </synonym>
     <type>
       <types>String</types>
@@ -225,7 +226,7 @@
     <name>ИдентификаторПриложенияХХ</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор приложения HH</value>
+      <value>Client_ID</value>
     </synonym>
     <type>
       <types>String</types>
@@ -245,7 +246,7 @@
     <name>СекретПриложенияХХ</name>
     <synonym>
       <key>ru</key>
-      <value>Секрет приложения HH</value>
+      <value>Client_Secret</value>
     </synonym>
     <type>
       <types>String</types>

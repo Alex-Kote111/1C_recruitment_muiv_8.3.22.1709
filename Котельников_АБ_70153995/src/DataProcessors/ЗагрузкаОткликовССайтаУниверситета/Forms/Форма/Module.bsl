@@ -21,7 +21,7 @@
 	
 	НомерВакансии = СтрРазделить(Вакансия, " ")[1];
 	
-	HTTPСоединение = Новый HTTPСоединение("localhost", 3000);
+	HTTPСоединение = Новый HTTPСоединение("taukpebkr3.temp.swtest.ru");
 	HTTPЗапрос = Новый HTTPЗапрос("/includes/load_responses.php?vacancy_number=" + НомерВакансии);
 	HTTPЗапрос.Заголовки.Вставить("Application", "1C_recruitment");
 	
@@ -111,7 +111,7 @@
 		Возврат;	
 	КонецЕсли;
 	
-	HTTPСоединение = Новый HTTPСоединение("localhost", 3000);
+	HTTPСоединение = Новый HTTPСоединение("taukpebkr3.temp.swtest.ru");
 	HTTPЗапрос = Новый HTTPЗапрос("/includes/download_resume.php?id=" + ТекущаяСтрока.ИдентификаторКандидата);
 	HTTPЗапрос.Заголовки.Вставить("Application", "1C_recruitment");
 	
@@ -181,7 +181,7 @@
 		Возврат;	
 	КонецЕсли;
 	
-	HTTPСоединение = Новый HTTPСоединение("localhost", 3000);
+	HTTPСоединение = Новый HTTPСоединение("taukpebkr3.temp.swtest.ru");
 	HTTPЗапрос = Новый HTTPЗапрос("/includes/upload_photo.php?id=" + ТекущаяСтрока.ИдентификаторКандидата);
 	HTTPЗапрос.Заголовки.Вставить("Application", "1C_recruitment");
 
@@ -299,7 +299,7 @@
 
 	ОчиститьСообщения();
 			
-	HTTPСоединение = Новый HTTPСоединение("localhost", 3000);
+	HTTPСоединение = Новый HTTPСоединение("taukpebkr3.temp.swtest.ru");
 	HTTPЗапрос = Новый HTTPЗапрос("/includes/upload_photo.php?id=" + ИдентификаторКандидата);
 	HTTPЗапрос.Заголовки.Вставить("Application", "1C_recruitment");
 

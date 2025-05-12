@@ -145,7 +145,7 @@
 	
 	ОчиститьСообщения();
 	
-	HTTPСоединение = Новый HTTPСоединение("localhost", 3000);
+	HTTPСоединение = Новый HTTPСоединение("taukpebkr3.temp.swtest.ru");
 	HTTPЗапрос = Новый HTTPЗапрос("includes/post_vacancy.php");
 	
 	ДанныеВакансии = ПолучитьДанныеВакансии(); // JSON
@@ -217,7 +217,7 @@
 	
 	ОчиститьСообщения();
 	
-	HTTPСоединение = Новый HTTPСоединение("localhost", 3000);
+	HTTPСоединение = Новый HTTPСоединение("taukpebkr3.temp.swtest.ru");
 	HTTPЗапрос = Новый HTTPЗапрос("includes/update_vacancy.php");
 	
 	ДанныеВакансии = ПолучитьДанныеВакансии(); // JSON

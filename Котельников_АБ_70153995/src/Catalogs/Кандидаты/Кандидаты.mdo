@@ -166,7 +166,7 @@
     <name>СсылкаНаВакансию</name>
     <synonym>
       <key>ru</key>
-      <value>Ссылка на вакансию</value>
+      <value>Вакансия</value>
     </synonym>
     <type>
       <types>DocumentRef.Вакансия</types>
@@ -251,6 +251,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -290,6 +291,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -310,6 +312,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -326,6 +329,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -346,6 +350,7 @@
     <mask>+9 (999) 999-99-99</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:StringValue">
       <value></value>
@@ -385,6 +390,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

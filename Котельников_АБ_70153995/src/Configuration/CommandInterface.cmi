@@ -3,6 +3,7 @@
   <subsystemsOrder>
     <subsystems>Subsystem.УправлениеЗаявками</subsystems>
     <subsystems>Subsystem.УправлениеВакансиями</subsystems>
+    <subsystems>Subsystem.РаботаСКандидатами</subsystems>
     <subsystems>Subsystem.НСИИАдминистрирование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

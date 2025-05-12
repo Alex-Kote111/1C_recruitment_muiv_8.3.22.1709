@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33abac3f-1fb7-435b-af4b-61299075af6f">
+  <name>РаботаСКандидатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с кандидатами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РаботаСКандидатами</picture>
+  </picture>
+  <content>Catalog.Кандидаты</content>
+  <content>Document.РегистрацияКандидатов</content>
+  <content>Document.ПроведениеТелефонногоИнтервью</content>
+  <content>Document.ПроведениеСобеседования</content>
+  <content>Document.ПроведениеТестирования</content>
+</mdclass:Subsystem>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="721adefb-0ea7-4c4a-aa47-79a91cd007ac">
+  <producedTypes>
+    <refType typeId="9b40ed22-6387-478e-9893-3f98d09bfbc5" valueTypeId="dbdf1bca-b674-4de1-8690-40de4cfc0552"/>
+    <listType typeId="5ca53af8-9f94-4b93-9696-c247d46c0d55" valueTypeId="b3b4c81d-f67c-4095-a77d-9acc3ff62994"/>
+    <managerType typeId="d92a81b9-c6bd-4710-b8ac-242a05c546fb" valueTypeId="571313b7-b43b-416f-8b99-f8467c211014"/>
+  </producedTypes>
+  <name>РезультатыСобеседования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты собеседования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="528d5fb7-2fcb-4659-9b5a-154e14750486">
+    <name>СоответствуетТребованиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствует требованиям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0ce210e-4ffa-4341-b77c-9b402bfffdd6">
+    <name>НеСоответствуетТребованиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не соответствует требованиям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc35155e-4f68-4c2b-9ca4-b895fed58575">
+    <name>НеЯвилсяНаСобеседование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не явился на собеседование</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

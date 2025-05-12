@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b448de-e1b9-4f44-996c-0554d23beee1">
+  <producedTypes>
+    <refType typeId="a3b6cdda-cd8f-4454-9b8b-578b8a1bd1ea" valueTypeId="aea2b24a-3720-4be6-8ea1-45d979c87a26"/>
+    <listType typeId="b62fccfa-01ea-41ca-a7bc-6aae1dd3db26" valueTypeId="a954ee00-55b2-47a2-9459-44529b79a8a7"/>
+    <managerType typeId="3268a8b4-3dc0-48c0-98d1-a31a915c5fb2" valueTypeId="795949cd-1577-43a0-8baf-c2c3d2b19829"/>
+  </producedTypes>
+  <name>СтатусыТелефонногоИнтервью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы телефонного интервью</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cf4d4193-d1a3-47ec-91c6-7b0fdef09042">
+    <name>Состоялось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состоялось</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4fc9ac4d-ea63-437e-821e-6b1dd6773ca0">
+    <name>НеСостоялось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не состоялось</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

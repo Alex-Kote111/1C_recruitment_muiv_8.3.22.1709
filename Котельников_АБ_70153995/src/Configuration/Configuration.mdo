@@ -40,13 +40,18 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.НСИИАдминистрирование</subsystems>
+  <subsystems>Subsystem.РаботаСКандидатами</subsystems>
   <subsystems>Subsystem.УправлениеВакансиями</subsystems>
   <subsystems>Subsystem.УправлениеЗаявками</subsystems>
   <commonPictures>CommonPicture.НСИИАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.РаботаСКандидатами</commonPictures>
   <commonPictures>CommonPicture.УправлениеВакансиями</commonPictures>
   <commonPictures>CommonPicture.УправлениеЗаявками</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ИнициаторЗаявки</roles>
+  <roles>Role.МенеджерПоПодбору</roles>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.РуководительСлужбыПерсонала</roles>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonCommands>CommonCommand.ЛичныеНастройки</commonCommands>
   <constants>Constant.АдресРедиректа</constants>
@@ -72,7 +77,12 @@
   <catalogs>Catalog.Языки</catalogs>
   <documents>Document.Вакансия</documents>
   <documents>Document.ЗакрытиеВакансии</documents>
+  <documents>Document.ЗатратыНаВакансию</documents>
   <documents>Document.ЗаявкаНаПодбор</documents>
+  <documents>Document.ПроведениеСобеседования</documents>
+  <documents>Document.ПроведениеТелефонногоИнтервью</documents>
+  <documents>Document.ПроведениеТестирования</documents>
+  <documents>Document.РегистрацияКандидатов</documents>
   <documents>Document.СогласованиеЗаявки</documents>
   <enums>Enum.ВариантыДоступностиМестаРаботы</enums>
   <enums>Enum.ВариантыПоискаКлючевыхСлов</enums>
@@ -84,10 +94,15 @@
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ПричиныЗакрытияВакансий</enums>
   <enums>Enum.ПричиныОткрытияВакансий</enums>
+  <enums>Enum.РезультатыСобеседования</enums>
   <enums>Enum.СтатусыВакансий</enums>
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
+  <enums>Enum.СтатусыТелефонногоИнтервью</enums>
+  <enums>Enum.СтатусыТестирования</enums>
   <enums>Enum.ТипыЗанятости</enums>
+  <enums>Enum.ТипыОценкиОтвета</enums>
   <enums>Enum.ТипыПриложенияХХ</enums>
+  <enums>Enum.ТипыСобеседований</enums>
   <enums>Enum.УровниЗнанийЯзыков</enums>
   <enums>Enum.УровниОбразования</enums>
   <enums>Enum.УровниПрофессиональныхНавыков</enums>
@@ -97,7 +112,9 @@
   <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПолучитьСписокГородовИзХХ</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
+  <informationRegisters>InformationRegister.ТарифыВакансий</informationRegisters>
   <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ФотографииКандидатов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗатратыНаВакансии</accumulationRegisters>
 </mdclass:Configuration>

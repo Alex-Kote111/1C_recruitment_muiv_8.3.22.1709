@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7e67fb6-473d-48e3-a50c-064c37196ba8">
+  <producedTypes>
+    <selectionType typeId="d6d46aa4-e53f-4993-9ddc-6e7368e1f250" valueTypeId="10d949e9-4a99-40ba-8e40-4f98892a0ef1"/>
+    <listType typeId="10f088c9-efd2-4828-9c23-cd9d8ede3004" valueTypeId="9af4d089-2ddf-4f2c-91e0-81316f64001c"/>
+    <managerType typeId="5f4dad91-c7b1-4cfb-93c3-17b889a55bb6" valueTypeId="e92bf5ad-b9f7-457d-9910-790eebad2ab4"/>
+    <recordSetType typeId="53de2a70-d7ed-47ac-a183-294ac15c0814" valueTypeId="249dbfe5-b08a-40fe-87a2-e62031755dc6"/>
+    <recordKeyType typeId="51537964-4f89-485c-bc82-1bbeb78f698c" valueTypeId="069a45ba-60c5-439d-a4ed-f37881f90e0e"/>
+    <recordType typeId="9278bfc4-fc0f-4e42-8d72-2b43b4e7d632" valueTypeId="3d267e0a-e7d5-4b46-928d-a81c0fc9dffd"/>
+    <recordManagerType typeId="761e5f09-70c9-4dc1-a7cb-3b417295d867" valueTypeId="99dccc2d-83c4-44e9-9655-f9dc0b5b08d1"/>
+  </producedTypes>
+  <name>ТарифыВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы вакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="90919ff3-d31a-4d22-be6a-ea69cec7ff5a">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="71a7301c-19ca-4a7e-8c99-3edf45d73869">
+    <name>СайтВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт вакансии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиПривлечения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="40d38df4-9efb-4037-a8ba-66d3b5dba99b">
+    <name>ТарифныйПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тарифный план</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТарифныеПланы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Сайт</name>
+      <field>InformationRegister.ТарифыВакансий.Dimension.СайтВакансии</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

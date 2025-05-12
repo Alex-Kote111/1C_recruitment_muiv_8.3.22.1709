@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f91d4aae-5959-4570-9f47-8e9eed7ad3bd">
+  <producedTypes>
+    <refType typeId="57a403e3-565d-429e-8626-340cd904a81e" valueTypeId="643e7cb6-0fab-4a6b-a696-c0d179d07008"/>
+    <listType typeId="ef36c9d4-3476-4209-8ddf-a378a50a7fe6" valueTypeId="a938447f-2389-49e5-bc60-c30dade2be33"/>
+    <managerType typeId="4c8af970-6308-421f-9c03-38fd511f2c2e" valueTypeId="929f80bd-9d98-4861-aa0f-b6f8fbac8602"/>
+  </producedTypes>
+  <name>ТипыОценкиОтвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы оценки ответа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f9e0bc8-17d8-4300-a9a1-5feb60d6aa98">
+    <name>Отлично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отлично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="545bf214-5f28-4ac4-80cf-8d638430da55">
+    <name>Хорошо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хорошо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a528e7e0-a2a0-48a7-9a95-ed1fc15289f9">
+    <name>Удовлетворительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удовлетворительно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1508b9d2-cadd-4121-8b89-ac6297ed0463">
+    <name>Плохо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плохо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d226630a-9cb4-4d5c-8cf3-e69732815213">
+    <name>ОченьПлохо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очень плохо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

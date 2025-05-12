@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49885967-e1fc-4339-bd3c-09d3ed8ff57c">
+  <name>РаботаСКандидатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с кандидатами</value>
+  </synonym>
+</mdclass:CommonPicture>

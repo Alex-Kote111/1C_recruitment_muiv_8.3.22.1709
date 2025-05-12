@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b884eac-867d-4d8d-9add-7c844d3eba07">
+  <producedTypes>
+    <selectionType typeId="18452a5d-727b-4bea-8a20-e04e7cdca319" valueTypeId="2364aa7a-611a-45e2-9809-a6ab74e40b59"/>
+    <listType typeId="0a171eee-9a92-4fce-8a54-56e5aabb3be1" valueTypeId="74bbaeba-a6fd-481c-aaa0-9a2e08758937"/>
+    <managerType typeId="62823f5b-1fa6-4066-ba28-ba25ad921d00" valueTypeId="04ffc71c-a469-44a7-9dea-163de8595afc"/>
+    <recordSetType typeId="9dd47615-0bff-4bb3-996b-74c6ebee16ac" valueTypeId="3973b7f4-e75b-4c6a-97fc-5fc290905730"/>
+    <recordKeyType typeId="b558ab0d-8583-4110-bfe5-a9c9b5c0d520" valueTypeId="b66855a9-41e5-43c8-9294-739a92093744"/>
+    <recordType typeId="c45f64e0-39cb-42cf-99c1-9a0e54158255" valueTypeId="34adb0b3-ba24-45d7-9c84-f5d52276e651"/>
+  </producedTypes>
+  <name>ЗатратыНаВакансии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты на вакансии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="76880500-0049-4bea-990c-11e02cfac8f4">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="aa0e117a-0692-4bdd-999b-f0fc253d8145">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3220d88b-92bf-4282-931e-fdcfc6024d8c">
+    <name>ДатаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата оплаты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0ac1dbb5-0c17-4c70-8279-793e05138eab">
+    <name>Сайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиПривлечения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="666aa2c5-83e4-44f8-8c38-3dcb74f4e500">
+    <name>ТарифныйПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тарифный план</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТарифныеПланы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8921a5bb-e51c-4917-be8c-8d65d6b01776">
+  <producedTypes>
+    <refType typeId="b479c3f0-8b61-474a-bb09-88df11967ce2" valueTypeId="fc4de0a6-c8fe-4959-be78-43473d846c6b"/>
+    <listType typeId="0472306e-64e6-4038-8fbf-00116ca6ff07" valueTypeId="cf311690-379f-4a3a-80b2-eea0231ea3b7"/>
+    <managerType typeId="c65ca0f5-ce87-465b-b62e-c0448225a35d" valueTypeId="84965157-af85-47dc-969c-9a35bf5aac2f"/>
+  </producedTypes>
+  <name>ТипыСобеседований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы собеседований</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12f7a8da-d06c-489c-be65-10cf9a5589f7">
+    <name>ПервичноеСобеседование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичное собеседование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e16eb32b-11e8-4a6c-8524-15073c8108a5">
+    <name>СобеседованиеСИнициатором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собеседование с инициатором</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
