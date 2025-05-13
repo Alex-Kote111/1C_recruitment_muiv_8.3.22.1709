@@ -898,6 +898,13 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Ref</field>
+				<condition>ПрофилиДолжностей ИЗ Справочник.ПрофилиДолжностей КАК ПрофилиДолжностей
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Пользователи КАК Пользователи
+	ПО ПрофилиДолжностей.РуководительПодразделения = Пользователи.Сотрудник
+ГДЕ Пользователи.Ссылка = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -992,6 +999,11 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Ref</field>
+				<field>АвторДокумента</field>
+				<condition>ЗаявкаНаПодбор ГДЕ ЗаявкаНаПодбор.АвторДокумента = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -1124,6 +1136,13 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Ref</field>
+				<condition>Сотрудники ИЗ Справочник.Сотрудники КАК Сотрудники
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Пользователи КАК Пользователи
+	ПО Сотрудники.Ссылка = Пользователи.Сотрудник
+ГДЕ Пользователи.Ссылка = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -1207,6 +1226,10 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Ref</field>
+				<condition>Пользователи ГДЕ Пользователи.Ссылка = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -1509,4 +1532,11 @@
 			<value>false</value>
 		</right>
 	</object>
+	<restrictionTemplate>
+		<name>ВидетьТолькоСвоеПодразделение</name>
+		<condition>Подразделения ИЗ Справочник.Подразделения КАК Подразделения
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Пользователи КАК Пользователи
+	ПО Подразделения.РуководительПодразделения = Пользователи.Сотрудник
+ГДЕ Пользователи.Ссылка = &amp;ТекущийПользователь</condition>
+	</restrictionTemplate>
 </Rights>

@@ -29,4 +29,7 @@
   <content>DataProcessor.ПолучитьСписокГородовИзХХ</content>
   <content>Catalog.ТарифныеПланы</content>
   <content>InformationRegister.ТарифыВакансий</content>
+  <content>Catalog.Анкеты</content>
+  <content>Catalog.ВопросыДляАнкетирования</content>
+  <content>AccumulationRegister.ОценкиКандидатов</content>
 </mdclass:Subsystem>

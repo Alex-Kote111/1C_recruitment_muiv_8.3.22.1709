@@ -16,4 +16,5 @@
   <content>Document.ПроведениеСобеседования</content>
   <content>Document.ПроведениеТестирования</content>
   <content>Document.ПредложениеОРаботе</content>
+  <content>Report.РезультатТестирований</content>
 </mdclass:Subsystem>

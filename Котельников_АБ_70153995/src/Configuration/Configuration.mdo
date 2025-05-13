@@ -60,6 +60,8 @@
   <constants>Constant.ПочтаРазработчикаХХ</constants>
   <constants>Constant.СекретПриложенияХХ</constants>
   <commonForms>CommonForm.ДанныеОбщегоПриложенияХХ</commonForms>
+  <catalogs>Catalog.Анкеты</catalogs>
+  <catalogs>Catalog.ВопросыДляАнкетирования</catalogs>
   <catalogs>Catalog.Города</catalogs>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.ИсточникиПривлечения</catalogs>
@@ -113,6 +115,7 @@
   <reports>Report.ЗарплатаПоДолжностям</reports>
   <reports>Report.КоличествоЗаявокНаСогласовании</reports>
   <reports>Report.КоличествоОткрытыхВакансий</reports>
+  <reports>Report.РезультатТестирований</reports>
   <reports>Report.СтоимостьРазмещенияВакансийНаСайтах</reports>
   <reports>Report.СуммаЗатратНаВакансии</reports>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
@@ -126,4 +129,5 @@
   <accumulationRegisters>AccumulationRegister.ДвиженияВакансий</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияЗаявокНаПодбор</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗатратыНаВакансии</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОценкиКандидатов</accumulationRegisters>
 </mdclass:Configuration>

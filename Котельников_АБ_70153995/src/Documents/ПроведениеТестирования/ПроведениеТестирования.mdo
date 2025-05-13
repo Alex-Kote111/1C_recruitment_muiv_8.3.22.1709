@@ -83,6 +83,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПроведениеТестирования.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПроведениеТестирования.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ОценкиКандидатов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3ad0df05-a710-4d96-b5e4-7f26ba8ff745">
@@ -156,16 +157,11 @@
       <value>Анкета вопросов</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.Анкеты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -214,7 +210,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>2</precision>
+        <precision>3</precision>
         <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
@@ -320,10 +316,7 @@
         <value>Вопрос</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
+        <types>CatalogRef.ВопросыДляАнкетирования</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -349,4 +342,19 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="04469742-bfc2-4ce7-ab49-dafdce3d51c3">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="9a716015-6228-4dee-942b-e6208d485f9d">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеТестирования</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
 </mdclass:Document>

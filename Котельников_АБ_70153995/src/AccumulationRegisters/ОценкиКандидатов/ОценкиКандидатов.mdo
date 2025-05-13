@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ddf6851-2e5a-4ccf-bf94-c1a01d39e17d">
+  <producedTypes>
+    <selectionType typeId="eafe10f2-f43b-4a71-ad37-09a9c8675843" valueTypeId="65e47e54-9b77-4eda-b8f9-bd04cf717de4"/>
+    <listType typeId="efa724bd-702d-4697-a500-1f7e5ba27963" valueTypeId="a0d00414-446c-4fd9-858f-381ce3849a5e"/>
+    <managerType typeId="522d7807-48c9-4cd0-9a51-70f14bc31b70" valueTypeId="a963979b-6431-4961-bdbb-16ee5a28ef09"/>
+    <recordSetType typeId="043e822f-5883-43ee-ac5a-29fe1ed3c521" valueTypeId="aea3be3f-71de-47fa-943e-db580f34d1ec"/>
+    <recordKeyType typeId="ea61078e-9a06-4a72-983d-7bb2d24ab867" valueTypeId="f595f2fa-7b29-452d-91fe-d668268870e6"/>
+    <recordType typeId="99e3bfe8-1cc3-4ef7-b786-64e9c1432840" valueTypeId="21c1a29a-e1ff-4f9b-b60b-3bbce7d7693f"/>
+  </producedTypes>
+  <name>ОценкиКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценки кандидатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c130cb5b-288c-4383-bafd-7e91ab422ab9">
+    <name>Оценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f5028666-cecb-43e8-88b6-b84ce470a9ee">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="17a2ccf6-03d2-4509-bcbd-ba5ba6c2c198">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="455942f6-8bda-416b-877d-3a4fed794c61">
+    <name>Анкета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анкета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Анкеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

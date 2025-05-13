@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c92fc69-874e-42cf-a482-edfae63a858e">
+  <producedTypes>
+    <objectType typeId="a92693dd-4328-4a65-8634-2013b41d556d" valueTypeId="8a509ca9-fb55-4905-bffa-cb618edcbe7b"/>
+    <refType typeId="246983f9-e429-4fc4-a35f-a11c578d4aaa" valueTypeId="136df185-2d56-482a-85a2-a54d357edc76"/>
+    <selectionType typeId="ac124cdf-9730-4150-8919-7706da9d5014" valueTypeId="1298205a-22f8-4ba6-b931-45e9725f586c"/>
+    <listType typeId="c968a6cb-5188-4376-8444-f20fd9054d69" valueTypeId="7462a439-4fe6-4b09-bb9b-77fb25ffeec4"/>
+    <managerType typeId="8833e6f1-25c4-4e0c-ae26-8828637f8463" valueTypeId="33393ddc-cc7e-4140-a7a7-5338e39e3a7f"/>
+  </producedTypes>
+  <name>Анкеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анкеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Анкеты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Анкеты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Анкета</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Анкета</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Анкеты</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Анкеты</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Анкеты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Анкеты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="02bf34a8-d058-4ee4-9311-81791ac10bf7">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90e5b67b-a004-4dd9-abf5-d5281ddc31bc">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Подразделение</name>
+      <field>Catalog.Анкеты.Attribute.Подразделение</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6c95dc28-5a21-407c-bb07-2b684297cd37">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c109460d-06de-42fb-892f-de91d8cd1d3c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
