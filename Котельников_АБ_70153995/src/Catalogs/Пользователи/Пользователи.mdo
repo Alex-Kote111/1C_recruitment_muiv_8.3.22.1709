@@ -303,6 +303,59 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="3ca5fcc1-dc29-42ca-afed-77d83aaac5cb">
+    <producedTypes>
+      <objectType typeId="1b8c39f7-29b0-47b6-b338-9cfe6f27ff1d" valueTypeId="6a8e4749-6afa-4199-941d-00fbffddd80e"/>
+      <rowType typeId="793eb14a-6d5d-4b74-99ee-3cf7a1b12c00" valueTypeId="a861d5f8-d245-4f5a-9d58-0185c029da9f"/>
+    </producedTypes>
+    <name>НастройкиУведомлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки уведомлений</value>
+    </synonym>
+    <attributes uuid="ff8c05cb-ce1f-42a1-b153-d359b2b3ff29">
+      <name>ЭтапУведомления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Этап уведомления</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ЭтапыУведомлений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c8b86791-b0d7-403e-b7f8-5f4f11ebad84">
+      <name>ШаблонПисьма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон письма</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ШаблоныПисем</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="30c14d38-9bde-4913-9d77-fb5b5971cc6b">
+      <name>ОткликОтКандидата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отклик от кандидата</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="88717852-7bb0-4a4e-a8ca-744b852468a2">
     <name>ФормаЭлемента</name>
     <synonym>

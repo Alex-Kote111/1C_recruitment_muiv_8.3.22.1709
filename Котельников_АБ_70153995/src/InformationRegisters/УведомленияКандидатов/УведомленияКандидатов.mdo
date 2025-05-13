@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e46f5df-4af3-4603-a975-f4e711f017d2">
+  <producedTypes>
+    <selectionType typeId="8d4e7830-9c7b-4fb4-8cfb-d68b7d0da88e" valueTypeId="d506178a-33b2-4aab-b5c0-a3e705d68a43"/>
+    <listType typeId="7156a8b1-2051-4b22-990f-da1b1a77935f" valueTypeId="d12b8246-a3ff-4b8d-b025-4e090525b2e6"/>
+    <managerType typeId="f541b73e-50e1-4c80-9699-9f98df1456c1" valueTypeId="702fdeb2-e3ee-406c-b201-5e1bc68e655d"/>
+    <recordSetType typeId="50278293-bd9a-4078-a14f-1aebbe1a3fd9" valueTypeId="bcfd49c0-91f9-4260-8072-e39c85582401"/>
+    <recordKeyType typeId="d70aa0c9-e5d6-4e3b-b906-d8e0ae019221" valueTypeId="0546b866-edab-4838-9016-8b730c64e362"/>
+    <recordType typeId="85e8a827-360f-44ba-944c-b57345e2dcd7" valueTypeId="5d33f293-32ba-4cc6-b642-f88b6b7f69e1"/>
+    <recordManagerType typeId="7e322880-0a40-4910-ac66-020ae2a97478" valueTypeId="12c2ded7-5795-4bb5-845b-e5006f169710"/>
+  </producedTypes>
+  <name>УведомленияКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления кандидатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a36b8674-3a7d-4cf8-9a39-2ffc2988a0f0">
+    <name>Уведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныПисем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="edf60ca5-998f-4efe-b10f-cd81487d056a">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3f6c3992-3dff-46c5-88e7-39872232520a">
+    <name>ЭтапУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап уведомления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЭтапыУведомлений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d4eef433-d605-47e4-ad89-113bd1cdbf50">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

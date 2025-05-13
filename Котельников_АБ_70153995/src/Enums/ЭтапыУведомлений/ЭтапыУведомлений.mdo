@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e817dc8b-9597-4d6c-8df7-660b21289914">
+  <producedTypes>
+    <refType typeId="5cd381ac-0204-4357-a5d0-d47f0a0aa282" valueTypeId="fd643b54-f541-48c2-81c4-0594a6e773a0"/>
+    <listType typeId="571789f2-7935-4c4e-b3db-f9390efe611a" valueTypeId="801c295c-81b2-492f-a7dc-262060737a5a"/>
+    <managerType typeId="2f10e630-2db4-468d-817d-b497317ded95" valueTypeId="6bf14fcf-ec2c-42a5-82f1-d31aa150574f"/>
+  </producedTypes>
+  <name>ЭтапыУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы уведомлений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5272ec17-c300-40ca-975d-6cbfa9f20cfc">
+    <name>РассмотрениеРезюме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассмотрение резюме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d60453f1-e3ab-4116-b768-fe511954f277">
+    <name>ПриглашениеНаСобеседование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приглашение на собеседование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50b3490b-fdf5-4ee1-a935-d5fd5d1f7f3e">
+    <name>ПредложениеОРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предложение о работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bbde813-616c-48af-a771-8f2f32ca5e21">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

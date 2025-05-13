@@ -34,4 +34,5 @@
   <content>AccumulationRegister.ОценкиКандидатов</content>
   <content>Catalog.ШаблоныПисем</content>
   <content>CommonForm.ДанныеОрганизации</content>
+  <content>InformationRegister.УведомленияКандидатов</content>
 </mdclass:Subsystem>

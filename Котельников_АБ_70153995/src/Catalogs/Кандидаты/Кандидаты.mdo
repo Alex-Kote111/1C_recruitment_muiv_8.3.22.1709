@@ -622,6 +622,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="19cf1fea-d574-4a22-9f3e-358526b47db6">
+    <name>ОткликОтКандидата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклик от кандидата</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="819dce96-4fc4-4d88-8f03-68ff177bf7f4">
     <producedTypes>
       <objectType typeId="c5da9764-2514-4b95-8700-bbd14a056137" valueTypeId="c444b34f-0cc2-4577-82f2-506458c0e67c"/>
