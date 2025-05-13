@@ -32,4 +32,6 @@
   <content>Catalog.Анкеты</content>
   <content>Catalog.ВопросыДляАнкетирования</content>
   <content>AccumulationRegister.ОценкиКандидатов</content>
+  <content>Catalog.ШаблоныПисем</content>
+  <content>CommonForm.ДанныеОрганизации</content>
 </mdclass:Subsystem>

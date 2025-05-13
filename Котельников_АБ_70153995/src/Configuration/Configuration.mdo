@@ -54,12 +54,15 @@
   <roles>Role.РуководительСлужбыПерсонала</roles>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonCommands>CommonCommand.ЛичныеНастройки</commonCommands>
+  <constants>Constant.АдресОрганизации</constants>
   <constants>Constant.АдресРедиректа</constants>
   <constants>Constant.ИдентификаторПриложенияХХ</constants>
   <constants>Constant.НазваниеПриложенияХХ</constants>
+  <constants>Constant.НаименованиеОрганизации</constants>
   <constants>Constant.ПочтаРазработчикаХХ</constants>
   <constants>Constant.СекретПриложенияХХ</constants>
   <commonForms>CommonForm.ДанныеОбщегоПриложенияХХ</commonForms>
+  <commonForms>CommonForm.ДанныеОрганизации</commonForms>
   <catalogs>Catalog.Анкеты</catalogs>
   <catalogs>Catalog.ВопросыДляАнкетирования</catalogs>
   <catalogs>Catalog.Города</catalogs>
@@ -76,6 +79,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СтанцииМетро</catalogs>
   <catalogs>Catalog.ТарифныеПланы</catalogs>
+  <catalogs>Catalog.ШаблоныПисем</catalogs>
   <catalogs>Catalog.Языки</catalogs>
   <documents>Document.Вакансия</documents>
   <documents>Document.ЗакрытиеВакансии</documents>

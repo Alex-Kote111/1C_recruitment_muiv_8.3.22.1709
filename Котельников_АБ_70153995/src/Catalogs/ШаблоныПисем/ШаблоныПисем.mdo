@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94c3ecae-5d2a-4353-b31a-cc282b011420">
+  <producedTypes>
+    <objectType typeId="eb81750b-28ec-47f6-9eeb-3610c2147d77" valueTypeId="cf7d5d31-1984-40be-a532-fedcedd3ee2b"/>
+    <refType typeId="aeca23e3-a4f4-46e1-b129-8cb987540839" valueTypeId="5cef25ad-e751-4e99-9629-7f5591c9c3fb"/>
+    <selectionType typeId="b4d626c9-b420-431b-9952-bc7fb9baaf26" valueTypeId="c6280c78-02ea-44f4-9d51-b5849c5257f7"/>
+    <listType typeId="d5865c0e-64e9-4f84-94a4-0aeadab4dc32" valueTypeId="a2f8528d-44ba-4262-9fb1-a42bd98ce84e"/>
+    <managerType typeId="8dc1fa9b-316a-4e69-8b1b-a938c3e6daad" valueTypeId="41246a18-3c89-4bb6-a4d1-b8bff6da94e3"/>
+  </producedTypes>
+  <name>ШаблоныПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны писем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныПисем.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШаблоныПисем.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаблон письма</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Шаблон письма</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шаблоны писем</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Шаблоны писем</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШаблоныПисем.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ШаблоныПисем.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="70282164-2e7c-40c4-b2b4-0aba15927d6a">
+    <name>ИмяОтправителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя отправителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4509e5cf-53f5-4e1c-8846-0e79b9689c25">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3e78766-5a2c-49ec-9f03-287d22a83599">
+    <name>ТекстПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст письма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b318ba4-990e-4573-83ea-bbffda8f6e84">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3e19ac0b-3879-4ffc-af27-3495e5b72583">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae2e8847-f66d-4dc1-8dfd-be565fd28170">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
