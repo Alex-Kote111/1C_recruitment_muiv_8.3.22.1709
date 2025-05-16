@@ -53,6 +53,7 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.РуководительСлужбыПерсонала</roles>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonCommands>CommonCommand.ЛичныеНастройки</commonCommands>
   <constants>Constant.АдресОрганизации</constants>
   <constants>Constant.АдресРедиректа</constants>
