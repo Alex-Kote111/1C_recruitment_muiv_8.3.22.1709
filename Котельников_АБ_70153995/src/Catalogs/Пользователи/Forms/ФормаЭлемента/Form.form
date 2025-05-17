@@ -216,10 +216,6 @@
 URL редиректа используется всегда общий.</value>
         </toolTip>
         <toolTipRepresentation>Button</toolTipRepresentation>
-        <handlers>
-          <event>OnChange</event>
-          <name>ИспользоватьСвоеПриложениеПриИзменении</name>
-        </handlers>
         <extendedTooltip>
           <name>ИспользоватьСвоеПриложениеРасширеннаяПодсказка</name>
           <id>15</id>
@@ -255,6 +251,11 @@ URL редиректа используется всегда общий.</value>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.НазваниеПриложенияХХ</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>Название зарегистрированного приложения HeadHunter</value>
+        </toolTip>
+        <toolTipRepresentation>Balloon</toolTipRepresentation>
         <extendedTooltip>
           <name>НазваниеПриложенияРасширеннаяПодсказка</name>
           <id>24</id>
@@ -295,6 +296,11 @@ URL редиректа используется всегда общий.</value>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ПочтаРазработчикаХХ</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>Почта при регистрации приложения HeadHunter</value>
+        </toolTip>
+        <toolTipRepresentation>Balloon</toolTipRepresentation>
         <extendedTooltip>
           <name>ПочтаРазработчикаРасширеннаяПодсказка</name>
           <id>27</id>
@@ -339,6 +345,11 @@ URL редиректа используется всегда общий.</value>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ИдентификаторПриложенияХХ</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>Введите ровно 64 символа</value>
+        </toolTip>
+        <toolTipRepresentation>Balloon</toolTipRepresentation>
         <extendedTooltip>
           <name>ИдентификаторПриложенияХХРасширеннаяПодсказка</name>
           <id>18</id>
@@ -383,6 +394,11 @@ URL редиректа используется всегда общий.</value>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.СекретПриложенияХХ</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>Введите ровно 64 символа</value>
+        </toolTip>
+        <toolTipRepresentation>Balloon</toolTipRepresentation>
         <extendedTooltip>
           <name>СекретПриложенияХХРасширеннаяПодсказка</name>
           <id>21</id>
@@ -934,5 +950,10 @@ URL редиректа используется всегда общий.</value>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
+  </extInfo>
 </form:Form>
