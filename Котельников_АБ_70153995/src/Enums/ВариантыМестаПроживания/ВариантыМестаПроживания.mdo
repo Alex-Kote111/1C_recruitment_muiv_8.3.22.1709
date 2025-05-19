@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6ade3fa-642d-495a-bad6-c41511059a1f">
+  <producedTypes>
+    <refType typeId="0f46b3b2-43af-4fa6-aa4b-a956c48eb7e5" valueTypeId="5aec7162-ba0c-41a2-be84-fed8b9ecce12"/>
+    <listType typeId="e7555e43-8225-4db8-807c-7f481f367987" valueTypeId="e52e2418-441b-4913-a641-9096edcec5d3"/>
+    <managerType typeId="ac05a929-b329-4809-9140-cbceeb5d9d18" valueTypeId="59c0579e-1936-439c-9dad-1a49bfe93a46"/>
+  </producedTypes>
+  <name>ВариантыМестаПроживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты места проживания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bbe7dc01-6807-4a51-b230-de02012965c9">
+    <name>ЖивутВУказанномРегионе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Живут в указанном регионе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a768fe45-cd29-496f-8a9f-e1fd8eb693fe">
+    <name>ЖивутВУказанномРегионеИлиГотовыПереехать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Живут в указанном регионе или готовы переехать в него</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f2ea97a-fc91-4a11-9489-be7d2d895c9f">
+    <name>ЖивутВУказанномРегионеИГотовыКПереезду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Живут в указанном регионе и готовы к переезду куда-либо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb5a6ba1-5b5c-46b7-a14b-4f99038a1c13">
+    <name>НеЖивутВУказанномРегионеГотовыПереехать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не живут в указанном регионе, но готовы переехать в него</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

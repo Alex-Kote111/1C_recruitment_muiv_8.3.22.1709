@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a22a6e8-9e3c-4471-a2b5-cd3389365cfa">
+  <producedTypes>
+    <refType typeId="02945e89-030e-49bc-b28b-7dd3eb355341" valueTypeId="a230a9d4-a82c-44f1-b231-b00ed34fde2a"/>
+    <listType typeId="212bd0c7-a63f-49ac-9fd1-6eb3526259f4" valueTypeId="897ee658-0161-4728-bdb3-c9396020a299"/>
+    <managerType typeId="f12a4bbb-b3d5-4ca5-a6fe-caa92149293b" valueTypeId="b2b6a749-b479-4603-b5e0-2581e2d11c98"/>
+  </producedTypes>
+  <name>ВариантыСортировкиРезюме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты сортировки резюме</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e9fd3c1a-0f4c-4791-9f0d-ac7d045f4990">
+    <name>ПоСоответствию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По соответствию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d122c9f-79cf-4cdd-98bc-af7053b0fa4d">
+    <name>ПоДатеИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дате изменения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05d5796f-11b2-42d8-bccd-a79f5426dc90">
+    <name>ПоУбываниюЗарплат</name>
+    <synonym>
+      <key>ru</key>
+      <value>По убыванию зарплат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="161edd5d-0727-4cf2-9677-3852570e6036">
+    <name>ПоВозрастаниюЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>По возрастанию зарплаты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdafbc96-9600-486b-8b5f-5938c71d000a">
+  <producedTypes>
+    <refType typeId="c2086b52-1a0a-46b4-92ed-3deb276c994d" valueTypeId="f8a02ee4-aafe-4d62-8520-aff0f8302a98"/>
+    <listType typeId="7d981e0a-1dd9-42ec-8b02-d17f9f16f68f" valueTypeId="6a66b3c7-ed49-4f40-8607-9716abd3bd95"/>
+    <managerType typeId="71c4525d-6439-41e1-9a59-64a63a5e7d5d" valueTypeId="ed1c5b95-2d7a-417f-99a7-1ee2b3212901"/>
+  </producedTypes>
+  <name>СтатусыПоискаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы поиска работы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be899097-fbe9-41e4-83a7-74309192e9cd">
+    <name>АктивноИщетРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активно ищет работу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23698e67-87c2-4a28-a4d0-02c625650f2e">
+    <name>РассматриваетПредложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассматривает предложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ff0d7eb-526e-4198-9b8a-bc245453c88f">
+    <name>ПредложилиРаботуРешает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предложили работу решает</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -93,7 +93,9 @@
   <documents>Document.РегистрацияКандидатов</documents>
   <documents>Document.СогласованиеЗаявки</documents>
   <enums>Enum.ВариантыДоступностиМестаРаботы</enums>
+  <enums>Enum.ВариантыМестаПроживания</enums>
   <enums>Enum.ВариантыПоискаКлючевыхСлов</enums>
+  <enums>Enum.ВариантыСортировкиРезюме</enums>
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.МестаВстречиСлов</enums>
@@ -105,6 +107,7 @@
   <enums>Enum.РезультатыСобеседования</enums>
   <enums>Enum.СтатусыВакансий</enums>
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
+  <enums>Enum.СтатусыПоискаРаботы</enums>
   <enums>Enum.СтатусыПредложенияОРаботе</enums>
   <enums>Enum.СтатусыТелефонногоИнтервью</enums>
   <enums>Enum.СтатусыТестирования</enums>
