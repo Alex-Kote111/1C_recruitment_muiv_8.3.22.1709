@@ -26,7 +26,7 @@
   <content>CommonCommand.ЛичныеНастройки</content>
   <content>InformationRegister.ТокеныПользователей</content>
   <content>CommonForm.ДанныеОбщегоПриложенияХХ</content>
-  <content>DataProcessor.ПолучитьСписокГородовИзХХ</content>
+  <content>DataProcessor.ЗагрузкаРегионовИГородовИзХХ</content>
   <content>Catalog.ТарифныеПланы</content>
   <content>InformationRegister.ТарифыВакансий</content>
   <content>Catalog.Анкеты</content>
@@ -35,4 +35,6 @@
   <content>Catalog.ШаблоныПисем</content>
   <content>CommonForm.ДанныеОрганизации</content>
   <content>InformationRegister.УведомленияКандидатов</content>
+  <content>DataProcessor.ЗагрузкаСтанцийМетроИзХХ</content>
+  <content>DataProcessor.ЗагрузкаЯзыковИзХХ</content>
 </mdclass:Subsystem>

@@ -2267,7 +2267,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ПолучитьСписокГородовИзХХ</name>
+		<name>DataProcessor.ЗагрузкаРегионовИГородовИзХХ</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

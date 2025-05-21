@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="828e1ac7-5a87-424b-b017-f679aaf66511">
+  <producedTypes>
+    <refType typeId="4648fd97-2f3e-48e4-a1f4-cb5673a3c564" valueTypeId="63e98ac2-301f-4c9a-9525-bae89d1ebdac"/>
+    <listType typeId="ec8eff09-4e1d-43fe-b11a-79c0821d4a34" valueTypeId="b6dfdbc8-c92a-453c-8ccd-d998a4fe8bec"/>
+    <managerType typeId="2c1b3f5b-f7b3-445a-9dd8-abd2a207b950" valueTypeId="5ea05a7a-9f12-4e6e-a7e1-3e9eb1f11292"/>
+  </producedTypes>
+  <name>ВариантыДополнительногоФильтра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты дополнительного фильтра</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6dd3fc22-143a-42c5-ab0b-715163d9e681">
+    <name>ТолькоСФото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только с фотографией</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d80621f-6fdf-4956-97ee-18cadbf4193f">
+    <name>ЕстьАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть личный автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a742ffd7-2a93-4463-9cf9-5da8a5075df4">
+    <name>СкрытьПросмотренныеМной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть резюме, просмотренные мной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f81fb94d-2576-4039-ab1f-fefb42c2c0e2">
+    <name>СкрытьПросмотренныеКомпанией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть резюме, просмотренные всей компанией</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f84bffe4-32e4-424c-af83-1e636eca82cf">
+    <name>ТолькоИзОткликовИПриглашений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать только из откликов и приглашений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

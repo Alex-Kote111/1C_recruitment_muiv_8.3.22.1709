@@ -147,6 +147,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Города.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Города.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Города.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="ab477d4f-0e69-47bd-9d31-bd005cb2f047">
     <name>ИдентификаторГородаХХ</name>
     <synonym>
@@ -165,6 +166,7 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="3c70b182-37ba-4053-a090-33f79c8fbdc9">
@@ -181,6 +183,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0966c9d4-d9fe-49be-8792-8fc515056198">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -4,13 +4,13 @@
     <objectType typeId="62170f34-5c7f-400e-a533-37de94bd4b04" valueTypeId="1e5466f1-9a00-45b1-9db8-555406137961"/>
     <managerType typeId="58d08e15-2148-400e-acdd-f8a6fe13927a" valueTypeId="fe7fb10b-a805-47b2-b1e3-5a7a8298edca"/>
   </producedTypes>
-  <name>ПолучитьСписокГородовИзХХ</name>
+  <name>ЗагрузкаРегионовИГородовИзХХ</name>
   <synonym>
     <key>ru</key>
-    <value>Получить список городов из HH</value>
+    <value>Загрузка регионов и городов из HeadHunter</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.ПолучитьСписокГородовИзХХ.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ЗагрузкаРегионовИГородовИзХХ.Form.Форма</defaultForm>
   <forms uuid="164acdc7-bd7c-4162-befe-33edd6a20f8d">
     <name>Форма</name>
     <synonym>

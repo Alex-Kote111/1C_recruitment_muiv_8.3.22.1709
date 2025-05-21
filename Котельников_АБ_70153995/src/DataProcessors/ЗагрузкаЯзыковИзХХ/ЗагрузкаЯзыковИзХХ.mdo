@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="071eed33-d1ae-497a-b7e1-a299f44cd9ec">
+  <producedTypes>
+    <objectType typeId="5e0b82fa-0a8d-4407-bafe-a467c13e1b5b" valueTypeId="58e7d7f3-c545-45e1-bd9c-16b197c67588"/>
+    <managerType typeId="86a8cf56-7c28-474b-8aa9-1fc4b96dc558" valueTypeId="8c492a0f-e029-44bd-a2ff-29e861195011"/>
+  </producedTypes>
+  <name>ЗагрузкаЯзыковИзХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка языков из HeadHunter</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаЯзыковИзХХ.Form.Форма</defaultForm>
+  <forms uuid="c0bc4314-ce3b-419b-a0cb-fb88119fd4a0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

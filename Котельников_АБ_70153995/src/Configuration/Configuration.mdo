@@ -92,6 +92,7 @@
   <documents>Document.ПроведениеТестирования</documents>
   <documents>Document.РегистрацияКандидатов</documents>
   <documents>Document.СогласованиеЗаявки</documents>
+  <enums>Enum.ВариантыДополнительногоФильтра</enums>
   <enums>Enum.ВариантыДоступностиМестаРаботы</enums>
   <enums>Enum.ВариантыМестаПроживания</enums>
   <enums>Enum.ВариантыПоискаКлючевыхСлов</enums>
@@ -128,8 +129,10 @@
   <reports>Report.СтоимостьРазмещенияВакансийНаСайтах</reports>
   <reports>Report.СуммаЗатратНаВакансии</reports>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаРегионовИГородовИзХХ</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаСтанцийМетроИзХХ</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаЯзыковИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
-  <dataProcessors>DataProcessor.ПолучитьСписокГородовИзХХ</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыВакансий</informationRegisters>
   <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>

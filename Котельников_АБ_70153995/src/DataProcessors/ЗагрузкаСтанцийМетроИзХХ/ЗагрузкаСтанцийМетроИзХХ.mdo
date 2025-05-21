@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="837b351c-00e0-46fb-ae37-459f1064ed43">
+  <producedTypes>
+    <objectType typeId="4a1fdb10-1481-4324-963c-e947facf2644" valueTypeId="b0561049-4479-4e3b-aca5-2c04d4b0a3b8"/>
+    <managerType typeId="eb0bfc2e-76de-4f00-8006-1c23d85e14e5" valueTypeId="ea9e3d3f-a104-410a-855c-3cd4ec476310"/>
+  </producedTypes>
+  <name>ЗагрузкаСтанцийМетроИзХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка станций метро из HeadHunter</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаСтанцийМетроИзХХ.Form.Форма</defaultForm>
+  <forms uuid="00a0684d-bad3-4ddc-a2e2-d6fb73f78e7d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
