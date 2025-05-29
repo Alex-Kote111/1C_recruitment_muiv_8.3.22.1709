@@ -70,12 +70,12 @@
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.ИсточникиПривлечения</catalogs>
   <catalogs>Catalog.Кандидаты</catalogs>
+  <catalogs>Catalog.КлючевыеНавыки</catalogs>
   <catalogs>Catalog.ЛичныеКачества</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПричиныОтказа</catalogs>
   <catalogs>Catalog.ПричиныОтклоненияЗаявок</catalogs>
-  <catalogs>Catalog.ПрофессиональныеНавыки</catalogs>
   <catalogs>Catalog.ПрофилиДолжностей</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СтанцииМетро</catalogs>
@@ -92,11 +92,14 @@
   <documents>Document.ПроведениеТестирования</documents>
   <documents>Document.РегистрацияКандидатов</documents>
   <documents>Document.СогласованиеЗаявки</documents>
+  <enums>Enum.БиллинговыйТипВакансииХХ</enums>
   <enums>Enum.ВариантыДополнительногоФильтра</enums>
   <enums>Enum.ВариантыДоступностиМестаРаботы</enums>
   <enums>Enum.ВариантыМестаПроживания</enums>
   <enums>Enum.ВариантыПоискаКлючевыхСлов</enums>
+  <enums>Enum.ВариантыРазмераКомпании</enums>
   <enums>Enum.ВариантыСортировкиРезюме</enums>
+  <enums>Enum.ВидыИзмененияВакансииХХ</enums>
   <enums>Enum.ГрафикиРаботы</enums>
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.МестаВстречиСлов</enums>
@@ -105,6 +108,8 @@
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ПричиныЗакрытияВакансий</enums>
   <enums>Enum.ПричиныОткрытияВакансий</enums>
+  <enums>Enum.РабочиеДни</enums>
+  <enums>Enum.РабочиеЧасы</enums>
   <enums>Enum.РезультатыСобеседования</enums>
   <enums>Enum.СтатусыВакансий</enums>
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
@@ -112,7 +117,9 @@
   <enums>Enum.СтатусыПредложенияОРаботе</enums>
   <enums>Enum.СтатусыТелефонногоИнтервью</enums>
   <enums>Enum.СтатусыТестирования</enums>
+  <enums>Enum.ТипыВакансийХХ</enums>
   <enums>Enum.ТипыЗанятости</enums>
+  <enums>Enum.ТипыЗанятостиПриПубликацииВакансии</enums>
   <enums>Enum.ТипыОценкиОтвета</enums>
   <enums>Enum.ТипыПриложенияХХ</enums>
   <enums>Enum.ТипыСобеседований</enums>
@@ -128,17 +135,21 @@
   <reports>Report.РезультатТестирований</reports>
   <reports>Report.СтоимостьРазмещенияВакансийНаСайтах</reports>
   <reports>Report.СуммаЗатратНаВакансии</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаНавыковИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаРегионовИГородовИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаСтанцийМетроИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаЯзыковИзХХ</dataProcessors>
+  <dataProcessors>DataProcessor.ПодборСпециализацииИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
+  <dataProcessors>DataProcessor.ПубликацияВакансииНаХХ</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыВакансий</informationRegisters>
   <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>
   <informationRegisters>InformationRegister.УведомленияКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ФотографииКандидатов</informationRegisters>
+  <informationRegisters>InformationRegister.ЧерновикиВакансийХХ</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияВакансий</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияЗаявокНаПодбор</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗатратыНаВакансии</accumulationRegisters>

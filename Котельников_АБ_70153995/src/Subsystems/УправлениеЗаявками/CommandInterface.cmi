@@ -36,7 +36,7 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.ПрофилиДолжностей.StandardCommand.OpenList</commands>
-      <commands>Catalog.ПрофессиональныеНавыки.StandardCommand.OpenList</commands>
+      <commands>Catalog.КлючевыеНавыки.StandardCommand.OpenList</commands>
       <commands>Catalog.ЛичныеКачества.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
@@ -44,7 +44,7 @@
       <commands>Document.ЗаявкаНаПодбор.StandardCommand.Create</commands>
       <commands>Document.СогласованиеЗаявки.StandardCommand.Create</commands>
       <commands>Catalog.ПрофилиДолжностей.StandardCommand.Create</commands>
-      <commands>Catalog.ПрофессиональныеНавыки.StandardCommand.Create</commands>
+      <commands>Catalog.КлючевыеНавыки.StandardCommand.Create</commands>
       <commands>Catalog.ЛичныеКачества.StandardCommand.Create</commands>
     </orderFragments>
     <orderFragments>

@@ -438,7 +438,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки</name>
+		<name>Catalog.КлючевыеНавыки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -489,63 +489,63 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.Predefined</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.Predefined</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.Ref</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.DeletionMark</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.IsFolder</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.IsFolder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.Owner</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.Owner</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.Parent</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.Parent</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.Description</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.Description</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофессиональныеНавыки.StandardAttribute.Code</name>
+		<name>Catalog.КлючевыеНавыки.StandardAttribute.Code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -570,7 +570,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофилиДолжностей.TabularSection.ПрофессиональныеНавыки.Attribute.Навык</name>
+		<name>Catalog.ПрофилиДолжностей.TabularSection.КлючевыеНавыки.Attribute.Навык</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1703,7 +1703,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофилиДолжностей.TabularSection.ПрофессиональныеНавыки</name>
+		<name>Catalog.ПрофилиДолжностей.TabularSection.КлючевыеНавыки</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1922,7 +1922,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПрофилиДолжностей.TabularSection.ПрофессиональныеНавыки.Attribute.УровеньВладения</name>
+		<name>Catalog.ПрофилиДолжностей.TabularSection.КлючевыеНавыки.Attribute.УровеньВладения</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

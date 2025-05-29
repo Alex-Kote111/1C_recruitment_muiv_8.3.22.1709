@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c07cfa46-deec-416e-89c4-47d05931e0bb">
+  <producedTypes>
+    <refType typeId="c2d97175-be01-4329-ba26-b5347439e451" valueTypeId="ac7f2221-6e4a-4f67-bbcb-6de830226c9e"/>
+    <listType typeId="c4fa8f16-ea39-4202-858b-1eb6a25025c4" valueTypeId="2aeffdd5-ba0d-44e0-82b7-a51c407324a7"/>
+    <managerType typeId="bc55e4fd-8c2a-4ee7-a0ca-4f811ce99046" valueTypeId="9beba748-c41c-41df-aeca-6a5a936a8ee3"/>
+  </producedTypes>
+  <name>РабочиеДни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие дни</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aa6ab570-dde7-4895-afd0-cd68660ff07f">
+    <name>ШестьИОдин</name>
+    <synonym>
+      <key>ru</key>
+      <value>6/1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1579474e-8808-42a7-aa3b-64a14449ece8">
+    <name>ПятьИДва</name>
+    <synonym>
+      <key>ru</key>
+      <value>5/2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e48a1c8-7031-4f4e-8d4c-c0afa0ef4cc6">
+    <name>ЧетыреИЧетыре</name>
+    <synonym>
+      <key>ru</key>
+      <value>4/4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3cff895-edb8-4e83-a912-ecedc1f411af">
+    <name>ЧетыреИТри</name>
+    <synonym>
+      <key>ru</key>
+      <value>4/3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="628c84fe-94a0-4cbc-9327-b50a9b5ff52d">
+    <name>ЧетыреИДва</name>
+    <synonym>
+      <key>ru</key>
+      <value>4/2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="441d888f-98a8-4618-82d8-648a6ef3cab5">
+    <name>ТриИТри</name>
+    <synonym>
+      <key>ru</key>
+      <value>3/3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="399e9241-93a4-4077-aff9-629776a11db6">
+    <name>ТриИДва</name>
+    <synonym>
+      <key>ru</key>
+      <value>3/2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2eee79b0-ef96-4397-9f10-cf8e50b56c97">
+    <name>ДваИДва</name>
+    <synonym>
+      <key>ru</key>
+      <value>2/2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c6868d0-0fb7-46d1-a49f-e7ff44c110a2">
+    <name>ДваИОдин</name>
+    <synonym>
+      <key>ru</key>
+      <value>2/1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3553e4e5-956e-4353-a266-36b7cd3c71db">
+    <name>ОдинИТри</name>
+    <synonym>
+      <key>ru</key>
+      <value>1/3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c972c94-5e16-4889-80e2-d6850314168e">
+    <name>ОдинИДва</name>
+    <synonym>
+      <key>ru</key>
+      <value>1/2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a22a66b-febb-461d-bba8-50b9c0c44a4e">
+    <name>ПоВыходным</name>
+    <synonym>
+      <key>ru</key>
+      <value>По выходным</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="377b1148-cd51-492b-b352-9d0a8b455743">
+    <name>Свободный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55639781-a1ce-4333-80fc-155d4ce98537">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

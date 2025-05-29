@@ -37,4 +37,7 @@
   <content>InformationRegister.УведомленияКандидатов</content>
   <content>DataProcessor.ЗагрузкаСтанцийМетроИзХХ</content>
   <content>DataProcessor.ЗагрузкаЯзыковИзХХ</content>
+  <content>DataProcessor.ЗагрузкаНавыковИзХХ</content>
+  <content>DataProcessor.ПодборСпециализацииИзХХ</content>
+  <content>InformationRegister.ЧерновикиВакансийХХ</content>
 </mdclass:Subsystem>

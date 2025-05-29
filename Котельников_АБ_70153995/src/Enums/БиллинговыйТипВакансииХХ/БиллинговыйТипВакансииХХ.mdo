@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a62d504-9ece-4c2e-a90c-fc360d324da0">
+  <producedTypes>
+    <refType typeId="d8daaa3e-c25c-4cf9-a465-7ecc45c6002d" valueTypeId="856bbfc9-5ef5-4165-a39a-4055b9856448"/>
+    <listType typeId="b8a3f4b2-ce17-429b-91a5-df87c4d2474f" valueTypeId="a02dcc5b-dba4-4d5b-8f04-194fd88cd10e"/>
+    <managerType typeId="52d415b8-2d91-429c-a3ba-1f514a53ac88" valueTypeId="5b6ecba8-24a2-41a6-b0c0-2f68c30ff39f"/>
+  </producedTypes>
+  <name>БиллинговыйТипВакансииХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Биллинговый тип вакансии ХХ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5a0fbd21-6c79-4323-b7a0-746a40adb08e">
+    <name>Бесплатная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бесплатная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ee17e9a-274f-44ff-85e8-30c009b45891">
+    <name>Стандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="601988de-3742-40c0-955d-76cbdadfaf32">
+    <name>СтандартПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт плюс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f535d132-263c-4668-b077-0b8d153fc17e">
+    <name>Премиум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премиум</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

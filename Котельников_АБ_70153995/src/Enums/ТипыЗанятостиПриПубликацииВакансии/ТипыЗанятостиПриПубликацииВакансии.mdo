@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45e0f3bf-57e4-41c0-aff1-1c6213fbc22a">
+  <producedTypes>
+    <refType typeId="0c7afa6f-c69a-466c-8865-7e1318ccb206" valueTypeId="cd77cf2d-f8f5-493f-b461-91b6ff0a9ec8"/>
+    <listType typeId="5cbe40a6-9396-4690-b44c-2fb51834838a" valueTypeId="816c8bfe-799c-4df9-95cd-131239032297"/>
+    <managerType typeId="220771b4-c108-4021-923e-79a87a0d9b80" valueTypeId="7d8df81e-53bc-4ab8-baf7-e52daa9eda90"/>
+  </producedTypes>
+  <name>ТипыЗанятостиПриПубликацииВакансии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы занятости при публикации вакансии</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0ee0b5d9-c7f7-4111-a941-cfa3819b068c">
+    <name>Полная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad04065d-fbac-40f6-9161-1d994abab13a">
+    <name>Частичная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="219b1021-1f6c-4847-98a9-d535f476dc65">
+    <name>ПроектИлиРазовоеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект или разовое задание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f29e60d7-9653-45a0-ab65-bca12083cd4c">
+    <name>Вахта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вахта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -19,4 +19,5 @@
   <content>Report.КоличествоОткрытыхВакансий</content>
   <content>Report.СтоимостьРазмещенияВакансийНаСайтах</content>
   <content>Report.СуммаЗатратНаВакансии</content>
+  <content>DataProcessor.ПубликацияВакансииНаХХ</content>
 </mdclass:Subsystem>

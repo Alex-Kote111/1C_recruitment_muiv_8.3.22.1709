@@ -32,42 +32,42 @@
     <name>Начальный</name>
     <synonym>
       <key>ru</key>
-      <value>A1 - Начальный</value>
+      <value>A1 — Начальный</value>
     </synonym>
   </enumValues>
   <enumValues uuid="d9e60e6d-e93e-42aa-868f-ce240a61ef07">
     <name>Элементарный</name>
     <synonym>
       <key>ru</key>
-      <value>A2 - Элементарный</value>
+      <value>A2 — Элементарный</value>
     </synonym>
   </enumValues>
   <enumValues uuid="320347fc-6ae9-4ed9-9da6-b0a34f162fcd">
     <name>Средний</name>
     <synonym>
       <key>ru</key>
-      <value>B1 - Средний</value>
+      <value>B1 — Средний</value>
     </synonym>
   </enumValues>
   <enumValues uuid="8f81d86c-0862-4491-b3f8-6b00f53d7d3b">
     <name>СреднеПродвинутый</name>
     <synonym>
       <key>ru</key>
-      <value>B2 - Средне-продвинутый</value>
+      <value>B2 — Средне-продвинутый</value>
     </synonym>
   </enumValues>
   <enumValues uuid="de2fa656-0b3b-444f-b350-8cfe3706d8c2">
     <name>Продвинутый</name>
     <synonym>
       <key>ru</key>
-      <value>C1 - Продвинутый</value>
+      <value>C1 — Продвинутый</value>
     </synonym>
   </enumValues>
   <enumValues uuid="17420883-068c-4d5c-9a36-be0762f6f971">
     <name>ВСовершенстве</name>
     <synonym>
       <key>ru</key>
-      <value>C2 - В совершенстве</value>
+      <value>C2 — В совершенстве</value>
     </synonym>
   </enumValues>
   <enumValues uuid="0c72253f-07b3-4299-b41a-96a79c97fe39">

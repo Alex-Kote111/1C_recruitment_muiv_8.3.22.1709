@@ -7,14 +7,14 @@
     <listType typeId="60b07af6-0521-405f-afe2-8b8834e17757" valueTypeId="daf8d7ab-fe05-46d8-ac04-7de46cb7f993"/>
     <managerType typeId="b4690c30-16dd-420a-90bf-356eab3b3e43" valueTypeId="08929bf2-d7ec-45e2-9352-9c962cbdb764"/>
   </producedTypes>
-  <name>ПрофессиональныеНавыки</name>
+  <name>КлючевыеНавыки</name>
   <synonym>
     <key>ru</key>
-    <value>Профессиональные навыки</value>
+    <value>Ключевые навыки</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ПрофессиональныеНавыки.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.ПрофессиональныеНавыки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КлючевыеНавыки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КлючевыеНавыки.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -111,11 +111,11 @@
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Профессиональные навыки</value>
+    <value>Ключевые навыки</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Профессиональные навыки</value>
+    <value>Ключевые навыки</value>
   </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -129,8 +129,28 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ПрофессиональныеНавыки.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.ПрофессиональныеНавыки.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Catalog.КлючевыеНавыки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КлючевыеНавыки.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="a0718f0b-ff9b-4227-aa2c-4928a3421d94">
+    <name>ИдентификаторНавыкаХХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор навыка ХХ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="de97e7ae-b9ac-4493-84de-3770cf1044ac">
     <name>ФормаЭлемента</name>
     <synonym>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8822a4a-ddb8-414f-9fab-3cd7303a6983">
+  <producedTypes>
+    <refType typeId="08fe21d3-0e29-404d-9889-7ffa129ed1d1" valueTypeId="7c901c62-699a-4aef-a05f-4c820548f2b8"/>
+    <listType typeId="1bf8426f-6a8b-4b57-b37c-e46ea53fb869" valueTypeId="a896ad86-43cc-48fc-932b-7e020a6f3fb6"/>
+    <managerType typeId="f89816a9-1118-467c-9c49-7f5818461207" valueTypeId="270236b9-f8c2-4a92-98ac-4449713fc241"/>
+  </producedTypes>
+  <name>ВидыИзмененияВакансииХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды изменения вакансии HeadHunter</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79a969fd-5742-48b2-a49b-3d761b06561d">
+    <name>Создание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6eaee4d7-24a2-462c-9551-6cab865d42c0">
+    <name>ИзменениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение данных (обновление)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="411d81b9-4e05-4f96-95f9-a829591364ea">
+    <name>ПубликацияНаОсновеЧерновика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикация на основе черновика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4339238f-bcbb-4a0a-8221-7cc6cb677b1e">
+    <name>Удаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

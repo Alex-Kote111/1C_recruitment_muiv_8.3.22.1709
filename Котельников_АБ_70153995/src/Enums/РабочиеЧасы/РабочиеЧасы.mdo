@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f845054-2500-44cf-958e-74ffe5e3f4d8">
+  <producedTypes>
+    <refType typeId="eb4980ef-8b3e-49bd-8276-422157180070" valueTypeId="159eda69-3662-461e-abef-196719a4abd3"/>
+    <listType typeId="cb0d2648-c6f5-4dd4-b48f-7843d0157b46" valueTypeId="58f1be78-ea62-43f7-95bf-89aa0354b8b9"/>
+    <managerType typeId="68d97c35-3452-46c6-a3a6-086b743d9196" valueTypeId="0055a71e-9028-456d-bfe3-f337d22f98ed"/>
+  </producedTypes>
+  <name>РабочиеЧасы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие часы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5d87414f-1e14-4fba-871b-86799d2e6a37">
+    <name>Два</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7fd8f5f-9762-494e-ade1-f0297ab177b1">
+    <name>Три</name>
+    <synonym>
+      <key>ru</key>
+      <value>3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7eb6355a-1bd9-4646-93a4-b68e0cd08de9">
+    <name>Четыре</name>
+    <synonym>
+      <key>ru</key>
+      <value>4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2559130a-7bf4-423a-8ea3-f8ea9e7aca3e">
+    <name>Пять</name>
+    <synonym>
+      <key>ru</key>
+      <value>5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e08196a-02a6-498c-88a8-425896d9be59">
+    <name>Шесть</name>
+    <synonym>
+      <key>ru</key>
+      <value>6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58b1eb79-324f-481a-9b89-a52dc9b4d4e8">
+    <name>Семь</name>
+    <synonym>
+      <key>ru</key>
+      <value>7</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad20870a-3adc-4022-afde-7577cc3f13a7">
+    <name>Восемь</name>
+    <synonym>
+      <key>ru</key>
+      <value>8</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7f982e8-364f-4055-b868-9eed927cfe50">
+    <name>Девять</name>
+    <synonym>
+      <key>ru</key>
+      <value>9</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f51f188c-eabb-4adf-a368-65f83e4b7362">
+    <name>Десять</name>
+    <synonym>
+      <key>ru</key>
+      <value>10</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfa45b1f-ea03-4979-9bf0-9304e4303cf6">
+    <name>Одиннадцать</name>
+    <synonym>
+      <key>ru</key>
+      <value>11</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41f58bd2-5f91-41b0-bdda-6e24d5c24165">
+    <name>Двенадцать</name>
+    <synonym>
+      <key>ru</key>
+      <value>12</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd0a8092-6bc0-4073-b893-c171c9a049f7">
+    <name>ДвадцатьЧетыре</name>
+    <synonym>
+      <key>ru</key>
+      <value>24</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60457310-90de-4feb-970a-f23b58bc3dcc">
+    <name>ПоДоговоренности</name>
+    <synonym>
+      <key>ru</key>
+      <value>По договоренности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69d18591-d98b-4aac-a40e-1e8562112b9d">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

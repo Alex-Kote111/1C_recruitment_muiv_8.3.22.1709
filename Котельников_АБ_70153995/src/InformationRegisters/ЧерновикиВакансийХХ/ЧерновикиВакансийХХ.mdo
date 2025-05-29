@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82ee955b-6fb5-4351-950a-98acc52fdf31">
+  <producedTypes>
+    <selectionType typeId="45c6aac7-9a38-439f-baec-516a6c9251ab" valueTypeId="310e879d-07c3-4228-8fc9-07e10a07b0e2"/>
+    <listType typeId="855e61b2-8c25-4894-865b-9461a52d1952" valueTypeId="7d8dd330-69d1-4fb9-99c4-8fd0ad168821"/>
+    <managerType typeId="da8f964a-0639-4f93-8aec-3586f81b5ca1" valueTypeId="7ddf711a-405e-4ea4-a1aa-15cc0e392b7a"/>
+    <recordSetType typeId="099b02f0-e769-44a1-b2c4-0609e34a875e" valueTypeId="3a65bb01-0427-450f-99d5-906215418197"/>
+    <recordKeyType typeId="a8aae907-30a3-47ec-9ece-ceb0d09641a7" valueTypeId="5af370e9-2590-4f67-9bc3-5cf13baf8466"/>
+    <recordType typeId="c104e03c-cb7a-489b-9392-e9bf781a0b0a" valueTypeId="a8f7b97e-e571-433a-b09d-4329fde42fea"/>
+    <recordManagerType typeId="315d325e-32b9-46eb-91e9-1fda1d9dfc99" valueTypeId="cfc766c4-633e-42d9-bb23-b2f0540307a5"/>
+  </producedTypes>
+  <name>ЧерновикиВакансийХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Черновики вакансий HeadHunter</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1dd88889-64c4-4e2e-a373-b061350c4201">
+    <name>ИдентификаторЧерновика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор черновика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e1402dfe-a296-40a5-aa4f-97cd5bfb1288">
+    <name>ВидИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид изменения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыИзмененияВакансииХХ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="df1f70ad-8553-46e6-b4e9-7b67c831b9b4">
+    <name>ТипПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип публикации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.БиллинговыйТипВакансииХХ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e0d8aba1-4404-4160-b603-fe4a75f7a0a5">
+    <name>ТипВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип вакансии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыВакансийХХ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e2e6a554-f928-43f4-9bea-f92d06840adc">
+    <name>ГотовностьКПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовность к публикации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c946aa8e-4516-47a9-8ccf-02fb8b65e04d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4bbdc861-cbaf-42e9-aff3-6e986defb198">
+    <name>ОтветственныйЗаВакансию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за вакансию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="dc554d19-0b51-4bbb-891e-409ca95bc72b">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

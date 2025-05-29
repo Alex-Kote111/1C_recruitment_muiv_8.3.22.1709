@@ -479,10 +479,10 @@
       <objectType typeId="09868da7-3d75-4652-b67b-1e5292fbca2f" valueTypeId="623b9dec-a6de-4470-b260-e0b968ab1cfa"/>
       <rowType typeId="e4ce3733-bea8-4f72-96ab-24b51b6ddbe1" valueTypeId="678dc09a-1130-4998-af38-def168053f92"/>
     </producedTypes>
-    <name>ПрофессиональныеНавыки</name>
+    <name>КлючевыеНавыки</name>
     <synonym>
       <key>ru</key>
-      <value>Профессиональные навыки</value>
+      <value>Ключевые навыки</value>
     </synonym>
     <attributes uuid="5020593e-d8b1-4c50-b7e6-65e333697c7a">
       <name>Навык</name>
@@ -491,7 +491,7 @@
         <value>Навык</value>
       </synonym>
       <type>
-        <types>CatalogRef.ПрофессиональныеНавыки</types>
+        <types>CatalogRef.КлючевыеНавыки</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -1834,7 +1834,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПрофессиональныеНавыки</segments>
+          <segments>Объект.КлючевыеНавыки</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
@@ -1846,7 +1846,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ПрофессиональныеНавыки.LineNumber</segments>
+            <segments>Объект.КлючевыеНавыки.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПрофессиональныеНавыкиНомерСтрокиРасширеннаяПодсказка</name>
@@ -1882,7 +1882,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ПрофессиональныеНавыки.Навык</segments>
+            <segments>Объект.КлючевыеНавыки.Навык</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПрофессиональныеНавыкиНавыкРасширеннаяПодсказка</name>
@@ -1922,7 +1922,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ПрофессиональныеНавыки.УровеньВладения</segments>
+            <segments>Объект.КлючевыеНавыки.УровеньВладения</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПрофессиональныеНавыкиУровеньВладенияРасширеннаяПодсказка</name>

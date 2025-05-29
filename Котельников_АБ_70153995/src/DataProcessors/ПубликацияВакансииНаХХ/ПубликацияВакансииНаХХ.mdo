@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d2c5ad8-1780-4f17-9bd7-781c83864281">
+  <producedTypes>
+    <objectType typeId="2d8de916-447f-4f4c-8232-c213d0413505" valueTypeId="686b0885-28b4-4aa1-bc4c-4128b1d3baac"/>
+    <managerType typeId="fe53ea69-6af1-4cac-ae86-c2e6217f2567" valueTypeId="9b33c317-6ef3-40f4-8e7d-200a1a9ee912"/>
+  </producedTypes>
+  <name>ПубликацияВакансииНаХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Публикация вакансии на HeadHunter</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПубликацияВакансииНаХХ.Form.Форма</defaultForm>
+  <forms uuid="f3dc18e2-f43b-47a0-af84-ba2db99ba389">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

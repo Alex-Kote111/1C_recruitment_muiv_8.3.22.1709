@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b87b0aa3-e807-4aed-b1f3-fab16076c213">
+  <producedTypes>
+    <objectType typeId="4bf14b55-4b3a-4c1b-9b32-de0ee9c5a173" valueTypeId="c3382bb4-fd48-44a6-9e2a-3b8ed90beb35"/>
+    <managerType typeId="fc809e70-28b2-433e-ab55-217de41b0d2d" valueTypeId="e572cddd-bb69-4074-94b0-bb2773b19ca0"/>
+  </producedTypes>
+  <name>ЗагрузкаНавыковИзХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка навыков из HeadHunter</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаНавыковИзХХ.Form.Форма</defaultForm>
+  <forms uuid="323539b0-7cb5-454a-8d12-34b7162bee0e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

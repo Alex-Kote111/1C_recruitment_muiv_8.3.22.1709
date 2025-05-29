@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d8b194c-cccc-4b7f-8597-18da787d3adc">
+  <producedTypes>
+    <refType typeId="f63f2e58-919d-40d9-bda1-b5d65ff5c4d6" valueTypeId="c2890384-c847-4a31-90fa-aa19fc59ca4b"/>
+    <listType typeId="e04e7168-d6d6-4893-8237-8cea3b90b39e" valueTypeId="4ed7ee87-a3d9-44f7-a871-592d77a25beb"/>
+    <managerType typeId="be9ca53e-b7db-46c5-b025-a776849a225a" valueTypeId="f2d8b344-4d9d-44ee-99b3-a1dc3af95677"/>
+  </producedTypes>
+  <name>ТипыВакансийХХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы вакансий ХХ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b1722047-fc61-44f9-a885-c693033c9404">
+    <name>Открытая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abd47fe8-764d-4d71-849a-57f99d0289b7">
+    <name>Закрытая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f172764f-bfbc-4fe8-a453-db0dbb8ef6b9">
+    <name>Анонимная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анонимная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5eda3586-26ca-45f3-a553-5612a5a65664">
+    <name>Рекламная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекламная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

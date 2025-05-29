@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbde5e5f-c9e9-4e84-a10e-14167331224e">
+  <producedTypes>
+    <refType typeId="2709a0c4-6d5c-409c-9ea4-980c87579b34" valueTypeId="b7f01f76-62b2-4dbc-85dc-2a3ea9eb18d1"/>
+    <listType typeId="d5994bdc-14eb-403b-aeb2-dd5072a2431e" valueTypeId="0a953cd5-b43c-4f66-921f-75e862eaa040"/>
+    <managerType typeId="dc8c7c55-997a-4058-8711-b73e92a58e52" valueTypeId="ae0897eb-42d7-43c4-a2e5-2641efef0f3b"/>
+  </producedTypes>
+  <name>ВариантыРазмераКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты размера компании</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7cf8c39-458f-4513-9d2b-4b337c10ea66">
+    <name>ЛюбойРазмер</name>
+    <synonym>
+      <key>ru</key>
+      <value>В компаниях любого размера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d81ffa22-6976-4725-8d40-d85439fb03dc">
+    <name>ДоСтаЧеловек</name>
+    <synonym>
+      <key>ru</key>
+      <value>В небольших компаниях (до 100 человек)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcc0aecd-bd9a-4c28-a8a1-72a46b3a1dd8">
+    <name>ОтСтаДоТысячиЧеловек</name>
+    <synonym>
+      <key>ru</key>
+      <value>В компаниях среднего размера (до 1000 человек)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16fb6d30-b6ff-42fb-a66d-c1c8bff10ca3">
+    <name>БолееТысячиЧеловек</name>
+    <synonym>
+      <key>ru</key>
+      <value>В крупных компаниях (более 1000 человек)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
