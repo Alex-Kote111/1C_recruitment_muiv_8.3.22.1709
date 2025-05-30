@@ -49,4 +49,11 @@
       <value>Не явился на собеседование</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="87a7a2d7-3368-4cd5-b6e1-4f2eb5b2b9c5">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

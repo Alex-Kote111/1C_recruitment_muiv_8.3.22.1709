@@ -245,6 +245,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Кандидат</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>КандидатПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>КандидатРасширеннаяПодсказка</name>
       <id>18</id>
@@ -266,12 +270,20 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
+      <handlers>
+        <event>StartChoice</event>
+        <name>КандидатНачалоВыбора</name>
+      </handlers>
+      <handlers>
+        <event>Clearing</event>
+        <name>КандидатОчистка</name>
+      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
+      <clearButton>true</clearButton>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -409,6 +421,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.РезультатСобеседования</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>РезультатСобеседованияПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>РезультатСобеседованияРасширеннаяПодсказка</name>
       <id>21</id>
@@ -438,9 +454,60 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>ОписаниеРезультата</name>
+    <id>94</id>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ОписаниеРезультата</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ОписаниеРезультатаРасширеннаяПодсказка</name>
+      <id>96</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ОписаниеРезультатаКонтекстноеМеню</name>
+      <id>95</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <maxWidth>56</maxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
   <items xsi:type="form:Table">
     <name>ОтветственныеЛицаЗаСобеседование</name>
     <id>72</id>
+    <title>
+      <key>ru</key>
+      <value>Ответственные лица за собеседование</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <scale>100</scale>
+    </titleFont>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -449,7 +516,7 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ОтветственныеЛицаЗаСобеседование</segments>
     </dataPath>
-    <titleLocation>None</titleLocation>
+    <titleLocation>Top</titleLocation>
     <items xsi:type="form:FormField">
       <name>ОтветственныеЛицаЗаСобеседованиеНомерСтроки</name>
       <id>85</id>
@@ -1150,6 +1217,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>

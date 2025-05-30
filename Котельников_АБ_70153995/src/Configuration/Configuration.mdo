@@ -111,6 +111,7 @@
   <enums>Enum.РабочиеДни</enums>
   <enums>Enum.РабочиеЧасы</enums>
   <enums>Enum.РезультатыСобеседования</enums>
+  <enums>Enum.РезультатыТелефонногоИнтервью</enums>
   <enums>Enum.СтатусыВакансий</enums>
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
   <enums>Enum.СтатусыПоискаРаботы</enums>
@@ -153,5 +154,6 @@
   <accumulationRegisters>AccumulationRegister.ДвиженияВакансий</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияЗаявокНаПодбор</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗатратыНаВакансии</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КоличествоКандидатовПоЭтапам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОценкиКандидатов</accumulationRegisters>
 </mdclass:Configuration>

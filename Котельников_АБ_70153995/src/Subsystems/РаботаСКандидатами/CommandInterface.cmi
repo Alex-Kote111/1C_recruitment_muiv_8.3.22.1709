@@ -8,6 +8,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.Кандидаты.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.РегистрацияКандидатов.StandardCommand.Create</command>
       <visible>
         <common>true</common>
@@ -47,12 +53,12 @@
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelCreate</group>
+      <commands>Catalog.Кандидаты.StandardCommand.Create</commands>
       <commands>Document.РегистрацияКандидатов.StandardCommand.Create</commands>
       <commands>Document.ПроведениеТелефонногоИнтервью.StandardCommand.Create</commands>
       <commands>Document.ПроведениеСобеседования.StandardCommand.Create</commands>
       <commands>Document.ПроведениеТестирования.StandardCommand.Create</commands>
       <commands>Document.ПредложениеОРаботе.StandardCommand.Create</commands>
-      <commands>Catalog.Кандидаты.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

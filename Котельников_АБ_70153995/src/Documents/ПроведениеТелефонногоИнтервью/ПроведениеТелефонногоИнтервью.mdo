@@ -83,6 +83,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПроведениеТелефонногоИнтервью.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПроведениеТелефонногоИнтервью.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.КоличествоКандидатовПоЭтапам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="43d6c6b7-8fdd-4ddd-a40e-f2d71045de03">
@@ -129,13 +130,11 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <choiceParameterLinks>
-      <name>Отбор.СсылкаНаВакансию</name>
-      <field>Document.ПроведениеТелефонногоИнтервью.Attribute.Вакансия</field>
-    </choiceParameterLinks>
+    <createOnInput>DontUse</createOnInput>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   </attributes>
   <attributes uuid="d09f918c-260d-4a3f-85d0-fe41fa1a6fdc">
     <name>ВремяНачала</name>
@@ -182,13 +181,29 @@
       <value>Результат</value>
     </synonym>
     <type>
+      <types>EnumRef.РезультатыТелефонногоИнтервью</types>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="186eda74-2ef6-437b-8215-7b5a6ba3fff8">
+    <name>ОписаниеРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание результата</value>
+    </synonym>
+    <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -222,7 +237,7 @@
         <length>18</length>
       </stringQualifiers>
     </type>
-    <mask>+9 (999) 999-99-99</mask>
+    <mask>+7 (999) 999-99-99</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>

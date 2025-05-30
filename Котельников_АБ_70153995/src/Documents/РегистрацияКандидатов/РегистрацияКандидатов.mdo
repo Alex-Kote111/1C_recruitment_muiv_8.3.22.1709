@@ -82,6 +82,8 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РегистрацияКандидатов.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РегистрацияКандидатов.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.КоличествоКандидатовПоЭтапам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f42c26b9-b2d0-42ee-91ee-e41ebd34bcb3">
@@ -210,6 +212,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="9ede52a6-0b47-45ab-b31a-fd261d3b42cf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="ca026a15-bd9f-4407-8d5c-49718dd0e23f">
     <producedTypes>
       <objectType typeId="db609b06-afc2-46ac-bcf9-e086a793a5d3" valueTypeId="41a5737f-21a3-4a59-bf88-c5b169f6f64a"/>
@@ -256,7 +267,9 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <createOnInput>DontUse</createOnInput>
       <dataHistory>Use</dataHistory>
+      <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="f81bcb19-4c14-464a-ba5b-dba36c481b05">

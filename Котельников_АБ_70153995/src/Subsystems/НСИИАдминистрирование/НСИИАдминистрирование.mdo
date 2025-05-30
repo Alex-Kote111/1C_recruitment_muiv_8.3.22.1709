@@ -40,4 +40,5 @@
   <content>DataProcessor.ЗагрузкаНавыковИзХХ</content>
   <content>DataProcessor.ПодборСпециализацииИзХХ</content>
   <content>InformationRegister.ЧерновикиВакансийХХ</content>
+  <content>AccumulationRegister.КоличествоКандидатовПоЭтапам</content>
 </mdclass:Subsystem>

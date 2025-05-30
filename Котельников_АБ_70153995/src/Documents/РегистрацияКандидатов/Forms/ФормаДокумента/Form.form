@@ -336,6 +336,7 @@
       <segments>Объект.Кандидаты</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <excludedCommands>Copy</excludedCommands>
     <items xsi:type="form:FormField">
       <name>КандидатыНомерСтроки</name>
       <id>38</id>
@@ -448,12 +449,20 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>StartChoice</event>
+          <name>КандидатыКандидатНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>Clearing</event>
+          <name>КандидатыКандидатОчистка</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
+        <clearButton>true</clearButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -571,6 +580,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>BeforeDeleteRow</event>
+      <name>КандидатыПередУдалением</name>
+    </handlers>
     <searchStringAddition>
       <name>КандидатыСтрокаПоиска</name>
       <id>29</id>
@@ -675,8 +688,6 @@
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
-    <enableStartDrag>true</enableStartDrag>
-    <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>

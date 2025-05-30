@@ -82,6 +82,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПроведениеСобеседования.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПроведениеСобеседования.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.КоличествоКандидатовПоЭтапам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f0089802-28a2-4231-b880-cf6ed707b417">
@@ -166,13 +167,11 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <choiceParameterLinks>
-      <name>Отбор.СсылкаНаВакансию</name>
-      <field>Document.ПроведениеСобеседования.Attribute.Вакансия</field>
-    </choiceParameterLinks>
+    <createOnInput>DontUse</createOnInput>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   </attributes>
   <attributes uuid="ce53278b-594e-4d58-96af-c3d8391c205f">
     <name>РезультатСобеседования</name>
@@ -188,6 +187,25 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77db84eb-6c0b-4519-874c-8c2990255a05">
+    <name>ОписаниеРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание результата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

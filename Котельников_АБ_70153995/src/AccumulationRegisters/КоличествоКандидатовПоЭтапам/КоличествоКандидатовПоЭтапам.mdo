@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="728bd906-0d9f-47bf-822b-d4e8542567ca">
+  <producedTypes>
+    <selectionType typeId="d5351c23-4534-419c-9c30-5c49ccc09047" valueTypeId="bdf0580d-52d2-480f-8054-6d3ea04ac0c5"/>
+    <listType typeId="66548420-7d7c-465d-bd9d-fc0e7d9aea5f" valueTypeId="cde8670c-a27a-4b31-978c-9c7a5e496fe2"/>
+    <managerType typeId="00617335-29de-46d0-9435-1bffe736109d" valueTypeId="d9564f10-7b1f-4667-9e2a-db361dbfa5b1"/>
+    <recordSetType typeId="9aa75ac7-3155-4a04-98f7-3f069eede247" valueTypeId="9eb03313-99b4-444a-9210-636280c01d8d"/>
+    <recordKeyType typeId="fcdb92ab-0874-4742-ae55-cfd245f0850b" valueTypeId="19856bae-abf3-49ae-bda8-e6ddbad41801"/>
+    <recordType typeId="d1f1b3a5-c895-44ca-8cc5-afaa39869a44" valueTypeId="d6cdb9ef-789f-4440-83dd-388a204d3400"/>
+  </producedTypes>
+  <name>КоличествоКандидатовПоЭтапам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество кандидатов по этапам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5a556d05-c732-4269-ae85-fd4c57d6d9f2">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="785722d3-4f0a-4937-9085-e34d59579791">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c67f64da-7f58-4795-99fc-8b976aeb4e5b">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="89b694ab-fe96-46d6-b629-87a30db52c05">
+    <name>Этап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЭтапыПодбора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="88623bf0-7144-43cf-b3b1-4b0201b31038">
+    <name>ДатаИзмененияЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения этапа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

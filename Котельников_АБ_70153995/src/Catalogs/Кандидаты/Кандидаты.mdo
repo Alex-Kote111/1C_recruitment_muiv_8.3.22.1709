@@ -129,6 +129,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Кандидаты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Кандидаты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Кандидаты.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="9d32da20-5ae6-41d1-acbc-ec221e7558a4">
     <name>ЭтапПодбора</name>
     <synonym>
@@ -1349,6 +1350,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a44f6857-d313-42df-90a6-596f984bd7ff">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
