@@ -83,6 +83,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПроведениеТелефонногоИнтервью.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПроведениеТелефонногоИнтервью.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.СтатусыКандидатов</registerRecords>
   <registerRecords>AccumulationRegister.КоличествоКандидатовПоЭтапам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

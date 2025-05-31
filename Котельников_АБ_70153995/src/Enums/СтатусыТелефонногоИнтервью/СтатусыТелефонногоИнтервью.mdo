@@ -12,6 +12,13 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c56ef454-2d05-4c3d-a938-0e2c5670d33b">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="cf4d4193-d1a3-47ec-91c6-7b0fdef09042">
     <name>Состоялось</name>
     <synonym>

@@ -83,6 +83,8 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПроведениеТестирования.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПроведениеТестирования.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.СтатусыКандидатов</registerRecords>
+  <registerRecords>AccumulationRegister.КоличествоКандидатовПоЭтапам</registerRecords>
   <registerRecords>AccumulationRegister.ОценкиКандидатов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -146,9 +148,11 @@
       <name>Отбор.СсылкаНаВакансию</name>
       <field>Document.ПроведениеТестирования.Attribute.Вакансия</field>
     </choiceParameterLinks>
+    <createOnInput>DontUse</createOnInput>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   </attributes>
   <attributes uuid="589adbaf-0cb5-49d1-8453-1e26d8366b14">
     <name>АнкетаВопросов</name>

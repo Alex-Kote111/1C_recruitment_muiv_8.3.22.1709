@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88c1a24e-be1d-4fd2-80ff-8b6e2a35055e">
+  <producedTypes>
+    <refType typeId="3f5e4968-4885-4b0f-975c-6c7dda0d57d0" valueTypeId="436ae96f-a406-43a5-bd53-547973eff0e4"/>
+    <listType typeId="bff2b1c5-468b-49ab-820a-6c5ab394e604" valueTypeId="4db7c6ed-c0b1-4a5b-8d4f-d0076354db37"/>
+    <managerType typeId="4149dc7c-b346-49ae-8cba-033443d62c1f" valueTypeId="88532825-7a9d-4905-b6af-2961437fb5a0"/>
+  </producedTypes>
+  <name>СтатусыСобеседований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы собеседований</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="30a4067d-a559-47d6-bdd2-35493d331739">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77c6148b-bd21-4d4c-914d-64c805497a03">
+    <name>Пройдено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пройдено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93939dd6-dc88-413a-b087-49faaaecbc2e">
+    <name>НеСостоялось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не состоялось</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

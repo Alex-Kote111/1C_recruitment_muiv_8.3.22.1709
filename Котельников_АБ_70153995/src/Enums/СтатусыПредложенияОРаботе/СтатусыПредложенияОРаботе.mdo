@@ -12,6 +12,13 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9b6210d7-db70-4cd3-9a5a-bcbca6c11c3e">
+    <name>СделаноПредложениеОРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сделано предложение о работе</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="9805f5a3-8e0a-4558-a33f-b665c67165c7">
     <name>КандидатПринялПредложение</name>
     <synonym>

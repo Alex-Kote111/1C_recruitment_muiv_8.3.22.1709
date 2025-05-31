@@ -78,6 +78,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="6dbb02fd-d3e0-48c3-b837-92d43219251b">
+    <name>ЭтапПройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап пройден</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="88623bf0-7144-43cf-b3b1-4b0201b31038">
     <name>ДатаИзмененияЭтапа</name>
     <synonym>

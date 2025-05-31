@@ -248,6 +248,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Кандидат</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>КандидатПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>КандидатРасширеннаяПодсказка</name>
       <id>12</id>
@@ -269,12 +273,20 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
+      <handlers>
+        <event>StartChoice</event>
+        <name>КандидатНачалоВыбора</name>
+      </handlers>
+      <handlers>
+        <event>Clearing</event>
+        <name>КандидатОчистка</name>
+      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
+      <clearButton>true</clearButton>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">

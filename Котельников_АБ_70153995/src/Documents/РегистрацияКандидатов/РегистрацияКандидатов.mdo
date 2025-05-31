@@ -83,6 +83,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РегистрацияКандидатов.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.РегистрацияКандидатов.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.СтатусыКандидатов</registerRecords>
   <registerRecords>AccumulationRegister.КоличествоКандидатовПоЭтапам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

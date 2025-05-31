@@ -116,6 +116,7 @@
   <enums>Enum.СтатусыЗаявокНаПодбор</enums>
   <enums>Enum.СтатусыПоискаРаботы</enums>
   <enums>Enum.СтатусыПредложенияОРаботе</enums>
+  <enums>Enum.СтатусыСобеседований</enums>
   <enums>Enum.СтатусыТелефонногоИнтервью</enums>
   <enums>Enum.СтатусыТестирования</enums>
   <enums>Enum.ТипыВакансийХХ</enums>
@@ -145,6 +146,7 @@
   <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПубликацияВакансииНаХХ</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусыКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыВакансий</informationRegisters>
   <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>
   <informationRegisters>InformationRegister.УведомленияКандидатов</informationRegisters>

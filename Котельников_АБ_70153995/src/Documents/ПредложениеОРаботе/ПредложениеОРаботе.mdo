@@ -56,6 +56,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.Вакансия</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -82,6 +83,8 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПредложениеОРаботе.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПредложениеОРаботе.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.СтатусыКандидатов</registerRecords>
+  <registerRecords>AccumulationRegister.КоличествоКандидатовПоЭтапам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="bd7a61ac-464a-4fb8-b5ba-b6801e06e269">
@@ -190,10 +193,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8e3e5253-a539-4763-9032-8ad5a3f5d86a">
-    <name>Зарплата</name>
+    <name>ЗарплатаОт</name>
     <synonym>
       <key>ru</key>
-      <value>Зарплата</value>
+      <value>Зарплата от</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -202,6 +205,41 @@
         <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4bb355ee-9ae4-4926-a190-0e33ca695dd3">
+    <name>ЗарплатаДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6d54d726-1b2c-4f8e-a5b5-156f96a70ffd">
+    <name>ДоВычетаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>До вычета налога</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -220,9 +258,11 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   </attributes>
   <attributes uuid="380705d2-7cfa-4254-a764-00c92a146b2f">
     <name>ПричинаОтказа</name>

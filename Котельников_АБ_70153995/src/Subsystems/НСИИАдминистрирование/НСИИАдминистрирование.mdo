@@ -22,7 +22,6 @@
   <content>Catalog.Города</content>
   <content>Catalog.СтанцииМетро</content>
   <content>InformationRegister.ФотографииКандидатов</content>
-  <content>InformationRegister.ФайлыКандидатов</content>
   <content>CommonCommand.ЛичныеНастройки</content>
   <content>InformationRegister.ТокеныПользователей</content>
   <content>CommonForm.ДанныеОбщегоПриложенияХХ</content>
@@ -41,4 +40,5 @@
   <content>DataProcessor.ПодборСпециализацииИзХХ</content>
   <content>InformationRegister.ЧерновикиВакансийХХ</content>
   <content>AccumulationRegister.КоличествоКандидатовПоЭтапам</content>
+  <content>InformationRegister.СтатусыКандидатов</content>
 </mdclass:Subsystem>

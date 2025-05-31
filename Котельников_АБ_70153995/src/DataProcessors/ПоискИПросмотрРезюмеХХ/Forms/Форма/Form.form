@@ -445,13 +445,6 @@
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <excludedCommands>Add</excludedCommands>
-                <excludedCommands>Change</excludedCommands>
-                <excludedCommands>Copy</excludedCommands>
-                <excludedCommands>MoveDown</excludedCommands>
-                <excludedCommands>MoveUp</excludedCommands>
-                <excludedCommands>ShowRowRearrangement</excludedCommands>
-                <excludedCommands>SortListAsc</excludedCommands>
-                <excludedCommands>SortListDesc</excludedCommands>
                 <items xsi:type="form:FormField">
                   <name>СписокМестВстречиСловМестоВстречиСлов</name>
                   <id>468</id>
@@ -955,13 +948,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СтатусПоискаРаботыСтатус</name>
                 <id>253</id>
@@ -1650,13 +1636,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокУровнейОбразованияОбразование</name>
                 <id>419</id>
@@ -1965,12 +1944,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокКлючевыхНавыковНавык</name>
                 <id>522</id>
@@ -2371,13 +2344,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокЯзыковЯзык</name>
                 <id>444</id>
@@ -2729,13 +2695,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокТиповЗанятостиТипЗанятости</name>
                 <id>307</id>
@@ -3052,13 +3011,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокГрафиковРаботыГрафикРаботы</name>
                 <id>280</id>
@@ -3374,13 +3326,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокВариантовОпытаРаботыОпытРаботы</name>
                 <id>332</id>
@@ -3734,13 +3679,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокГородовГород</name>
                 <id>201</id>
@@ -4142,13 +4080,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <toolTip>
                 <key>ru</key>
                 <value>Нельзя выбирать станции, если уже выбрана линия этой станции, так как поиск приведет к ошибке.</value>
@@ -4519,13 +4450,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокВариантовДополнительногоФильтраФильтр</name>
                 <id>359</id>

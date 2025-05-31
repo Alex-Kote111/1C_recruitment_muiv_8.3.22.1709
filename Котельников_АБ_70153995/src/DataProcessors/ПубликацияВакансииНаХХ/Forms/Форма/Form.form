@@ -543,13 +543,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокГрафиковРаботыГрафик</name>
                 <id>187</id>
@@ -788,13 +781,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокРабочихЧасовВДеньРабочиеЧасы</name>
                 <id>209</id>
@@ -1105,13 +1091,6 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>ShowRowRearrangement</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокГородовПубликацииГород</name>
                 <id>35</id>
@@ -1585,13 +1564,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>ShowRowRearrangement</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <items xsi:type="form:FormField">
               <name>СписокКлючевыхНавыковНавык</name>
               <id>131</id>
@@ -1834,13 +1806,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>ShowRowRearrangement</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <items xsi:type="form:FormField">
               <name>СписокЯзыковЯзык</name>
               <id>154</id>
@@ -2196,16 +2161,7 @@
               <segments>ОписаниеВакансии</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>AlignCenter</excludedCommands>
-            <excludedCommands>AlignJustify</excludedCommands>
-            <excludedCommands>AlignLeft</excludedCommands>
-            <excludedCommands>AlignRight</excludedCommands>
-            <excludedCommands>BackColor</excludedCommands>
-            <excludedCommands>DecreaseFontSize</excludedCommands>
             <excludedCommands>Hyperlink</excludedCommands>
-            <excludedCommands>IncreaseFontSize</excludedCommands>
-            <excludedCommands>Picture</excludedCommands>
-            <excludedCommands>TextColor</excludedCommands>
             <toolTip>
               <key>ru</key>
               <value>Без контактных данных

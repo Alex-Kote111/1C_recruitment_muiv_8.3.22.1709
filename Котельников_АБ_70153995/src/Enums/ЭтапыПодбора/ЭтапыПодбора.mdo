@@ -70,18 +70,18 @@
       <value>Тестирование</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="f639201a-87aa-4d37-887e-b16c393b6500">
+  <enumValues uuid="e08562f9-970b-42f5-b5c2-0b96ab1e2682">
     <name>ПредложениеОРаботе</name>
     <synonym>
       <key>ru</key>
       <value>Предложение о работе</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="f3b29a85-8d77-4e21-803e-51810da753eb">
-    <name>ОтказКандидату</name>
+  <enumValues uuid="249eafc2-8c9a-4bda-a454-55ebf03c1189">
+    <name>ПринялПредложениеОРаботе</name>
     <synonym>
       <key>ru</key>
-      <value>Отказ кандидату</value>
+      <value>Принял предложение о работе</value>
     </synonym>
   </enumValues>
   <enumValues uuid="554005d4-9797-4ad8-9b6d-09642bfe0f06">
@@ -89,6 +89,13 @@
     <synonym>
       <key>ru</key>
       <value>Кандидат отказался от предложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3b29a85-8d77-4e21-803e-51810da753eb">
+    <name>ОтказКандидату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ кандидату</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
