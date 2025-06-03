@@ -2942,9 +2942,7 @@
     <navigationPanel>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ДвиженияЗаявокНаПодбор.StandardCommand.OpenByRecorder</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <userVisible/>
       </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>

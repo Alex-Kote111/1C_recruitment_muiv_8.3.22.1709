@@ -29,7 +29,6 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
-  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.22</compatibilityMode>
   <languages uuid="31908e8f-2382-4728-988d-c54286f41b97">
     <name>Русский</name>
@@ -54,6 +53,7 @@
   <roles>Role.РуководительСлужбыПерсонала</roles>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <exchangePlans>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом</exchangePlans>
   <commonCommands>CommonCommand.ЛичныеНастройки</commonCommands>
   <constants>Constant.АдресОрганизации</constants>
   <constants>Constant.АдресРедиректа</constants>
@@ -86,6 +86,7 @@
   <documents>Document.ЗакрытиеВакансии</documents>
   <documents>Document.ЗатратыНаВакансию</documents>
   <documents>Document.ЗаявкаНаПодбор</documents>
+  <documents>Document.ОтказКандидату</documents>
   <documents>Document.ПредложениеОРаботе</documents>
   <documents>Document.ПроведениеСобеседования</documents>
   <documents>Document.ПроведениеТелефонногоИнтервью</documents>
@@ -131,10 +132,12 @@
   <enums>Enum.ФорматыРаботы</enums>
   <enums>Enum.ЭтапыПодбора</enums>
   <enums>Enum.ЭтапыУведомлений</enums>
+  <reports>Report.ВоронкаКандидатов</reports>
   <reports>Report.ЗарплатаПоДолжностям</reports>
   <reports>Report.КоличествоЗаявокНаСогласовании</reports>
   <reports>Report.КоличествоОткрытыхВакансий</reports>
   <reports>Report.РезультатТестирований</reports>
+  <reports>Report.СтатусКандидатов</reports>
   <reports>Report.СтоимостьРазмещенияВакансийНаСайтах</reports>
   <reports>Report.СуммаЗатратНаВакансии</reports>
   <dataProcessors>DataProcessor.ЗагрузкаНавыковИзХХ</dataProcessors>
@@ -145,6 +148,8 @@
   <dataProcessors>DataProcessor.ПодборСпециализацииИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПубликацияВакансииНаХХ</dataProcessors>
+  <dataProcessors>DataProcessor.РегистрацияИзмененийДляОбменаДанными</dataProcessors>
+  <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
   <informationRegisters>InformationRegister.СтатусыКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыВакансий</informationRegisters>

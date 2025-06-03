@@ -49,6 +49,7 @@
       <commands>Document.ПроведениеСобеседования.StandardCommand.OpenList</commands>
       <commands>Document.ПроведениеТестирования.StandardCommand.OpenList</commands>
       <commands>Document.ПредложениеОРаботе.StandardCommand.OpenList</commands>
+      <commands>Document.ОтказКандидату.StandardCommand.OpenList</commands>
       <commands>Catalog.Кандидаты.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
@@ -59,6 +60,7 @@
       <commands>Document.ПроведениеСобеседования.StandardCommand.Create</commands>
       <commands>Document.ПроведениеТестирования.StandardCommand.Create</commands>
       <commands>Document.ПредложениеОРаботе.StandardCommand.Create</commands>
+      <commands>Document.ОтказКандидату.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

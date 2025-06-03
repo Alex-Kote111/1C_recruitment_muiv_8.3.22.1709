@@ -1509,11 +1509,6 @@ TkSuQmCC</dcscor:value>
 					<dcscor:parameter>ТекДата</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
 				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>Ответственный</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac94fd4c-77b7-4ca2-a36e-fa91dbeda193" thisNode="2aa3df26-210e-47ff-9fd7-a7789093972c">
+  <producedTypes>
+    <objectType typeId="b45a507c-6b61-44ac-90a4-db1fff5efacc" valueTypeId="abb7dd8e-c8b3-4654-b714-92834b030e46"/>
+    <refType typeId="a5ff74c1-d3b2-4e39-bab4-2117141d8bc4" valueTypeId="f70e6899-23d9-4978-9311-b9be53726845"/>
+    <selectionType typeId="9e420a00-e1f8-4ffa-928c-ca5fb3138edf" valueTypeId="c0fec9a4-a09c-49da-9ecb-592df89b8a88"/>
+    <listType typeId="79523cd9-01a9-4aa2-86cb-d7c26e063392" valueTypeId="8aab2f23-eed8-496e-b6ca-6e703db25daf"/>
+    <managerType typeId="431ddc9c-6e66-486e-8d40-9eb6f796114a" valueTypeId="482b8643-c84e-439d-b27a-91df30062798"/>
+  </producedTypes>
+  <name>ПодборПерсоналаЗарплатаИУправлениеПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор персонала зарплата и управление персоналом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <content>
+    <mdObject>Catalog.Кандидаты</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

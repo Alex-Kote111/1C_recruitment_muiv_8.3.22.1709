@@ -2481,6 +2481,10 @@
         <command>InformationRegister.УведомленияКандидатов.StandardCommand.OpenByValue.Вакансия</command>
         <userVisible/>
       </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>InformationRegister.ЧерновикиВакансийХХ.StandardCommand.OpenByValue.Вакансия</command>
+        <userVisible/>
+      </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>
   </commandInterface>

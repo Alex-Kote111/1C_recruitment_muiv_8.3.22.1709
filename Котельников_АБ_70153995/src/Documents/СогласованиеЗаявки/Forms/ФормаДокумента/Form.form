@@ -653,6 +653,9 @@
         <for>
           <role>Role.ИнициаторЗаявки</role>
         </for>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
       </userVisible>
       <extendedTooltip>
         <name>ФормаОдобритьЗаявкуРасширеннаяПодсказка</name>

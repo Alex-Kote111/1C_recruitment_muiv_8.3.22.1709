@@ -17,4 +17,7 @@
   <content>Document.ПроведениеТестирования</content>
   <content>Document.ПредложениеОРаботе</content>
   <content>Report.РезультатТестирований</content>
+  <content>Document.ОтказКандидату</content>
+  <content>Report.ВоронкаКандидатов</content>
+  <content>Report.СтатусКандидатов</content>
 </mdclass:Subsystem>

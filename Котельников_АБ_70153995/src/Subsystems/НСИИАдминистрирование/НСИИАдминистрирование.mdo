@@ -41,4 +41,7 @@
   <content>InformationRegister.ЧерновикиВакансийХХ</content>
   <content>AccumulationRegister.КоличествоКандидатовПоЭтапам</content>
   <content>InformationRegister.СтатусыКандидатов</content>
+  <content>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом</content>
+  <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
+  <content>DataProcessor.РегистрацияИзмененийДляОбменаДанными</content>
 </mdclass:Subsystem>
