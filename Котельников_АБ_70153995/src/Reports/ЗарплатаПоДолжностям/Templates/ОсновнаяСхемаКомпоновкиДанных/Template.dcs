@@ -15,6 +15,7 @@
 			<field>Должность</field>
 			<inputParameters>
 				<dcscor:item>
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>СвязиПараметровВыбора</dcscor:parameter>
 					<dcscor:value xsi:type="dcscor:ChoiceParameterLinks">
 						<dcscor:item>
@@ -88,30 +89,17 @@
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
-				<dcsset:item xsi:type="dcsset:FilterItemGroup">
-					<dcsset:groupType>OrGroup</dcsset:groupType>
-					<dcsset:item xsi:type="dcsset:FilterItemComparison">
-						<dcsset:left xsi:type="dcscor:Field">ЗарплатаОт</dcsset:left>
-						<dcsset:comparisonType>Greater</dcsset:comparisonType>
-						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:FilterItemComparison">
-						<dcsset:left xsi:type="dcscor:Field">ЗарплатаДо</dcsset:left>
-						<dcsset:comparisonType>Greater</dcsset:comparisonType>
-						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:FilterItemComparison">
-						<dcsset:use>false</dcsset:use>
-						<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
-						<dcsset:comparisonType>Equal</dcsset:comparisonType>
-						<dcsset:userSettingID>98fbbb45-ae49-4ae5-9033-9bb37ea5d8ec</dcsset:userSettingID>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:FilterItemComparison">
-						<dcsset:use>false</dcsset:use>
-						<dcsset:left xsi:type="dcscor:Field">Должность</dcsset:left>
-						<dcsset:comparisonType>Equal</dcsset:comparisonType>
-						<dcsset:userSettingID>583a2b2d-8791-4591-b248-c6ec9428cc03</dcsset:userSettingID>
-					</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ЗарплатаОт</dcsset:left>
+					<dcsset:comparisonType>Greater</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ЗарплатаДо</dcsset:left>
+					<dcsset:comparisonType>Greater</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
 				</dcsset:item>
 			</dcsset:filter>
 			<dcsset:outputParameters>
@@ -187,20 +175,6 @@
 					<dcsset:field>ЗарплатаДо</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
-			<dcsset:filter>
-				<dcsset:item xsi:type="dcsset:FilterItemComparison">
-					<dcsset:use>false</dcsset:use>
-					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
-					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:userSettingID>d8633d35-990e-4561-9671-5506c0bfdec5</dcsset:userSettingID>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:FilterItemComparison">
-					<dcsset:use>false</dcsset:use>
-					<dcsset:left xsi:type="dcscor:Field">Должность</dcsset:left>
-					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:userSettingID>a703cf05-3095-49fc-97df-1e0ffb4cc7d8</dcsset:userSettingID>
-				</dcsset:item>
-			</dcsset:filter>
 			<dcsset:order>
 				<dcsset:item xsi:type="dcsset:OrderItemField">
 					<dcsset:field>ЗарплатаМаксимальная</dcsset:field>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаНомерИДата</name>
     <id>25</id>
@@ -156,24 +156,115 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
-  <items xsi:type="form:FormField">
-    <name>Кандидат</name>
-    <id>10</id>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаКандидат</name>
+    <id>38</id>
+    <items xsi:type="form:FormField">
+      <name>Кандидат</name>
+      <id>10</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Кандидат</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>КандидатПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>КандидатРасширеннаяПодсказка</name>
+        <id>12</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КандидатКонтекстноеМеню</name>
+        <id>11</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>StartChoice</event>
+          <name>КандидатНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>Clearing</event>
+          <name>КандидатОчистка</name>
+        </handlers>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <clearButton>true</clearButton>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>КандидатУведомлен</name>
+      <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>уведомлен</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.КандидатУведомлен</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КандидатУведомленРасширеннаяПодсказка</name>
+        <id>37</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КандидатУведомленКонтекстноеМеню</name>
+        <id>36</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <readOnly>true</readOnly>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Кандидат</segments>
-    </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>КандидатПриИзменении</name>
-    </handlers>
+    <title>
+      <key>ru</key>
+      <value>Группа кандидат</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа кандидат</value>
+    </toolTip>
     <extendedTooltip>
-      <name>КандидатРасширеннаяПодсказка</name>
-      <id>12</id>
+      <name>ГруппаКандидатРасширеннаяПодсказка</name>
+      <id>39</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -181,31 +272,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>КандидатКонтекстноеМеню</name>
-      <id>11</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <handlers>
-        <event>StartChoice</event>
-        <name>КандидатНачалоВыбора</name>
-      </handlers>
-      <handlers>
-        <event>Clearing</event>
-        <name>КандидатОчистка</name>
-      </handlers>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <clearButton>true</clearButton>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -484,6 +558,31 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаОтправитьУведомлениеКандидату</name>
+      <id>33</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаОтправитьУведомлениеКандидатуРасширеннаяПодсказка</name>
+        <id>34</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОтправитьУведомлениеКандидату</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -517,6 +616,31 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>ОтправитьУведомлениеКандидату</name>
+    <title>
+      <key>ru</key>
+      <value>Отправить уведомление кандидату</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправить уведомление кандидату</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SendMessage</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтправитьУведомлениеКандидату</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

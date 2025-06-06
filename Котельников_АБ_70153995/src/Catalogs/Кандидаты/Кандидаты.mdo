@@ -656,6 +656,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="74453708-9ce2-4b75-8e1c-4d8504291858">
+    <name>ИдентификаторРезюмеХХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор резюме ХХ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="819dce96-4fc4-4d88-8f03-68ff177bf7f4">
     <producedTypes>
       <objectType typeId="c5da9764-2514-4b95-8700-bbd14a056137" valueTypeId="c444b34f-0cc2-4577-82f2-506458c0e67c"/>

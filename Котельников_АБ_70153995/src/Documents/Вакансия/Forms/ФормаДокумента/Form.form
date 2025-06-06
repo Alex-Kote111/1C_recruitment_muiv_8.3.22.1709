@@ -1027,7 +1027,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаСтраницаПрофессиональныеНавыки</name>
+      <name>ГруппаСтраницаКлючевыеНавыки</name>
       <id>154</id>
       <items xsi:type="form:Table">
         <name>ПрофессиональныеНавыки</name>
@@ -1279,10 +1279,14 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Профессиональные навыки</value>
+        <value>Ключевые навыки</value>
       </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа страница ключевые навыки</value>
+      </toolTip>
       <extendedTooltip>
-        <name>ГруппаСтраницаПрофессиональныеНавыкиРасширеннаяПодсказка</name>
+        <name>ГруппаСтраницаКлючевыеНавыкиРасширеннаяПодсказка</name>
         <id>155</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

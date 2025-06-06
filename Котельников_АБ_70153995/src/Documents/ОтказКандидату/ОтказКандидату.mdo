@@ -81,6 +81,21 @@
     <dataHistory>Use</dataHistory>
     <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   </attributes>
+  <attributes uuid="711e3307-ed8e-4e73-8602-22af2ab1301a">
+    <name>КандидатУведомлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат уведомлен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="a5419b1f-ceeb-4bc3-9a0c-83204e996cd4">
     <name>ПричинаОтказа</name>
     <synonym>
