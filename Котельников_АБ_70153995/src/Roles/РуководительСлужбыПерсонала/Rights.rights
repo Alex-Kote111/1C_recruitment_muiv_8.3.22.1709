@@ -373,17 +373,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.СтоимостьРазмещенияВакансийНаСайтах</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.КлючевыеНавыки</name>
 		<right>
 			<name>Read</name>
@@ -993,17 +982,6 @@
 		</right>
 		<right>
 			<name>Output</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.СуммаЗатратНаВакансии</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

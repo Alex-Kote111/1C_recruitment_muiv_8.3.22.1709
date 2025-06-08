@@ -158,7 +158,6 @@
               <segments>СписокМестВстречиСлов</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>Add</excludedCommands>
             <items xsi:type="form:FormField">
               <name>СписокМестВстречиСловМестоВстречиСлов</name>
               <id>468</id>
@@ -661,7 +660,6 @@
             <segments>СписокСтатусовПоискаРаботы</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СтатусПоискаРаботыСтатус</name>
             <id>253</id>
@@ -1349,7 +1347,6 @@
             <segments>СписокУровнейОбразования</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СписокУровнейОбразованияОбразование</name>
             <id>419</id>
@@ -1657,7 +1654,6 @@
             <segments>СписокКлючевыхНавыков</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СписокКлючевыхНавыковНавык</name>
             <id>522</id>
@@ -2057,7 +2053,6 @@
             <segments>СписокЯзыков</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СписокЯзыковЯзык</name>
             <id>444</id>
@@ -2408,7 +2403,6 @@
             <segments>СписокТиповЗанятости</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СписокТиповЗанятостиТипЗанятости</name>
             <id>307</id>
@@ -2724,7 +2718,6 @@
             <segments>СписокГрафиковРаботы</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СписокГрафиковРаботыГрафикРаботы</name>
             <id>280</id>
@@ -3039,7 +3032,6 @@
             <segments>СписокВариантовОпытаРаботы</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СписокВариантовОпытаРаботыОпытРаботы</name>
             <id>332</id>
@@ -3392,7 +3384,6 @@
             <segments>СписокГородов</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СписокГородовГород</name>
             <id>201</id>
@@ -3793,7 +3784,6 @@
             <segments>СписокСтанцийМетро</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <toolTip>
             <key>ru</key>
             <value>Нельзя выбирать станции, если уже выбрана линия этой станции, так как поиск приведет к ошибке.</value>
@@ -4163,7 +4153,6 @@
             <segments>СписокВариантовДополнительногоФильтра</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
           <items xsi:type="form:FormField">
             <name>СписокВариантовДополнительногоФильтраФильтр</name>
             <id>359</id>
@@ -4919,7 +4908,6 @@
       <segments>СписокНайденныхРезюме</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Add</excludedCommands>
     <items xsi:type="form:FormField">
       <name>СписокНайденныхРезюмеНомерСтроки</name>
       <id>162</id>

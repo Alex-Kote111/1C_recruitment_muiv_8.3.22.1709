@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70db0255-4d31-44ec-8fdd-0798f57e2546">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13c76541-edf6-461e-ae47-2eaab50f0ab3">
   <producedTypes>
-    <objectType typeId="963ce440-5fbb-4d45-9d8f-0314eceaa090" valueTypeId="f02ee66e-c993-462b-bfc3-666693c1a928"/>
-    <managerType typeId="860093e8-d79f-4db6-86f2-37a79967416d" valueTypeId="5c6ee552-b617-40b3-b704-a750c9b6ea85"/>
+    <objectType typeId="48f9af63-2fb2-4f07-814d-cec98533a684" valueTypeId="9b946d3e-1519-4f8a-b4cc-44c6ad913be4"/>
+    <managerType typeId="cb2c5b93-660f-49c4-9d48-8433f9ea9e9c" valueTypeId="cbc02baa-c6b8-4a50-a6fb-aa7d0f83862a"/>
   </producedTypes>
   <name>СуммаЗатратНаВакансии</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.СуммаЗатратНаВакансии.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="15895378-ada6-4c6e-837a-b8a4627230f5">
+  <templates uuid="47e14020-70a9-4215-adb0-0388856c09f5">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

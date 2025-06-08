@@ -42,7 +42,7 @@
 	Перечисление.ЭтапыПодбора КАК ЭтапыПодбора
 ГДЕ
 	ЭтапыПодбора.Ссылка &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ЭтапыПодбора.Неразобранные)
-	И ЭтапыПодбора.Ссылка &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ЭтапыПодбора.ПринялПредложениеОРаботе)
+	И ЭтапыПодбора.Ссылка &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ЭтапыПодбора.ПредложениеОРаботе)
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -1218,6 +1218,12 @@ TkSuQmCC</dcscor:value>
 				<dcsat:tableCell>
 					<dcsat:item xsi:type="dcsat:Field">
 						<dcsat:value xsi:type="dcscor:Parameter">ТекДата</dcsat:value>
+						<dcsat:appearance>
+							<dcscor:item>
+								<dcscor:parameter>Формат</dcscor:parameter>
+								<dcscor:value xsi:type="xs:string">ДЛФ=DD</dcscor:value>
+							</dcscor:item>
+						</dcsat:appearance>
 					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
@@ -1493,7 +1499,7 @@ TkSuQmCC</dcscor:value>
 					<dcsset:lwsTitle>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество прошедших этап</v8:content>
+							<v8:content>Прошли этап</v8:content>
 						</v8:item>
 					</dcsset:lwsTitle>
 				</dcsset:item>
@@ -1599,6 +1605,32 @@ TkSuQmCC</dcscor:value>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
 					<dcscor:value xsi:type="v8ui:ChartType">StackedBar</dcscor:value>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТипДиаграммы.ВидПодписей</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:ChartLabelType">ValuePercent</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ТипДиаграммы.ШкалаСерий</dcscor:parameter>
+						<dcscor:value xmlns:d7p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d7p1:ChartScale">
+							<d7p1:titleText xsi:type="v8:LocalStringType"/>
+							<d7p1:titleArea>
+								<d7p1:font xsi:type="v8ui:Font" kind="AutoFont"/>
+								<d7p1:textColor>auto</d7p1:textColor>
+								<d7p1:backColor>auto</d7p1:backColor>
+								<d7p1:border width="1">
+									<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+								</d7p1:border>
+								<d7p1:borderColor>auto</d7p1:borderColor>
+							</d7p1:titleArea>
+							<d7p1:scaleLabelLocation>Inside</d7p1:scaleLabelLocation>
+							<d7p1:gridLineColor>auto</d7p1:gridLineColor>
+							<d7p1:labelFont xsi:type="v8ui:Font" kind="AutoFont"/>
+							<d7p1:labelColor>auto</d7p1:labelColor>
+							<d7p1:labelFormat xsi:type="v8:LocalStringType"/>
+							<d7p1:scaleLineColor>auto</d7p1:scaleLineColor>
+						</dcscor:value>
+					</dcscor:item>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Заголовок</dcscor:parameter>

@@ -19,9 +19,7 @@
         <segments>СписокДанных.SettingsComposer.Settings.Filter</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <excludedCommands>HierarchicalList</excludedCommands>
       <excludedCommands>List</excludedCommands>
-      <excludedCommands>Tree</excludedCommands>
       <autoCommandBar>
         <name>ОтборКоманднаяПанель</name>
         <id>17</id>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="923e9b88-f3ef-4a10-8529-5fd19a9cdec3">
+  <producedTypes>
+    <objectType typeId="3475816c-ef1d-4a95-a686-072b0826175d" valueTypeId="5a83a81b-e280-44c3-b29f-b099de9a3960"/>
+    <managerType typeId="03f7f205-0248-4106-888a-d7d54fe0696c" valueTypeId="7f4d54ca-aa98-4a59-97f4-7f48831295eb"/>
+  </producedTypes>
+  <name>ПрайсЛистВнешнихИсточников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс-лист внешних источников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПрайсЛистВнешнихИсточников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d8ec2e93-ac3e-4655-9436-089ed56b764d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

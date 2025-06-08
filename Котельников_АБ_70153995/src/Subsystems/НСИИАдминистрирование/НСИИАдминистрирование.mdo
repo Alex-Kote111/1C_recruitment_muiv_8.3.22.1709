@@ -44,4 +44,6 @@
   <content>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом</content>
   <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
   <content>DataProcessor.РегистрацияИзмененийДляОбменаДанными</content>
+  <content>Catalog.ВидыДополнительныхЗатратНаВакансии</content>
+  <content>InformationRegister.ЦенаДополнительныхУслугВакансий</content>
 </mdclass:Subsystem>

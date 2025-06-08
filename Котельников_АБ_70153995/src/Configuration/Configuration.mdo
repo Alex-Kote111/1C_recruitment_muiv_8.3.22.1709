@@ -65,6 +65,7 @@
   <commonForms>CommonForm.ДанныеОбщегоПриложенияХХ</commonForms>
   <commonForms>CommonForm.ДанныеОрганизации</commonForms>
   <catalogs>Catalog.Анкеты</catalogs>
+  <catalogs>Catalog.ВидыДополнительныхЗатратНаВакансии</catalogs>
   <catalogs>Catalog.ВопросыДляАнкетирования</catalogs>
   <catalogs>Catalog.Города</catalogs>
   <catalogs>Catalog.Должности</catalogs>
@@ -136,9 +137,9 @@
   <reports>Report.ЗарплатаПоДолжностям</reports>
   <reports>Report.КоличествоЗаявокНаСогласовании</reports>
   <reports>Report.КоличествоОткрытыхВакансий</reports>
+  <reports>Report.ПрайсЛистВнешнихИсточников</reports>
   <reports>Report.РезультатТестирований</reports>
   <reports>Report.СтатусКандидатов</reports>
-  <reports>Report.СтоимостьРазмещенияВакансийНаСайтах</reports>
   <reports>Report.СуммаЗатратНаВакансии</reports>
   <dataProcessors>DataProcessor.ЗагрузкаНавыковИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаОткликовССайтаУниверситета</dataProcessors>
@@ -157,6 +158,7 @@
   <informationRegisters>InformationRegister.УведомленияКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ФотографииКандидатов</informationRegisters>
+  <informationRegisters>InformationRegister.ЦенаДополнительныхУслугВакансий</informationRegisters>
   <informationRegisters>InformationRegister.ЧерновикиВакансийХХ</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияВакансий</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияЗаявокНаПодбор</accumulationRegisters>

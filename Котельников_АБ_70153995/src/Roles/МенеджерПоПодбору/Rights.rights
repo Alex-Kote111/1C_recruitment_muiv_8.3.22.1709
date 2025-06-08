@@ -534,17 +534,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.СтоимостьРазмещенияВакансийНаСайтах</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.СогласованиеЗаявки.Attribute.Отклонена</name>
 		<right>
 			<name>View</name>
@@ -1532,17 +1521,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.СуммаЗатратНаВакансии</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>

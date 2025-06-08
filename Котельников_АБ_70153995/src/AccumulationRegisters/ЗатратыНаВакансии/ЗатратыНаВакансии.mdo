@@ -50,11 +50,29 @@
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="76880500-0049-4bea-990c-11e02cfac8f4">
-    <name>Цена</name>
+  <resources uuid="77d95a17-789e-4cf6-a5d9-f0bce338bb3d">
+    <name>Сумма</name>
     <synonym>
       <key>ru</key>
-      <value>Цена</value>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="76880500-0049-4bea-990c-11e02cfac8f4">
+    <name>ОбщаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая сумма</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -83,24 +101,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="3220d88b-92bf-4282-931e-fdcfc6024d8c">
-    <name>ДатаОплаты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата оплаты</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
   <dimensions uuid="0ac1dbb5-0c17-4c70-8279-793e05138eab">
     <name>Сайт</name>
     <synonym>
@@ -109,20 +109,6 @@
     </synonym>
     <type>
       <types>CatalogRef.ИсточникиПривлечения</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="666aa2c5-83e4-44f8-8c38-3dcb74f4e500">
-    <name>ТарифныйПлан</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тарифный план</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ТарифныеПланы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

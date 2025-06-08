@@ -17,7 +17,7 @@
   <content>DataProcessor.ПоискИПросмотрРезюмеХХ</content>
   <content>Document.ЗатратыНаВакансию</content>
   <content>Report.КоличествоОткрытыхВакансий</content>
-  <content>Report.СтоимостьРазмещенияВакансийНаСайтах</content>
-  <content>Report.СуммаЗатратНаВакансии</content>
   <content>DataProcessor.ПубликацияВакансииНаХХ</content>
+  <content>Report.СуммаЗатратНаВакансии</content>
+  <content>Report.ПрайсЛистВнешнихИсточников</content>
 </mdclass:Subsystem>

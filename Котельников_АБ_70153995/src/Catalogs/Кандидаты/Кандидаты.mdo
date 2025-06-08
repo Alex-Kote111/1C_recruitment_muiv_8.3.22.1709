@@ -148,21 +148,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f89c31da-b21c-4929-8399-c2bf0132fb38">
-    <name>ПричинаОтказа</name>
-    <synonym>
-      <key>ru</key>
-      <value>Причина отказа</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ПричиныОтказа</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="2acffa02-e4b7-4baa-8627-eec5997c7377">
     <name>СсылкаНаВакансию</name>
     <synonym>

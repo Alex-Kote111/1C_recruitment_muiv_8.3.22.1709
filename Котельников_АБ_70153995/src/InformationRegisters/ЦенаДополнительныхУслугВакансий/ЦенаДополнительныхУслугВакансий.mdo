@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2be1ab5-7071-4672-8dce-1dcbd900b842">
+  <producedTypes>
+    <selectionType typeId="9c6ed350-5f24-4944-b3a6-ef6fe8f66bf2" valueTypeId="c129fae7-6cdd-4508-a22e-23d67097b7c0"/>
+    <listType typeId="25933c03-06dc-4905-8ebf-ebccc08ddcfa" valueTypeId="11ff3342-716d-4888-ac4d-1003b51697ac"/>
+    <managerType typeId="4294c5dc-1912-4bd6-9a29-e5e56a65723f" valueTypeId="a502edb8-6067-4e5a-bb60-8deefa1bd8f3"/>
+    <recordSetType typeId="6e211dcd-a9a1-4b52-b01f-66eed12dd4b3" valueTypeId="99da98c8-74ee-4277-9b9b-4036b816095d"/>
+    <recordKeyType typeId="5cec7d01-ee2f-45a1-ba44-c613e8192024" valueTypeId="0f10305b-4621-4435-b9cf-22bf2aac8a1c"/>
+    <recordType typeId="a97c50db-a598-410c-bf68-8f89167dc64b" valueTypeId="e7728ef1-645d-4e36-ad31-8ba4c1c080e3"/>
+    <recordManagerType typeId="1cec793e-8213-44a2-a364-c48d74cdc4a2" valueTypeId="f3a758db-e1e3-402c-b98f-2af36b58b61c"/>
+  </producedTypes>
+  <name>ЦенаДополнительныхУслугВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цена дополнительных услуг вакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eebe9983-96ed-4832-970c-2c1dba6bddeb">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e421b312-da1b-4b2a-97aa-2acc945e509a">
+    <name>СайтВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт вакансии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиПривлечения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="78ce2eba-9caa-4498-a80b-16e2dfc7b405">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДополнительныхЗатратНаВакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Сайт</name>
+      <field>InformationRegister.ЦенаДополнительныхУслугВакансий.Dimension.СайтВакансии</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
