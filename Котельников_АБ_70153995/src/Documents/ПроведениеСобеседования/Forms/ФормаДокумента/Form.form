@@ -1379,6 +1379,9 @@
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
       </userVisible>
       <extendedTooltip>
         <name>ФормаОтправитьУведомлениеКандидатуРасширеннаяПодсказка</name>
@@ -1464,6 +1467,14 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

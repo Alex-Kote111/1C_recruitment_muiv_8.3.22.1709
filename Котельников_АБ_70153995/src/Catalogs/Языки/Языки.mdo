@@ -55,6 +55,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Языки.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Языки.Form.ФормаСписка</defaultListForm>
   <attributes uuid="71bc5156-d2a8-42f6-b5de-697b0646833a">
     <name>ИдентификаторЯзыкаХХ</name>
@@ -81,6 +82,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2fc2f9d5-365f-4f8e-8a95-95aa996d25eb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

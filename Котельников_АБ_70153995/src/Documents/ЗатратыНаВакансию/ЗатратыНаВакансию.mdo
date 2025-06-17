@@ -56,6 +56,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.Вакансия</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -82,6 +83,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗатратыНаВакансию.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ЗатратыНаВакансию.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ЗатратыНаВакансию.Form.ФормаВыбора</defaultChoiceForm>
   <registerRecords>AccumulationRegister.ЗатратыНаВакансии</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -184,6 +186,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdb858a2-96e2-47d3-a60e-80164f438cd5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

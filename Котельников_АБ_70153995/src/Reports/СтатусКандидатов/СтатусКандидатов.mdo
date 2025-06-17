@@ -10,7 +10,17 @@
     <value>Статус кандидатов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СтатусКандидатов.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.СтатусКандидатов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="445cb493-ea5f-4731-b08f-a55ca88d773d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="21833eb9-5e98-4834-bc5e-91833d387d42">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

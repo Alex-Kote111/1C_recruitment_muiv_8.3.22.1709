@@ -61,11 +61,11 @@
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Токены пользователей</value>
+    <value>Токены пользователя</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Токены пользователей</value>
+    <value>Токены пользователя</value>
   </extendedListPresentation>
   <resources uuid="9fadce4b-0aa7-4190-9fe1-ecb04915577f">
     <name>Токен</name>

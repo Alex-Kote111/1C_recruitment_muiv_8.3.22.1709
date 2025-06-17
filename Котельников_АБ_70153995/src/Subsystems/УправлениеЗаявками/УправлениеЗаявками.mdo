@@ -11,8 +11,6 @@
     <picture>CommonPicture.УправлениеЗаявками</picture>
   </picture>
   <content>Catalog.ПрофилиДолжностей</content>
-  <content>Catalog.КлючевыеНавыки</content>
-  <content>Catalog.ЛичныеКачества</content>
   <content>Document.ЗаявкаНаПодбор</content>
   <content>Document.СогласованиеЗаявки</content>
   <content>Report.КоличествоЗаявокНаСогласовании</content>

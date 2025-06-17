@@ -900,7 +900,7 @@
       <name>ГруппаСтраницаНавыки</name>
       <id>137</id>
       <items xsi:type="form:Table">
-        <name>ПрофессиональныеНавыки</name>
+        <name>КлючевыеНавыки</name>
         <id>56</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1028,16 +1028,16 @@
           </extInfo>
         </items>
         <autoCommandBar>
-          <name>ПрофессиональныеНавыкиКоманднаяПанель</name>
+          <name>КлючевыеНавыкиКоманднаяПанель</name>
           <id>58</id>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
         <searchStringAddition>
-          <name>ПрофессиональныеНавыкиСтрокаПоиска</name>
+          <name>КлючевыеНавыкиСтрокаПоиска</name>
           <id>60</id>
           <extendedTooltip>
-            <name>ПрофессиональныеНавыкиСтрокаПоискаРасширеннаяПодсказка</name>
+            <name>КлючевыеНавыкиСтрокаПоискаРасширеннаяПодсказка</name>
             <id>62</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1047,20 +1047,20 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПрофессиональныеНавыкиСтрокаПоискаКонтекстноеМеню</name>
+            <name>КлючевыеНавыкиСтрокаПоискаКонтекстноеМеню</name>
             <id>61</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПрофессиональныеНавыки</source>
+          <source>КлючевыеНавыки</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchStringAddition>
         <viewStatusAddition>
-          <name>ПрофессиональныеНавыкиСостояниеПросмотра</name>
+          <name>КлючевыеНавыкиСостояниеПросмотра</name>
           <id>63</id>
           <extendedTooltip>
-            <name>ПрофессиональныеНавыкиСостояниеПросмотраРасширеннаяПодсказка</name>
+            <name>КлючевыеНавыкиСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>65</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1070,21 +1070,21 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПрофессиональныеНавыкиСостояниеПросмотраКонтекстноеМеню</name>
+            <name>КлючевыеНавыкиСостояниеПросмотраКонтекстноеМеню</name>
             <id>64</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПрофессиональныеНавыки</source>
+          <source>КлючевыеНавыки</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
-          <name>ПрофессиональныеНавыкиУправлениеПоиском</name>
+          <name>КлючевыеНавыкиУправлениеПоиском</name>
           <id>66</id>
           <extendedTooltip>
-            <name>ПрофессиональныеНавыкиУправлениеПоискомРасширеннаяПодсказка</name>
+            <name>КлючевыеНавыкиУправлениеПоискомРасширеннаяПодсказка</name>
             <id>68</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1094,18 +1094,18 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПрофессиональныеНавыкиУправлениеПоискомКонтекстноеМеню</name>
+            <name>КлючевыеНавыкиУправлениеПоискомКонтекстноеМеню</name>
             <id>67</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПрофессиональныеНавыки</source>
+          <source>КлючевыеНавыки</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ПрофессиональныеНавыкиРасширеннаяПодсказка</name>
+          <name>КлючевыеНавыкиРасширеннаяПодсказка</name>
           <id>59</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1115,7 +1115,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПрофессиональныеНавыкиКонтекстноеМеню</name>
+          <name>КлючевыеНавыкиКонтекстноеМеню</name>
           <id>57</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -1149,7 +1149,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Профессиональные навыки</value>
+        <value>Ключевые навыки</value>
       </title>
       <extendedTooltip>
         <name>ГруппаСтраницаНавыкиРасширеннаяПодсказка</name>

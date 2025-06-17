@@ -57,9 +57,14 @@
 			<dataPath>Количество</dataPath>
 			<field>Количество</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПриоритетПоиска</dataPath>
+			<field>ПриоритетПоиска</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ДвиженияЗаявокНаПодбор.Регистратор КАК Регистратор,
+	ДвиженияЗаявокНаПодбор.ПриоритетПоиска КАК ПриоритетПоиска,
 	ДвиженияЗаявокНаПодбор.Подразделение КАК Подразделение,
 	ДвиженияЗаявокНаПодбор.ВакантнаяДолжность КАК ВакантнаяДолжность,
 	ДвиженияЗаявокНаПодбор.ИнициаторЗаявки КАК ИнициаторЗаявки,
@@ -1468,6 +1473,9 @@ TkSuQmCC</dcscor:value>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ИнициаторЗаявки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПриоритетПоиска</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ПричинаОткрытияВакансии</dcsset:field>

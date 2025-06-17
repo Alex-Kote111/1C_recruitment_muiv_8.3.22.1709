@@ -146,6 +146,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Города.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Города.Form.ФормаГруппы</defaultFolderForm>
   <defaultListForm>Catalog.Города.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Города.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="ab477d4f-0e69-47bd-9d31-bd005cb2f047">
@@ -192,6 +193,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0035e7ae-d2f5-4ea2-9b36-ce5d85080077">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

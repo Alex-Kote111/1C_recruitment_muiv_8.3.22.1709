@@ -748,6 +748,10 @@ URL редиректа используется всегда общий.</value>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.РуководительСлужбыПерсонала</role>
+        </for>
       </userVisible>
       <title>
         <key>ru</key>
@@ -896,6 +900,10 @@ URL редиректа используется всегда общий.</value>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>StartChoice</event>
+              <name>НастройкиУведомленийШаблонПисьмаНачалоВыбора</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
@@ -1057,6 +1065,10 @@ URL редиректа используется всегда общий.</value>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.РуководительСлужбыПерсонала</role>
+        </for>
       </userVisible>
       <title>
         <key>ru</key>
@@ -1414,6 +1426,10 @@ URL редиректа используется всегда общий.</value>
     <handlers>
       <event>AfterWrite</event>
       <name>ПослеЗаписи</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

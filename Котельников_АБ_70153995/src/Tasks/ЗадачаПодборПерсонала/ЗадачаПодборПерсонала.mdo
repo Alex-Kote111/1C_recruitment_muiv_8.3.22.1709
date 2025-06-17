@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fed83793-412b-4e30-872a-2516ca9c3536">
+  <producedTypes>
+    <objectType typeId="a1656487-5961-45e4-8a30-2d3f5c602bc3" valueTypeId="846900ea-8f36-4c00-80a9-3b852a9646dc"/>
+    <refType typeId="40c9fa53-1fb8-47d2-9514-cacbca0b1a44" valueTypeId="c127a863-0d34-419d-85c7-0268ec0cad67"/>
+    <selectionType typeId="872fe51a-d077-4d7e-9eb3-fade19bd484d" valueTypeId="254a5692-7a80-4f96-9322-c88e76db3379"/>
+    <listType typeId="4d821d91-4f80-489b-8482-fc7e165b1ed1" valueTypeId="3e4f5837-d641-4b8a-b223-48b26adf1a16"/>
+    <managerType typeId="591fd22a-f385-43cb-a750-0651f52888ed" valueTypeId="e4c6f11d-50ec-4bd0-a33f-72aa6d74a3be"/>
+  </producedTypes>
+  <name>ЗадачаПодборПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача подбор персонала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачаПодборПерсонала.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачаПодборПерсонала.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Задача на подбор персонала</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Задача на подбор персонала</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Задачи на подбор персонала</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Задачи на подбор персонала</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>150</descriptionLength>
+  <addressing>InformationRegister.РегистрРегистрации</addressing>
+  <mainAddressingAttribute>Task.ЗадачаПодборПерсонала.AddressingAttribute.Исполнитель</mainAddressingAttribute>
+  <currentPerformer>SessionParameter.ТекущийПользователь</currentPerformer>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Task.ЗадачаПодборПерсонала.Form.ФормаЗадачи</defaultObjectForm>
+  <defaultListForm>Task.ЗадачаПодборПерсонала.Form.ФормаСписка</defaultListForm>
+  <forms uuid="a2c07ce8-43c4-4965-8267-61f3f82b7123">
+    <name>ФормаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e738c5df-ab53-4308-a181-4bfea0e409dd">
+    <name>ФормаМоиЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4de93bf5-86ce-405c-b567-6c7df6637ecf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="faed44c6-4bff-4221-9f74-a19b033827a4">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.РегистрРегистрации.Dimension.Исполнитель</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <addressingAttributes uuid="11a26708-7ea4-4764-a2e6-656b7389bede">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.РегистрРегистрации.Dimension.Подразделение</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <addressingAttributes uuid="21d3fa91-c93c-436d-84dc-d60973c93fe4">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.РегистрРегистрации.Dimension.Должность</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <commands uuid="ab8d0554-d526-4757-ab27-7eb17f46216a">
+    <name>ОткрытьФормуМоиЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои задачи</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Task>

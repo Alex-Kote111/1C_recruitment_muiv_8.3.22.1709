@@ -55,6 +55,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <exchangePlans>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом</exchangePlans>
   <commonCommands>CommonCommand.ЛичныеНастройки</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьМоиЗадачи</commonCommands>
   <constants>Constant.АдресОрганизации</constants>
   <constants>Constant.АдресРедиректа</constants>
   <constants>Constant.ИдентификаторПриложенияХХ</constants>
@@ -98,6 +99,7 @@
   <enums>Enum.ВариантыДополнительногоФильтра</enums>
   <enums>Enum.ВариантыДоступностиМестаРаботы</enums>
   <enums>Enum.ВариантыМестаПроживания</enums>
+  <enums>Enum.ВариантыОтветаНаВопрос</enums>
   <enums>Enum.ВариантыПоискаКлючевыхСлов</enums>
   <enums>Enum.ВариантыРазмераКомпании</enums>
   <enums>Enum.ВариантыСортировкиРезюме</enums>
@@ -106,8 +108,10 @@
   <enums>Enum.КатегорииДолжностей</enums>
   <enums>Enum.МестаВстречиСлов</enums>
   <enums>Enum.ОпытРаботы</enums>
+  <enums>Enum.ОтветственныеЗаПубликацию</enums>
   <enums>Enum.ПериодыОпытаРаботы</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ПриоритетыПоиска</enums>
   <enums>Enum.ПричиныЗакрытияВакансий</enums>
   <enums>Enum.ПричиныОткрытияВакансий</enums>
   <enums>Enum.РабочиеДни</enums>
@@ -146,12 +150,14 @@
   <dataProcessors>DataProcessor.ЗагрузкаРегионовИГородовИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаСтанцийМетроИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаЯзыковИзХХ</dataProcessors>
+  <dataProcessors>DataProcessor.ПланированиеТелефонныхИнтервьюИСобеседований</dataProcessors>
   <dataProcessors>DataProcessor.ПодборСпециализацииИзХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИПросмотрРезюмеХХ</dataProcessors>
   <dataProcessors>DataProcessor.ПубликацияВакансииНаХХ</dataProcessors>
   <dataProcessors>DataProcessor.РегистрацияИзмененийДляОбменаДанными</dataProcessors>
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <informationRegisters>InformationRegister.ЗарплатыПоДолжностям</informationRegisters>
+  <informationRegisters>InformationRegister.РегистрРегистрации</informationRegisters>
   <informationRegisters>InformationRegister.СтатусыКандидатов</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыВакансий</informationRegisters>
   <informationRegisters>InformationRegister.ТокеныПользователей</informationRegisters>
@@ -165,4 +171,6 @@
   <accumulationRegisters>AccumulationRegister.ЗатратыНаВакансии</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КоличествоКандидатовПоЭтапам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОценкиКандидатов</accumulationRegisters>
+  <businessProcesses>BusinessProcess.ПодборПерсонала</businessProcesses>
+  <tasks>Task.ЗадачаПодборПерсонала</tasks>
 </mdclass:Configuration>

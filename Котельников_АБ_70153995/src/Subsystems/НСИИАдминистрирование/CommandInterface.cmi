@@ -1,5 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.Пользователи.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Сотрудники.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Подразделения.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Должности.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Языки.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
+        <for>
+          <role>Role.РуководительСлужбыПерсонала</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ЗарплатыПоДолжностям.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ПричиныОтклоненияЗаявок.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ВопросыДляАнкетирования.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ПричиныОтказа.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Города.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.СтанцииМетро.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ТарифыВакансий.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ТокеныПользователей.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.УведомленияКандидатов.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ФотографииКандидатов.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ЦенаДополнительныхУслугВакансий.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ЧерновикиВакансийХХ.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ЗагрузкаНавыковИзХХ.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.РуководительСлужбыПерсонала</role>
+        </for>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ЗагрузкаРегионовИГородовИзХХ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ЗагрузкаСтанцийМетроИзХХ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ЗагрузкаЯзыковИзХХ.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ПодборСпециализацииИзХХ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
@@ -7,9 +171,29 @@
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Подразделения.StandardCommand.OpenList</commands>
       <commands>Catalog.Должности.StandardCommand.OpenList</commands>
+      <commands>Catalog.КлючевыеНавыки.StandardCommand.OpenList</commands>
+      <commands>Catalog.ЛичныеКачества.StandardCommand.OpenList</commands>
       <commands>Catalog.Языки.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЗарплатыПоДолжностям.StandardCommand.OpenList</commands>
       <commands>Catalog.ПричиныОтклоненияЗаявок.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВопросыДляАнкетирования.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.КоличествоКандидатовПоЭтапам.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ОценкиКандидатов.StandardCommand.OpenList</commands>
+      <commands>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом.StandardCommand.OpenList</commands>
+      <commands>Catalog.ШаблоныПисем.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПричиныОтказа.StandardCommand.OpenList</commands>
+      <commands>Catalog.Города.StandardCommand.OpenList</commands>
+      <commands>Catalog.СтанцииМетро.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.СтатусыКандидатов.StandardCommand.OpenList</commands>
+      <commands>Catalog.ИсточникиПривлечения.StandardCommand.OpenList</commands>
+      <commands>Catalog.ТарифныеПланы.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВидыДополнительныхЗатратНаВакансии.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ТарифыВакансий.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ТокеныПользователей.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УведомленияКандидатов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ФотографииКандидатов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЦенаДополнительныхУслугВакансий.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЧерновикиВакансийХХ.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelCreate</group>
@@ -21,6 +205,27 @@
       <commands>Catalog.Языки.StandardCommand.Create</commands>
       <commands>InformationRegister.ЗарплатыПоДолжностям.StandardCommand.Create</commands>
       <commands>Catalog.ПричиныОтклоненияЗаявок.StandardCommand.Create</commands>
+      <commands>Catalog.ВидыДополнительныхЗатратНаВакансии.StandardCommand.Create</commands>
+      <commands>Catalog.ВопросыДляАнкетирования.StandardCommand.Create</commands>
+      <commands>Catalog.Города.StandardCommand.Create</commands>
+      <commands>Catalog.Города.StandardCommand.CreateFolder</commands>
+      <commands>Catalog.ИсточникиПривлечения.StandardCommand.Create</commands>
+      <commands>Catalog.ИсточникиПривлечения.StandardCommand.CreateFolder</commands>
+      <commands>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом.StandardCommand.Create</commands>
+      <commands>Catalog.ПричиныОтказа.StandardCommand.Create</commands>
+      <commands>Catalog.ПричиныОтказа.StandardCommand.CreateFolder</commands>
+      <commands>Catalog.СтанцииМетро.StandardCommand.CreateFolder</commands>
+      <commands>Catalog.СтанцииМетро.StandardCommand.Create</commands>
+      <commands>Catalog.ТарифныеПланы.StandardCommand.Create</commands>
+      <commands>InformationRegister.ТарифыВакансий.StandardCommand.Create</commands>
+      <commands>InformationRegister.ТокеныПользователей.StandardCommand.Create</commands>
+      <commands>InformationRegister.УведомленияКандидатов.StandardCommand.Create</commands>
+      <commands>InformationRegister.ФотографииКандидатов.StandardCommand.Create</commands>
+      <commands>InformationRegister.ЦенаДополнительныхУслугВакансий.StandardCommand.Create</commands>
+      <commands>InformationRegister.ЧерновикиВакансийХХ.StandardCommand.Create</commands>
+      <commands>Catalog.ШаблоныПисем.StandardCommand.Create</commands>
+      <commands>Catalog.ЛичныеКачества.StandardCommand.Create</commands>
+      <commands>Catalog.КлючевыеНавыки.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

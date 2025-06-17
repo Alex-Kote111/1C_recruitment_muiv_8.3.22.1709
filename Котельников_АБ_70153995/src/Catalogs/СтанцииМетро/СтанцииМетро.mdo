@@ -129,6 +129,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтанцииМетро.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтанцииМетро.Form.ФормаГруппы</defaultFolderForm>
   <defaultListForm>Catalog.СтанцииМетро.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.СтанцииМетро.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="6682b65a-827d-44e5-98cc-ac488a26cfba">
@@ -166,6 +168,24 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0616f923-f3af-431c-a4a5-dfe79642ef8f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cd39bb0f-9677-4482-a61d-9ac2b34c700d">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

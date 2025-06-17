@@ -20,4 +20,6 @@
   <content>Document.ОтказКандидату</content>
   <content>Report.ВоронкаКандидатов</content>
   <content>Report.СтатусКандидатов</content>
+  <content>Catalog.Анкеты</content>
+  <content>DataProcessor.ПланированиеТелефонныхИнтервьюИСобеседований</content>
 </mdclass:Subsystem>

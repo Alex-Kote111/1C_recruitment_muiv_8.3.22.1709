@@ -48,6 +48,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="b1aa99b4-3b92-4870-bec8-a5d050fb8a72">
+    <name>ПриоритетПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет поиска</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПриоритетыПоиска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="466dc0ff-d405-454d-aefb-76bfd327c42d">
     <name>Подразделение</name>
     <synonym>

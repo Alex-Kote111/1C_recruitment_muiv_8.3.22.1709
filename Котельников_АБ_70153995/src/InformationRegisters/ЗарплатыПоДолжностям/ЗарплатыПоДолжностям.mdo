@@ -76,6 +76,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <attributes uuid="06356def-77c1-4814-817a-f882d4359bd1">
+    <name>ДоВычетаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>До вычета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="3f6952d2-8846-4d54-8ade-d92dd6ca7dde">
     <name>Подразделение</name>
     <synonym>

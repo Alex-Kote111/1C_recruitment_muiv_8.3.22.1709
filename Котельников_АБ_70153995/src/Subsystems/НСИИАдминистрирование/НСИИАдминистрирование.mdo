@@ -28,7 +28,6 @@
   <content>DataProcessor.ЗагрузкаРегионовИГородовИзХХ</content>
   <content>Catalog.ТарифныеПланы</content>
   <content>InformationRegister.ТарифыВакансий</content>
-  <content>Catalog.Анкеты</content>
   <content>Catalog.ВопросыДляАнкетирования</content>
   <content>AccumulationRegister.ОценкиКандидатов</content>
   <content>Catalog.ШаблоныПисем</content>
@@ -46,4 +45,10 @@
   <content>DataProcessor.РегистрацияИзмененийДляОбменаДанными</content>
   <content>Catalog.ВидыДополнительныхЗатратНаВакансии</content>
   <content>InformationRegister.ЦенаДополнительныхУслугВакансий</content>
+  <content>Catalog.КлючевыеНавыки</content>
+  <content>Catalog.ЛичныеКачества</content>
+  <content>BusinessProcess.ПодборПерсонала</content>
+  <content>Task.ЗадачаПодборПерсонала</content>
+  <content>InformationRegister.РегистрРегистрации</content>
+  <content>CommonCommand.ОткрытьМоиЗадачи</content>
 </mdclass:Subsystem>

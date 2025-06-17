@@ -46,6 +46,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыДополнительныхЗатратНаВакансии.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="b16aee81-8ce0-4854-a369-857dc73dbd02">
     <name>Сайт</name>
     <synonym>
@@ -61,4 +62,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="b94fb9b7-ac60-4443-8142-343b86811a00">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

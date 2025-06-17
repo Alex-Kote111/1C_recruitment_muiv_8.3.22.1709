@@ -303,6 +303,10 @@
     <items xsi:type="form:FormField">
       <name>ОтветственныйЗаВакансию</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

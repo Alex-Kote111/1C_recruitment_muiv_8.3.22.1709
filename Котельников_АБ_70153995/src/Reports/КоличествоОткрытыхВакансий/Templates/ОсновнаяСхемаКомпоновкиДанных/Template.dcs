@@ -53,10 +53,15 @@
 			<dataPath>Количество</dataPath>
 			<field>Количество</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПриоритетПоиска</dataPath>
+			<field>ПриоритетПоиска</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ДвиженияВакансий.Регистратор КАК Вакансия,
 	ДвиженияВакансий.СтатусВакансии КАК СтатусВакансии,
+	ДвиженияВакансий.ПриоритетПоиска КАК ПриоритетПоиска,
 	ДвиженияВакансий.ПланируемаяДатаЗакрытия КАК ПланируемаяДатаЗакрытия,
 	ДвиженияВакансий.Подразделение КАК Подразделение,
 	ДвиженияВакансий.Должность КАК Должность,
@@ -1171,6 +1176,9 @@ TkSuQmCC</dcscor:value>
 					<dcsset:field>СтатусВакансии</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПриоритетПоиска</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ПланируемаяДатаЗакрытия</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -1197,13 +1205,6 @@ TkSuQmCC</dcscor:value>
 					<dcsset:userSettingID>e56b81e0-bff8-421e-92e2-f1f703bef45a</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>
-			<dcsset:dataParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>Ответственный</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-				</dcscor:item>
-			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>МакетОформления</dcscor:parameter>

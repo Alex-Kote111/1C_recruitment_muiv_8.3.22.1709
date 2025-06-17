@@ -42,6 +42,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗакрытиеВакансии.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ЗакрытиеВакансии.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ЗакрытиеВакансии.Form.ФормаВыбора</defaultChoiceForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="832d43c5-104f-45b3-9c04-781e3b6fba2d">
@@ -120,6 +121,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -205,6 +207,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fb94191b-d0f1-4f23-9d8e-08be63f7ead2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

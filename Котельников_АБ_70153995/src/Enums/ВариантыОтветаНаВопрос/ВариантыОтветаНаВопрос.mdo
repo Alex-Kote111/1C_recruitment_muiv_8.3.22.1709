@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="876f8c72-b91f-497c-bcb4-557f7421f411">
+  <producedTypes>
+    <refType typeId="7a05ff2f-4bfa-4820-bd15-7a4a8538ec2b" valueTypeId="e6bd3bd9-7250-4752-a57b-5039f342116b"/>
+    <listType typeId="fedafac9-729f-497f-8d77-c9a8c04e9955" valueTypeId="c207c597-0cdf-4202-a3b5-1d17bc0dd71d"/>
+    <managerType typeId="f920dc91-7c08-437c-8228-e38e639402db" valueTypeId="fa0ab663-c0ef-497b-88da-4e3505bfac5c"/>
+  </producedTypes>
+  <name>ВариантыОтветаНаВопрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты ответа на вопрос</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b42b2770-8823-4d24-a084-73cce55bfd6d">
+    <name>Да</name>
+    <synonym>
+      <key>ru</key>
+      <value>Да</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19c43308-27bd-4e65-8734-ca314ff3f695">
+    <name>Нет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

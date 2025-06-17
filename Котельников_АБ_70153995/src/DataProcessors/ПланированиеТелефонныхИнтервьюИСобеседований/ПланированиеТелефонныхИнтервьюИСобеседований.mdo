@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5392cd1d-dde0-42ec-a5d1-30ae4bd10fb2">
+  <producedTypes>
+    <objectType typeId="a3dbe044-8247-43f8-b0b3-dd23995c7784" valueTypeId="8501854e-ca6b-42e5-8128-c6ab94607186"/>
+    <managerType typeId="ae9b738e-0f0c-488f-8fb3-d94742f7cd66" valueTypeId="0ac5c3a7-bc4b-40ab-b43b-af4d6f01e422"/>
+  </producedTypes>
+  <name>ПланированиеТелефонныхИнтервьюИСобеседований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование телефонных интервью и собеседований</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПланированиеТелефонныхИнтервьюИСобеседований.Form.Форма</defaultForm>
+  <forms uuid="cbbe60e6-ad27-4405-af81-5d67b0fb29ef">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

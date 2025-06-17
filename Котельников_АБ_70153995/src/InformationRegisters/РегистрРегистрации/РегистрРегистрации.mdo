@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79838b57-119c-4773-a9b7-7079b3046167">
+  <producedTypes>
+    <selectionType typeId="d45e095e-b4c3-4a23-bcd5-6f69f874b5da" valueTypeId="530bfded-f4e2-4ee1-bfd2-097dece4516c"/>
+    <listType typeId="908749a1-7d24-4e8f-9462-6155089fd75a" valueTypeId="108b7b1d-2c20-40f6-a9d7-a4775af322c8"/>
+    <managerType typeId="ab1b6342-8234-4d3d-bbba-1502e93878e3" valueTypeId="b560073d-c354-4a86-9a4c-63577051f47e"/>
+    <recordSetType typeId="03416f73-89b2-4d30-b2fc-05d8fae134eb" valueTypeId="c82d6c84-28b6-4bc3-aaa2-40737631a4e9"/>
+    <recordKeyType typeId="874498e9-1023-47fb-a02f-7c66239881db" valueTypeId="08b1d321-5020-4763-9023-0838ed39320f"/>
+    <recordType typeId="8961aaa0-e600-4a68-90de-4aff01a86b85" valueTypeId="976aaff6-fcf1-4a73-8250-a43699dee4ae"/>
+    <recordManagerType typeId="e64c3a7d-6865-44d4-ab2a-1122fe86434d" valueTypeId="78082808-a98b-49f2-bfb2-ba5d07ea8e3f"/>
+  </producedTypes>
+  <name>РегистрРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр регистрации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="da75e558-a34f-4119-9142-c43e743238e2">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ff52949f-a108-4354-b6d8-a31b64161bbe">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4209a530-1999-4d66-acb5-36bd1b9e24cf">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
