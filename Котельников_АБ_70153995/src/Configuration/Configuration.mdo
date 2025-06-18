@@ -54,6 +54,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <exchangePlans>ExchangePlan.ПодборПерсоналаЗарплатаИУправлениеПерсоналом</exchangePlans>
+  <commonCommands>CommonCommand.ЗапланированныеМероприятия</commonCommands>
   <commonCommands>CommonCommand.ЛичныеНастройки</commonCommands>
   <commonCommands>CommonCommand.ОткрытьМоиЗадачи</commonCommands>
   <constants>Constant.АдресОрганизации</constants>

@@ -23,16 +23,5 @@
       </visibility>
     </items>
   </columns>
-  <columns>
-    <items>
-      <form>DataProcessor.ПланированиеТелефонныхИнтервьюИСобеседований.Form.Форма</form>
-      <height>10</height>
-      <visibility>
-        <common>true</common>
-        <for>
-          <role>Role.РуководительСлужбыПерсонала</role>
-        </for>
-      </visibility>
-    </items>
-  </columns>
+  <columns/>
 </hpwa:HomePageWorkArea>

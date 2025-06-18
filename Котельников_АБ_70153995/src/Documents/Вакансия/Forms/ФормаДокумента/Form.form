@@ -226,7 +226,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
-        <readOnly>true</readOnly>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -367,6 +366,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2487,6 +2487,9 @@
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
+          <for>
+            <role>Role.ИнициаторЗаявки</role>
+          </for>
         </userVisible>
         <extendedTooltip>
           <name>ФормаСформироватьОтчетСуммаЗатратНаВакансиюРасширеннаяПодсказка</name>
@@ -2510,6 +2513,7 @@
       <userVisible>
         <common>true</common>
         <for>
+          <value>true</value>
           <role>Role.ИнициаторЗаявки</role>
         </for>
       </userVisible>

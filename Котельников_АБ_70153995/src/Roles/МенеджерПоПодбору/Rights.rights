@@ -11,13 +11,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ФотографииКандидатов.Dimension.Кандидат</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ПроведениеТелефонногоИнтервью.Attribute.АвторДокумента</name>
 		<right>
 			<name>Edit</name>
@@ -131,13 +124,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.ОтветственныйЗаВакансию</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПрофилиДолжностей.Attribute.ДоВычетаНалога</name>
 		<right>
 			<name>Edit</name>
@@ -158,7 +144,19 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveChangeOfPosted</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -200,41 +198,6 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.StandardAttribute.Posted</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.StandardAttribute.Date</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.StandardAttribute.Number</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -339,13 +302,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ФотографииКандидатов.Resource.Фотография</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ПочтаРазработчикаХХ</name>
 		<right>
 			<name>Read</name>
@@ -391,13 +347,6 @@
 	</object>
 	<object>
 		<name>Catalog.ПрофилиДолжностей.Attribute.Подразделение</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.ОплатаТрудаДо</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -916,17 +865,17 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.ДоВычетаНалога</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.РаботаСКандидатами</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПредложениеОРаботе.Attribute.АвторДокумента</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -956,13 +905,6 @@
 	</object>
 	<object>
 		<name>Catalog.ПрофилиДолжностей.TabularSection.КлючевыеНавыки.Attribute.Навык</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.ФорматРаботы</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1101,13 +1043,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.ТипЗанятости</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ЗарплатыПоДолжностям.Dimension.Подразделение</name>
 		<right>
 			<name>View</name>
@@ -1131,13 +1066,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.TabularSection.ЛичныеКачества</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1265,7 +1193,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.TabularSection.ЗнанияЯзыков.Attribute.Язык</name>
+		<name>Document.ПредложениеОРаботе.Attribute.Ответственный</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1386,13 +1314,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЧерновикиВакансийХХ.Attribute.ОтветственныйЗаВакансию</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.TabularSection.ЛичныеКачества.Attribute.Качество</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1531,13 +1452,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.ОпытРаботы</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ЗакрытиеВакансии</name>
 		<right>
 			<name>Read</name>
@@ -1545,21 +1459,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.АвторДокумента</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПрофилиДолжностей.Attribute.ДолжностныеОбязанности</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.ОтветственныйЗаПоискКандидатов</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1573,28 +1473,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.TabularSection.ЗнанияЯзыков</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.TabularSection.КлючевыеНавыки.Attribute.УровеньВладения</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ТокеныПользователей.Resource.ТокенДляПродления</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.ОплатаТрудаОт</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1645,13 +1524,6 @@
 		<right>
 			<name>Output</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.НаименованиеВакансии</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -1751,13 +1623,6 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.TabularSection.КлючевыеНавыки.Attribute.Навык</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -1864,13 +1729,6 @@
 		<right>
 			<name>TotalsControl</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.TabularSection.ЗнанияЯзыков.Attribute.УровеньВладения</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -2025,13 +1883,6 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.TabularSection.КлючевыеНавыки</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -2365,13 +2216,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.КомментарийКВакансии</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ЗарплатыПоДолжностям.Resource.ЗарплатаДо</name>
 		<right>
 			<name>View</name>
@@ -2642,13 +2486,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.Подразделение</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПрофилиДолжностей.TabularSection.КлючевыеНавыки</name>
 		<right>
 			<name>Edit</name>
@@ -2824,13 +2661,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.Образование</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПрофилиДолжностей.TabularSection.ЗнанияЯзыков</name>
 		<right>
 			<name>Edit</name>
@@ -2845,20 +2675,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.ПрофильДолжности</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.СтатусВакансии</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>BusinessProcess.ПодборПерсонала.Attribute.ЗакрытиеВакансии</name>
 		<right>
 			<name>Edit</name>
@@ -2867,13 +2683,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ТокеныПользователей.Resource.ВремяЖизниТокена</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.Комментарий</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2898,6 +2707,10 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2939,34 +2752,6 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФотографииКандидатов.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФотографииКандидатов.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФотографииКандидатов.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФотографииКандидатов.StandardAttribute.Period</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -3211,20 +2996,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.ГрафикРаботы</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.ДокументОснование</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.УведомленияКандидатов.Dimension.Кандидат</name>
 		<right>
 			<name>Edit</name>
@@ -3233,13 +3004,6 @@
 	</object>
 	<object>
 		<name>Catalog.ПрофилиДолжностей.Attribute.ФорматРаботы</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.Должность</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3649,6 +3413,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ПредложениеОРаботе.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПричиныОтказа</name>
 		<right>
 			<name>Read</name>
@@ -3765,13 +3536,6 @@
 	</object>
 	<object>
 		<name>Document.ПроведениеСобеседования.Attribute.ТипСобеседования</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вакансия.Attribute.ХранилищеФорматированногоТекста</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -4201,13 +3965,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вакансия.Attribute.ПланируемаяДатаЗакрытия</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Task.ЗадачаПодборПерсонала.AddressingAttribute.Исполнитель</name>
 		<right>
 			<name>Edit</name>
@@ -4220,6 +3977,13 @@
 			<name>Use</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ЗапланированныеМероприятия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

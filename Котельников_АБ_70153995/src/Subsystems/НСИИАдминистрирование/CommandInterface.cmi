@@ -131,6 +131,45 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Task.ЗадачаПодборПерсонала.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>BusinessProcess.ПодборПерсонала.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.РегистрРегистрации.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ИнициаторЗаявки</role>
+        </for>
+        <for>
+          <role>Role.РуководительСлужбыПерсонала</role>
+        </for>
+        <for>
+          <role>Role.МенеджерПоПодбору</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.ЗагрузкаНавыковИзХХ.StandardCommand.Open</command>
       <visible>
         <common>true</common>
@@ -194,6 +233,9 @@
       <commands>InformationRegister.ФотографииКандидатов.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЦенаДополнительныхУслугВакансий.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЧерновикиВакансийХХ.StandardCommand.OpenList</commands>
+      <commands>Task.ЗадачаПодборПерсонала.StandardCommand.OpenList</commands>
+      <commands>BusinessProcess.ПодборПерсонала.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.РегистрРегистрации.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelCreate</group>
@@ -226,6 +268,9 @@
       <commands>Catalog.ШаблоныПисем.StandardCommand.Create</commands>
       <commands>Catalog.ЛичныеКачества.StandardCommand.Create</commands>
       <commands>Catalog.КлючевыеНавыки.StandardCommand.Create</commands>
+      <commands>BusinessProcess.ПодборПерсонала.StandardCommand.Create</commands>
+      <commands>Task.ЗадачаПодборПерсонала.StandardCommand.Create</commands>
+      <commands>InformationRegister.РегистрРегистрации.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

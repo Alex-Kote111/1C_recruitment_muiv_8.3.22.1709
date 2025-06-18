@@ -22,4 +22,5 @@
   <content>Report.СтатусКандидатов</content>
   <content>Catalog.Анкеты</content>
   <content>DataProcessor.ПланированиеТелефонныхИнтервьюИСобеседований</content>
+  <content>CommonCommand.ЗапланированныеМероприятия</content>
 </mdclass:Subsystem>

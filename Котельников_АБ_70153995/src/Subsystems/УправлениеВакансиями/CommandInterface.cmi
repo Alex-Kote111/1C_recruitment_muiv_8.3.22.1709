@@ -8,12 +8,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.Вакансия.StandardCommand.Create</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.ЗагрузкаОткликовССайтаУниверситета.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>

@@ -159,4 +159,32 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="f545cdce-d77c-467d-954c-50cca935cc22">
+    <name>ОтветственныйЗаВакансию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за вакансию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5d4bba9e-5752-47c5-8eda-a88f9b20ae8a">
+    <name>ОтветственныйЗаПоискКандидатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за поиск кандидатов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>

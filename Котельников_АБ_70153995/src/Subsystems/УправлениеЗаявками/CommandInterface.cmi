@@ -13,12 +13,6 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ЗаявкаНаПодбор.StandardCommand.Create</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -36,16 +30,12 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.ПрофилиДолжностей.StandardCommand.OpenList</commands>
-      <commands>Catalog.КлючевыеНавыки.StandardCommand.OpenList</commands>
-      <commands>Catalog.ЛичныеКачества.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelCreate</group>
       <commands>Document.ЗаявкаНаПодбор.StandardCommand.Create</commands>
       <commands>Document.СогласованиеЗаявки.StandardCommand.Create</commands>
       <commands>Catalog.ПрофилиДолжностей.StandardCommand.Create</commands>
-      <commands>Catalog.КлючевыеНавыки.StandardCommand.Create</commands>
-      <commands>Catalog.ЛичныеКачества.StandardCommand.Create</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelReports</group>

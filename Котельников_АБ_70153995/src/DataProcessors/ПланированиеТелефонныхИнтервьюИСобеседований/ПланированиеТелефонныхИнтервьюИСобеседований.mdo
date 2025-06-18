@@ -20,4 +20,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="06c563e0-2884-43d8-a732-a2b2bc83ad94">
+    <name>ФормаДляГлавнойСтраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма для главной страницы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

@@ -11,13 +11,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ФайлыКандидатов.Dimension.Кандидат</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ПроведениеТелефонногоИнтервью.Attribute.АвторДокумента</name>
 		<right>
 			<name>View</name>
@@ -419,13 +412,6 @@
 	</object>
 	<object>
 		<name>Task.ЗадачаПодборПерсонала.AddressingAttribute.Должность</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФайлыКандидатов.Attribute.ПолныйПутьКФайлу</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -942,13 +928,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ФайлыКандидатов.Dimension.РазмерФайла</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ПланированиеТелефонныхИнтервьюИСобеседований</name>
 		<right>
 			<name>Use</name>
@@ -1108,13 +1087,6 @@
 		<right>
 			<name>Output</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФайлыКандидатов.Resource.ФайлКандидата</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -1368,38 +1340,6 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФайлыКандидатов.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФайлыКандидатов.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФайлыКандидатов.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФайлыКандидатов.StandardAttribute.Period</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
 	</object>
 	<object>
 		<name>AccumulationRegister.КоличествоКандидатовПоЭтапам.Dimension.Вакансия</name>
@@ -1569,13 +1509,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ФайлыКандидатов.Dimension.Наименование</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>AccumulationRegister.КоличествоКандидатовПоЭтапам.Dimension.ДатаИзмененияЭтапа</name>
 		<right>
 			<name>View</name>
@@ -1720,6 +1653,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ПроведениеТестирования.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПроведениеТелефонногоИнтервью.Attribute.Вакансия</name>
 		<right>
 			<name>View</name>
@@ -1772,13 +1712,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ФайлыКандидатов.Dimension.ИмяФайлаБезРасширения</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -1932,13 +1865,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ФайлыКандидатов.Dimension.РасширениеФайла</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ЗагрузкаНавыковИзХХ</name>
 		<right>
 			<name>Use</name>
@@ -1963,7 +1889,55 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2775,6 +2749,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ПроведениеТелефонногоИнтервью</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПроведениеТелефонногоИнтервью.StandardAttribute.Posted</name>
 		<right>
 			<name>View</name>
@@ -2852,6 +2833,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ЗапланированныеМероприятия</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

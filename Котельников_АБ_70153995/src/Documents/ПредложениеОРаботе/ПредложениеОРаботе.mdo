@@ -232,6 +232,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b70ca726-5dc3-489f-83ec-3145cd594a6a">
+    <name>ДатаНачалаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="6d54d726-1b2c-4f8e-a5b5-156f96a70ffd">
     <name>ДоВычетаНалога</name>
     <synonym>
@@ -360,4 +378,19 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="6dd1b732-c201-4a90-97fb-b10c1a35f7cd">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="e5966d57-f3f6-4e3d-b95b-06313ac262a8">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПредложениеОРаботе</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
 </mdclass:Document>

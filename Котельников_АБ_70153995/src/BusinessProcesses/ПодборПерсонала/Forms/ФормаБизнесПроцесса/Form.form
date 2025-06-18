@@ -284,6 +284,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ЗаявкаНаПодбор</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ЗаявкаНаПодборПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ЗаявкаНаПодборРасширеннаяПодсказка</name>
               <id>24</id>
@@ -309,6 +313,47 @@
                 <event>StartChoice</event>
                 <name>ЗаявкаНаПодборНачалоВыбора</name>
               </handlers>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>КоличествоЧеловек</name>
+            <id>200</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.КоличествоЧеловек</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>КоличествоЧеловекРасширеннаяПодсказка</name>
+              <id>202</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>КоличествоЧеловекКонтекстноеМеню</name>
+              <id>201</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
@@ -1009,22 +1054,20 @@
           <segments>Кандидаты</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Create</excludedCommands>
         <items xsi:type="form:FormField">
-          <name>КандидатыНаименование</name>
-          <id>89</id>
+          <name>КандидатыПериод</name>
+          <id>175</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.Description</segments>
+            <segments>Кандидаты.Period</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КандидатыНаименованиеРасширеннаяПодсказка</name>
-            <id>91</id>
+            <name>КандидатыПериодРасширеннаяПодсказка</name>
+            <id>177</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1033,8 +1076,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КандидатыНаименованиеКонтекстноеМеню</name>
-            <id>90</id>
+            <name>КандидатыПериодКонтекстноеМеню</name>
+            <id>176</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1048,19 +1091,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>КандидатыДатаПоступления</name>
-          <id>170</id>
+          <name>КандидатыРегистратор</name>
+          <id>178</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.ДатаПоступления</segments>
+            <segments>Кандидаты.Recorder</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КандидатыДатаПоступленияРасширеннаяПодсказка</name>
-            <id>172</id>
+            <name>КандидатыРегистраторРасширеннаяПодсказка</name>
+            <id>180</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1069,8 +1112,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КандидатыДатаПоступленияКонтекстноеМеню</name>
-            <id>171</id>
+            <name>КандидатыРегистраторКонтекстноеМеню</name>
+            <id>179</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1084,19 +1127,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>КандидатыЭтапПодбора</name>
-          <id>95</id>
+          <name>КандидатыНомерСтроки</name>
+          <id>181</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.ЭтапПодбора</segments>
+            <segments>Кандидаты.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КандидатыЭтапПодбораРасширеннаяПодсказка</name>
-            <id>97</id>
+            <name>КандидатыНомерСтрокиРасширеннаяПодсказка</name>
+            <id>183</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1105,8 +1148,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КандидатыЭтапПодбораКонтекстноеМеню</name>
-            <id>96</id>
+            <name>КандидатыНомерСтрокиКонтекстноеМеню</name>
+            <id>182</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1120,19 +1163,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>КандидатыСсылкаНаВакансию</name>
-          <id>98</id>
+          <name>КандидатыВакансия</name>
+          <id>184</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.СсылкаНаВакансию</segments>
+            <segments>Кандидаты.Вакансия</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КандидатыСсылкаНаВакансиюРасширеннаяПодсказка</name>
-            <id>100</id>
+            <name>КандидатыВакансияРасширеннаяПодсказка</name>
+            <id>186</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1141,8 +1184,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КандидатыСсылкаНаВакансиюКонтекстноеМеню</name>
-            <id>99</id>
+            <name>КандидатыВакансияКонтекстноеМеню</name>
+            <id>185</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1156,19 +1199,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>КандидатыНаименованиеВакансии</name>
-          <id>101</id>
+          <name>КандидатыКандидат</name>
+          <id>187</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.НаименованиеВакансии</segments>
+            <segments>Кандидаты.Кандидат</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КандидатыНаименованиеВакансииРасширеннаяПодсказка</name>
-            <id>103</id>
+            <name>КандидатыКандидатРасширеннаяПодсказка</name>
+            <id>189</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1177,8 +1220,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КандидатыНаименованиеВакансииКонтекстноеМеню</name>
-            <id>102</id>
+            <name>КандидатыКандидатКонтекстноеМеню</name>
+            <id>188</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1192,19 +1235,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>КандидатыИсточникПривлечения</name>
-          <id>104</id>
+          <name>КандидатыСтатус</name>
+          <id>190</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.ИсточникПривлечения</segments>
+            <segments>Кандидаты.Статус</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КандидатыИсточникПривлеченияРасширеннаяПодсказка</name>
-            <id>106</id>
+            <name>КандидатыСтатусРасширеннаяПодсказка</name>
+            <id>192</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1213,8 +1256,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КандидатыИсточникПривлеченияКонтекстноеМеню</name>
-            <id>105</id>
+            <name>КандидатыСтатусКонтекстноеМеню</name>
+            <id>191</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1228,19 +1271,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>КандидатыЖелаемаяДолжность</name>
-          <id>134</id>
+          <name>КандидатыЭтапПройден</name>
+          <id>193</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.ЖелаемаяДолжность</segments>
+            <segments>Кандидаты.ЭтапПройден</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КандидатыЖелаемаяДолжностьРасширеннаяПодсказка</name>
-            <id>136</id>
+            <name>КандидатыЭтапПройденРасширеннаяПодсказка</name>
+            <id>195</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1249,44 +1292,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КандидатыЖелаемаяДолжностьКонтекстноеМеню</name>
-            <id>135</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>КандидатыОткликОтКандидата</name>
-          <id>167</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.ОткликОтКандидата</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>КандидатыОткликОтКандидатаРасширеннаяПодсказка</name>
-            <id>169</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>КандидатыОткликОтКандидатаКонтекстноеМеню</name>
-            <id>168</id>
+            <name>КандидатыЭтапПройденКонтекстноеМеню</name>
+            <id>194</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
@@ -1296,45 +1303,34 @@
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
-        <items xsi:type="form:FormField">
-          <name>КандидатыКод</name>
-          <id>92</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Кандидаты.Code</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>КандидатыКодРасширеннаяПодсказка</name>
-            <id>94</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>КандидатыКодКонтекстноеМеню</name>
-            <id>93</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-          </extInfo>
-        </items>
         <autoCommandBar>
           <name>КандидатыКоманднаяПанель</name>
           <id>78</id>
+          <items xsi:type="form:Button">
+            <name>КандидатыПосмотретьДанныеКандидата</name>
+            <id>196</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>КандидатыПосмотретьДанныеКандидатаРасширеннаяПодсказка</name>
+              <id>197</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПосмотретьДанныеКандидата</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
@@ -1422,6 +1418,31 @@
         <contextMenu>
           <name>КандидатыКонтекстноеМеню</name>
           <id>77</id>
+          <items xsi:type="form:Button">
+            <name>КандидатыКонтекстноеМенюПосмотретьДанныеКандидата</name>
+            <id>198</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>КандидатыКонтекстноеМенюПосмотретьДанныеКандидатаРасширеннаяПодсказка</name>
+              <id>199</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПосмотретьДанныеКандидата</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>HierarchicalList</representation>
@@ -1615,13 +1636,37 @@
       <common>true</common>
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>Catalog.Кандидаты</mainTable>
-      <dynamicDataRead>true</dynamicDataRead>
+      <mainTable>InformationRegister.СтатусыКандидатов.SliceLast</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
+  <formCommands>
+    <name>ПосмотретьДанныеКандидата</name>
+    <title>
+      <key>ru</key>
+      <value>Посмотреть данные кандидата</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Посмотреть данные кандидата</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ShowData</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПосмотретьДанныеКандидата</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

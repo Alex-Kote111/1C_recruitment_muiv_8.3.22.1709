@@ -138,7 +138,7 @@
 				<Event name="OnCreateTask">СоздатьЗаявкуНаПодборПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecute">СоздатьЗаявкуНаПодборПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
@@ -233,7 +233,7 @@
 				<Event name="OnCreateTask">СоздатьСогласованиеЗаявкиПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecute">СоздатьСогласованиеЗаявкиПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
@@ -551,7 +551,7 @@
 				<Event name="OnCreateTask"/>
 				<Event name="OnExecute"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecute">ОткрытьВакансиюПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
@@ -646,7 +646,7 @@
 				<Event name="OnCreateTask">ОпубликоватьВакансиюПриСозданииЗадач</Event>
 				<Event name="OnExecute">ОпубликоватьВакансиюПриВыполнении</Event>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecute">ОпубликоватьВакансиюПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
@@ -1586,7 +1586,7 @@
 				<Event name="OnCreateTask"/>
 				<Event name="OnExecute"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecute">ЗакрытиеВакансииПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
@@ -1681,7 +1681,7 @@
 				<Event name="OnCreateTask">ФиксированиеЗатратНаВакансиюПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecute">ФиксированиеЗатратНаВакансиюПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
@@ -1891,7 +1891,7 @@
 				<Event name="OnCreateTask">РегистрацияПодходящихКандидатовПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecute">РегистрацияПодходящихКандидатовПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>

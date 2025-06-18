@@ -135,4 +135,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="55c6dba1-8612-4faf-ba5b-8b49ff75c63d">
+    <name>ОтветственныйЗаЗаявку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за заявку</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>
